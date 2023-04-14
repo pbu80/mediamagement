@@ -39,24 +39,22 @@ def process_file(file_path, root_path):
 
         # Extract the name and year of the movie from the file name
         movie_name = file_name.split("(")[0].strip()
-        movie_year = file_name.split("(")[-1].replace(")","").strip()
+        match = re.search(r"\b\d{4}\b", file_name)
+        movie_year = match.group(0) if match else None
 
         # Clean the movie name for better matching
         cleaned_movie_name = clean_title(movie_name)
-        print(cleaned_movie_name)
-        print(movie_year)
-
 
         # Fetch the movie details from TMDB API
         movie_details = fetch_movie_details(cleaned_movie_name, movie_year)
-        
+
         if movie_details is not None:
             # Extract the movie name and year from the movie details
             movie_name = movie_details["title"]
             movie_year = movie_details["release_date"][:4]
 
-            # Clean the movie name for folder naming
-            folder_name = clean_title(movie_name)
+            # Clean the movie name and year for folder naming
+            folder_name = f"{clean_title(movie_name)} ({movie_year})"
             folder_path = os.path.join(root_path, folder_name)
 
             # Check if the folder already exists
@@ -69,8 +67,16 @@ def process_file(file_path, root_path):
             shutil.move(file_path, new_file_path)
 
             print(f"Moved {file_path} to {new_file_path}")
+
+            # Rename the movie folder with the movie year
+            old_folder_path = os.path.dirname(new_file_path)
+            new_folder_path = os.path.join(root_path, folder_name)
+            if old_folder_path != new_folder_path:
+                os.rename(old_folder_path, new_folder_path)
+                print(f"Renamed folder {old_folder_path} to {new_folder_path}")
         else:
             print(f"No movie found for {movie_name} ({movie_year})")
+
 
 
 
