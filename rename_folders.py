@@ -40,10 +40,12 @@ def process_file(file_path, root_path):
         # Extract the name and year of the movie from the file name
         movie_name = file_name.split("(")[0].strip()
         movie_year = file_name.split("(")[-1].replace(")","").strip()
-        print(movie_name)
-        print(movie_year)
+
         # Clean the movie name for better matching
         cleaned_movie_name = clean_title(movie_name)
+        print(cleaned_movie_name)
+        print(movie_year)
+
 
         # Fetch the movie details from TMDB API
         movie_details = fetch_movie_details(cleaned_movie_name, movie_year)
@@ -83,11 +85,11 @@ def process_path(path, root_path):
 
 if __name__ == "__main__":
     # Get the path to process from the command line arguments
-    #path = sys.argv[1]
-    path = "/home/pbu80/MergerFS/downloads/torrents/manual/tamil/"
+    path = sys.argv[1]
+    
     # Get the root directory from the command line arguments
-    #root_path = sys.argv[2]
-    root_path= "/home/pbu80/MergerFS/downloads/torrents/manual/tamil/"
+    root_path = sys.argv[2]
+    
 
     print(path)
     print(root_path)
