@@ -4,15 +4,21 @@ import re
 import requests
 import shutil
 
+# Load the credentials from the .secret file
+with open("/home/pbu80/scripts/.secret", "r") as f:
+    credentials = dict(line.strip().split(": ") for line in f)
+
+# Extract the TMDB API key from the credentials
+api_key = credentials["tmdb_key"]
+
 # Function to fetch movie details from TMDB API
 def fetch_movie_details(title, year):
     # Replace spaces with %20 for the URL
     title = title.replace(" ", "%20")
-    
+
     # Make a GET request to TMDB API
-    response = requests.get(f"https://api.themoviedb.org/3/search/movie?api_key=ac93f3063d5daa0fc5010fa77ab7cea3&query={title}&year={year}")
+    response = requests.get(f"https://api.themoviedb.org/3/search/movie?api_key={api_key}&query={title}&year={year}")
     
-    print(response)
     # Extract the JSON data from the response
     data = response.json()
 
