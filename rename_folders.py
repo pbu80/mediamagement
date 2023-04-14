@@ -87,17 +87,25 @@ def process_path(path, root_path):
     elif os.path.isdir(path):
         for file_name in os.listdir(path):
             file_path = os.path.join(path, file_name)
-            process_file(file_path, root_path)
+            process_path(file_path, root_path)
+    else:
+        print(f"Invalid path: {path}")
 
 if __name__ == "__main__":
     # Get the path to process from the command line arguments
     path = sys.argv[1]
-    
+
     # Get the root directory from the command line arguments
     root_path = sys.argv[2]
-    
 
-    print(path)
-    print(root_path)
     # Process the path
-    process_path(path, root_path)
+    if os.path.isfile(path):
+        process_file(path, root_path)
+    elif os.path.isdir(path):
+        for dirpath, dirnames, filenames in os.walk(path):
+            for file_name in filenames:
+                file_path = os.path.join(dirpath, file_name)
+                process_file(file_path, root_path)
+    else:
+        print(f"Invalid path: {path}")
+
