@@ -31,7 +31,7 @@ for file in "$src_folder"/*.mkv; do
 
     if [ $? -ne 0 ]; then
         command="ffmpeg -i '$file' -filter:v "crop=1744:720:0:0" -c:v libx264 -preset slow -crf 22 -c:a aac -b:a 192k -ac 2 '$output_file'"
-        eval $command
+        #eval $command
     fi
 
   fi
