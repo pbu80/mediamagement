@@ -31,22 +31,26 @@ if ! mkvinfo "$1" | grep -q "A_EAC3"; then
 fi
 
 # Log file path
-log_file="ac3_conversion.log"
+log_file="/home/pbu80/logs/ac3_conversion.log"
 
 # Check if the log file exists, if not create a new log file
 if [ ! -f "$log_file" ]; then
     touch "$log_file"
 fi
 
+# Get the filename without the path
+filename=$(basename "$1")
+
 # Check if the input file is already processed (present in the log file), if so, skip the conversion
-if grep -Fxq "$1" "$log_file"; then
-    echo "File already processed. Skipping conversion: $1"
+if grep -Fxq "$filename" "$log_file"; then
+    echo "File already processed. Skipping conversion: $filename"
     exit 0
 fi
 
-# Set the output file name
+# Set the output file name with the "cvt" suffix
 output_file="${1/EAC3/AC3}"
 output_file="${output_file%.*}_cvt.${output_file##*.}"
+
 # Convert the audio from EAC3 to AC3 using FFmpeg
 ffmpeg -i "$1" -c:v copy -c:a ac3 -map 0 "$output_file"
 
@@ -54,8 +58,11 @@ ffmpeg -i "$1" -c:v copy -c:a ac3 -map 0 "$output_file"
 if [ $? -eq 0 ]; then
     echo "Conversion complete. Output file: $output_file"
 
-    # Add the input file to the log file
-    echo "$1" >> "$log_file"
+    # Add the input filename to the log file
+    echo "$filename" >> "$log_file"
+
+    # Delete the input file
+    rm "$1"
 else
     echo "An error occurred during the conversion."
 fi
