@@ -1,5 +1,6 @@
 #!/bin/bash
 
+PREFIXFOLDER="processed"
 # Check if the path argument is provided
 if [[ $# -ne 1 ]]; then
   echo "Usage: $0 path/to/media/files"
@@ -22,6 +23,6 @@ for FILE in "${MEDIA_DIR}"/*www*; do
   NEW_NAME=$(echo "$FILE" | sed 's/^[^-]*- //')
 
   # Rename the file
-  mv "$FILE" "${MEDIA_DIR}/${NEW_NAME}"
+  mv "$FILE" "${MEDIA_DIR}/${PREFIXFOLDER}/${NEW_NAME}"
 
 done
