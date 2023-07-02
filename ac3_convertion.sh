@@ -6,6 +6,12 @@ if ! command -v ffmpeg &> /dev/null; then
     exit 1
 fi
 
+# Check if mkvinfo is installed
+if ! command -v mkvinfo &> /dev/null; then
+    echo "mkvinfo (MKVToolNix) is not installed. Please install MKVToolNix and try again."
+    exit 1
+fi
+
 # Check if input file is provided
 if [ -z "$1" ]; then
     echo "Please provide the input media file as an argument."
@@ -18,14 +24,14 @@ if [ ! -f "$1" ]; then
     exit 1
 fi
 
-# Check if the input file contains "EAC3" in the filename
-if [[ ! "$1" == *"EAC3"* ]]; then
-    echo "Input file does not contain 'EAC3' in the filename."
+# Check if the input file contains "EAC3" in the audio encoding
+if ! mkvinfo "$1" | grep -q "A_EAC3"; then
+    echo "Input file audio is not encoded as EAC3."
     exit 1
 fi
 
 # Log file path
-log_file="~/logs/ac3_conversion.log"
+log_file="ac3_conversion.log"
 
 # Check if the log file exists, if not create a new log file
 if [ ! -f "$log_file" ]; then
@@ -40,14 +46,14 @@ fi
 
 # Set the output file name
 output_file="${1/EAC3/AC3}"
-
+output_file="${output_file%.*}_cvt.${output_file##*.}"
 # Convert the audio from EAC3 to AC3 using FFmpeg
 ffmpeg -i "$1" -c:v copy -c:a ac3 -map 0 "$output_file"
 
 # Check if conversion was successful
 if [ $? -eq 0 ]; then
     echo "Conversion complete. Output file: $output_file"
-    
+
     # Add the input file to the log file
     echo "$1" >> "$log_file"
 else
