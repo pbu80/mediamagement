@@ -16,12 +16,15 @@ for file in "$root_dir"/*.mkv "$root_dir"/*.mp4; do
     # Extract the filename without extension
     filename=$(basename -- "$file")
     filename="${filename%.*}"
+    
+    # Extract the portion of the filename up to and including the first closing parenthesis ")"
+    foldername=$(echo "$filename" | awk -F')' '{print $1")"}')
 
-    # Create a folder with the same name as the filename
-    mkdir "$root_dir/$filename"
+    # Create a folder with the extracted portion of the filename
+    mkdir -p "$root_dir/$foldername"
 
     # Move the file into the newly created folder
-    mv "$file" "$root_dir/$filename"
-    echo $file
+    mv "$file" "$root_dir/$foldername"
+    echo "Moved $file to $root_dir/$foldername"
   fi
 done
