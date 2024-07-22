@@ -9,6 +9,19 @@ if [ ! -d "$root_dir" ]; then
   exit 1
 fi
 
+# Function to rename folders
+rename_folder() {
+  local folder="$1"
+  local new_foldername
+  new_foldername=$(echo "$folder" | awk -F')' '{print $1")"}')
+
+  # Check if the new folder name is different and rename if necessary
+  if [ "$folder" != "$new_foldername" ]; then
+    mv "$root_dir/$folder" "$root_dir/$new_foldername"
+    echo "Renamed folder $folder to $new_foldername"
+  fi
+}
+
 # Loop through all mkv and mp4 files in the root directory
 for file in "$root_dir"/*.mkv "$root_dir"/*.mp4; do
   # Check if the file exists and is a regular file
@@ -27,4 +40,15 @@ for file in "$root_dir"/*.mkv "$root_dir"/*.mp4; do
     mv "$file" "$root_dir/$foldername"
     echo "Moved $file to $root_dir/$foldername"
   fi
+done
+
+# Loop through all directories in the root directory
+for folder in "$root_dir"/*/; do
+  # Remove the trailing slash
+  folder="${folder%/}"
+  # Get the base name of the folder
+  folder=$(basename "$folder")
+  
+  # Rename the folder
+  rename_folder "$folder"
 done
