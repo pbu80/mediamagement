@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "Moving local media files to remote..."
+#screen -dmS uploadmedia 
+rclone move "$HOME"/Stuff/local/  gcrypt:  --min-age 30d --exclude "downloads/**" --delete-empty-src-dirs -v --stats 5s

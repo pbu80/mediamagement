@@ -1,0 +1,45 @@
+$(eval $(call import.MODULE.defs,LIBVPX,libvpx))
+$(eval $(call import.CONTRIB.defs,LIBVPX))
+
+LIBVPX.FETCH.url     = https://download.handbrake.fr/contrib/libvpx-1.8.1.tar.gz
+LIBVPX.FETCH.url    += https://github.com/webmproject/libvpx/archive/v1.8.1.tar.gz
+LIBVPX.FETCH.sha256  = df19b8f24758e90640e1ab228ab4a4676ec3df19d23e4593375e6f3847dee03e
+
+LIBVPX.CONFIGURE.args.host =
+LIBVPX.CONFIGURE.deps  =
+LIBVPX.CONFIGURE.extra =  \
+    --as=nasm \
+    --enable-vp8-encoder  \
+    --disable-vp8-decoder \
+    --enable-vp9-encoder  \
+    --disable-vp9-decoder \
+    --disable-examples    \
+    --disable-docs        \
+    --disable-unit-tests
+
+ifeq (1,$(HOST.cross))
+    LIBVPX.CONFIGURE.env.CROSS  = CROSS="$(HOST.spec)-"
+    LIBVPX.CONFIGURE.args.build =
+    LIBVPX.CONFIGURE.extra += --enable-static-msvcrt
+    ifeq (i686,$(HOST.machine))
+        LIBVPX.CONFIGURE.extra += --target=x86-win32-gcc
+    else ifeq (x86_64,$(HOST.machine))
+        LIBVPX.CONFIGURE.extra += --target=x86_64-win64-gcc
+    endif
+endif
+
+ifeq (linux,$(HOST.system))
+    ifeq (x86_64,$(HOST.machine))
+        LIBVPX.CONFIGURE.extra += --enable-pic
+    endif
+endif
+
+ifeq (0-darwin,$(HOST.cross)-$(BUILD.system))
+    ifeq (x86_64,$(BUILD.machine))
+        LIBVPX.CONFIGURE.extra += --target=x86_64-darwin14-gcc
+    endif
+endif
+
+ifeq (1-mingw,$(HOST.cross)-$(HOST.system))
+    LIBVPX.CONFIGURE.extra += --disable-avx512
+endif

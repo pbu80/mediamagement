@@ -1,0 +1,79 @@
+﻿// --------------------------------------------------------------------------------------------------------------------
+// <copyright file="UserSettingConstants.cs" company="HandBrake Project (http://handbrake.fr)">
+//   This file is part of the HandBrake source code - It may be used under the terms of the GNU General Public License.
+// </copyright>
+// <summary>
+//   Constants for the User Settings Service
+// </summary>
+// --------------------------------------------------------------------------------------------------------------------
+
+namespace HandBrakeWPF
+{
+    /// <summary>
+    /// Constants for the User Settings Service
+    /// </summary>
+    public class UserSettingConstants
+    {
+        public const string AutoNameFormat = "autoNameFormat";
+        public const string AutoNamePath = "autoNamePath";
+        public const string AutoNameRemoveUnderscore = "AutoNameRemoveUnderscore";
+        public const string AutoNameTitleCase = "AutoNameTitleCase";
+        public const string AutoNaming = "autoNaming";
+        public const string ClearOldLogs = "clearOldLogs";
+        public const string DaysBetweenUpdateCheck = "daysBetweenUpdateCheck";
+        public const string DefaultPlayer = "defaultPlayer";
+        public const string LastUpdateCheckDate = "lastUpdateCheckDate";
+        public const string MainWindowMinimize = "MainWindowMinimize";
+        public const string UpdateStatus = "updateStatus";
+        public const string UseM4v = "useM4v";
+        public const string VLCPath = "VLC_Path";
+        public const string InstanceId = "InstanceId";
+        public const string X264Step = "X264Step";
+        public const string LastPreviewDuration = "LastPreviewDuration";
+        public const string WhenCompleteAction = "WhenCompletePerformAction";
+        public const string SendFile = "SendFile";
+        public const string SendFileTo = "SendFileTo";
+        public const string SendFileToArgs = "SendFileToArgs";
+        public const string PreventSleep = "PreventSleep";
+        public const string PauseOnLowDiskspace = "PauseOnLowDiskspace";
+        public const string PauseQueueOnLowDiskspaceLevel = "LowDiskSpaceWarningLevelInBytes";
+        public const string PauseEncodeOnLowDiskspaceLevel = "LowDiskSpaceEncodePauseLevelInBytes";
+        public const string RemovePunctuation = "RemovePunctuation";
+        public const string ShowPresetPanel = "ShowPresetPanelOption";
+        public const string ResetWhenDoneAction = "ResetWhenDoneAction";
+        public const string DisableLibDvdNav = "DisableLibDvdNav";
+        public const string EnableQuickSyncDecoding = "EnableQuickSyncDecoding";
+        public const string UseQSVDecodeForNonQSVEnc = "UseQSVDecodeForNonQSVEnc";
+        public const string ScalingMode = "ScalingMode";
+        public const string PreviewScanCount = "previewScanCount";
+        public const string Verbosity = "Verbosity";
+        public const string MinScanDuration = "MinTitleScanDuration";
+        public const string ProcessPriorityInt = "ProcessPriorityInt";
+        public const string SaveLogToCopyDirectory = "SaveLogToCopyDirectory";
+        public const string SaveLogWithVideo = "SaveLogWithVideo";
+        public const string SaveLogCopyDirectory = "SaveLogCopyDirectory";
+        public const string ClearCompletedFromQueue = "ClearCompletedFromQueue";
+        public const string ForcePresetReset = "ForcePresetReset";
+        public const string PresetExpandedStateList = "PresetExpandedStateList";
+        public const string ShowStatusInTitleBar = "ShowStatusInTitleBar";
+        public const string ShowPreviewOnSummaryTab = "ShowPreviewOnSummaryTab";
+        public const string PlaySoundWhenDone = "PlaySoundWhenDone";
+        public const string PlaySoundWhenQueueDone = "PlaySoundWhenQueueDone";
+        public const string WhenDoneAudioFile = "WhenDoneAudioFile";
+        public const string RemoteServiceEnabled = "RemoteServiceEnabled";
+        public const string RemoteServicePort = "RemoteServicePort";
+        public const string EnableQuickSyncEncoding = "EnableQuickSyncEncoding";
+        public const string EnableVceEncoder = "EnableVceEncoder";
+        public const string EnableNvencEncoder = "EnableNvencEncoder";
+        public const string UiLanguage = "UiLanguage";
+        public const string ShowAddAllToQueue = "ShowAddAllToQueue";
+        public const string ShowAddSelectionToQueue = "ShowAddSelectionToQueue";
+        public const string FileOverwriteBehaviour = "FileOverwriteBehaviour";
+        public const string AutonameFileCollisionBehaviour = "AutonameFileCollisionBehaviour";
+        public const string AutonameFilePrePostString = "AutonameFilePrePostString";
+        public const string WhenDonePerformActionImmediately = "WhenDonePerformActionImmediately";
+        public const string UseDarkTheme = "UseDarkTheme";
+        public const string PreviewRotationFlip = "PreviewRotationFlip";
+        public const string AlwaysUseDefaultPath = "AlwaysUseDefaultPath";
+    }
+}

@@ -1,0 +1,58 @@
+$(eval $(call import.MODULE.defs,GTK,gtk,LIBHB))
+$(eval $(call import.GCC,GTK))
+
+GTK.src/   = $(SRC/)gtk/
+GTK.build/ = $(BUILD/)gtk/
+
+GTK.CONFIGURE.stamp = $(GTK.build/).stamp.configure
+
+###############################################################################
+
+GTK.out += $(GTK.CONFIGURE.stamp)
+
+BUILD.out += $(GTK.out)
+
+###############################################################################
+
+ifeq (1-mingw,$(HOST.cross)-$(HOST.system))
+GTK.CONFIGURE.extra += --host=$(HOST.spec)
+ifeq ($(HAS.dlfcn),1)
+	GTK.CONFIGURE.extra += --enable-dl
+endif
+ifeq ($(HAS.pthread),1)
+	GTK.CONFIGURE.extra += --enable-pthread
+endif
+endif
+
+ifeq (0,$(FEATURE.gtk.update.checks))
+	GTK.CONFIGURE.extra += --disable-update-checks
+endif
+
+ifeq (0,$(FEATURE.gst))
+	GTK.CONFIGURE.extra += --disable-gst
+endif
+
+ifeq (1,$(FEATURE.fdk_aac))
+	GTK.CONFIGURE.extra += --enable-fdk-aac
+endif
+
+ifeq (1,$(FEATURE.x265))
+	GTK.CONFIGURE.extra += --enable-x265
+ifeq (1,$(FEATURE.numa))
+	GTK.CONFIGURE.extra += --enable-numa
+endif
+endif
+
+ifeq (1,$(FEATURE.qsv))
+	GTK.CONFIGURE.extra += --enable-qsv
+endif
+
+ifeq (1,$(FEATURE.flatpak))
+	GTK.CONFIGURE.extra += --enable-flatpak
+endif
+
+ifeq (1,$(FEATURE.gtk4))
+	GTK.CONFIGURE.extra += --enable-gtk4
+endif
+
+export HB.version HB.repo.date

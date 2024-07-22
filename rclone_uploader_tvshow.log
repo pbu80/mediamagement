@@ -1,0 +1,210 @@
+<6>INFO  : Starting bandwidth limiter at 20Mi Byte/s
+<6>INFO  : Starting transaction limiter: max 5 transactions/s with burst 1
+<7>DEBUG : --min-age 1M to 2021-08-29 06:53:29.16576926 +0200 CEST m=-2591999.979133439
+<7>DEBUG : rclone: Version "v1.56.0" starting with parameters ["/home/pbu80/bin/rclone" "move" "/home/pbu80/Stuff/local/TVShows" "gcrypt:TVShows" "--config=/home/pbu80/.config/rclone/rclone.conf" "--drive-chunk-size" "64M" "--min-age" "30d" "--tpslimit" "5" "-vvv" "--exclude" "downloads/**" "--delete-empty-src-dirs" "--fast-list" "--bwlimit=20M" "--use-mmap" "--transfers=2" "--checkers=4" "--drive-stop-on-upload-limit"]
+<7>DEBUG : rclone: systemd logging support activated
+<7>DEBUG : Creating backend with remote "/home/pbu80/Stuff/local/TVShows"
+<7>DEBUG : Using config file from "/home/pbu80/.config/rclone/rclone.conf"
+<7>DEBUG : Creating backend with remote "gcrypt:TVShows"
+<7>DEBUG : Creating backend with remote "gdrive:/crypt/3jva0k7ueg6g3b12ttkp1s3md8"
+<7>DEBUG : gdrive: detected overridden config - adding "{2Hn7T}" suffix to name
+<7>DEBUG : gdrive{2Hn7T}: Loaded invalid token from config file - ignoring
+<7>DEBUG : gdrive{2Hn7T}: Token refresh failed try 1/5: oauth2: cannot fetch token: 400 Bad Request
+Response: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+<7>DEBUG : gdrive{2Hn7T}: Loaded invalid token from config file - ignoring
+<7>DEBUG : gdrive{2Hn7T}: Token refresh failed try 2/5: oauth2: cannot fetch token: 400 Bad Request
+Response: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+<7>DEBUG : gdrive{2Hn7T}: Loaded invalid token from config file - ignoring
+<7>DEBUG : gdrive{2Hn7T}: Token refresh failed try 3/5: oauth2: cannot fetch token: 400 Bad Request
+Response: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+<7>DEBUG : gdrive{2Hn7T}: Loaded invalid token from config file - ignoring
+<7>DEBUG : gdrive{2Hn7T}: Token refresh failed try 4/5: oauth2: cannot fetch token: 400 Bad Request
+Response: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+<7>DEBUG : gdrive{2Hn7T}: Loaded invalid token from config file - ignoring
+<7>DEBUG : gdrive{2Hn7T}: Token refresh failed try 5/5: oauth2: cannot fetch token: 400 Bad Request
+Response: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+<7>DEBUG : gdrive{2Hn7T}: Loaded invalid token from config file - ignoring
+<7>DEBUG : gdrive{2Hn7T}: Token refresh failed try 1/5: oauth2: cannot fetch token: 400 Bad Request
+Response: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+<7>DEBUG : gdrive{2Hn7T}: Loaded invalid token from config file - ignoring
+<7>DEBUG : gdrive{2Hn7T}: Token refresh failed try 2/5: oauth2: cannot fetch token: 400 Bad Request
+Response: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+<7>DEBUG : gdrive{2Hn7T}: Loaded invalid token from config file - ignoring
+<7>DEBUG : gdrive{2Hn7T}: Token refresh failed try 3/5: oauth2: cannot fetch token: 400 Bad Request
+Response: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+<7>DEBUG : gdrive{2Hn7T}: Loaded invalid token from config file - ignoring
+<7>DEBUG : gdrive{2Hn7T}: Token refresh failed try 4/5: oauth2: cannot fetch token: 400 Bad Request
+Response: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+<7>DEBUG : gdrive{2Hn7T}: Loaded invalid token from config file - ignoring
+<7>DEBUG : gdrive{2Hn7T}: Token refresh failed try 5/5: oauth2: cannot fetch token: 400 Bad Request
+Response: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+<7>DEBUG : fs cache: renaming cache item "gdrive:/crypt/3jva0k7ueg6g3b12ttkp1s3md8" to be canonical "gdrive{2Hn7T}:crypt/3jva0k7ueg6g3b12ttkp1s3md8"
+<7>DEBUG : fs cache: switching user supplied name "gdrive:/crypt/3jva0k7ueg6g3b12ttkp1s3md8" for canonical name "gdrive{2Hn7T}:crypt/3jva0k7ueg6g3b12ttkp1s3md8"
+<7>DEBUG : gdrive{2Hn7T}: Loaded invalid token from config file - ignoring
+<7>DEBUG : gdrive{2Hn7T}: Token refresh failed try 1/5: oauth2: cannot fetch token: 400 Bad Request
+Response: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+<7>DEBUG : gdrive{2Hn7T}: Loaded invalid token from config file - ignoring
+<7>DEBUG : gdrive{2Hn7T}: Token refresh failed try 2/5: oauth2: cannot fetch token: 400 Bad Request
+Response: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+<7>DEBUG : gdrive{2Hn7T}: Loaded invalid token from config file - ignoring
+<7>DEBUG : gdrive{2Hn7T}: Token refresh failed try 3/5: oauth2: cannot fetch token: 400 Bad Request
+Response: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+<7>DEBUG : gdrive{2Hn7T}: Loaded invalid token from config file - ignoring
+<7>DEBUG : gdrive{2Hn7T}: Token refresh failed try 4/5: oauth2: cannot fetch token: 400 Bad Request
+Response: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+<7>DEBUG : gdrive{2Hn7T}: Loaded invalid token from config file - ignoring
+<7>DEBUG : gdrive{2Hn7T}: Token refresh failed try 5/5: oauth2: cannot fetch token: 400 Bad Request
+Response: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+<3>ERROR : Encrypted drive 'gcrypt:TVShows': error reading destination root directory: couldn't list directory: Get "https://www.googleapis.com/drive/v3/files?alt=json&fields=files%28id%2Cname%2Csize%2Cmd5Checksum%2Ctrashed%2CexplicitlyTrashed%2CmodifiedTime%2CcreatedTime%2CmimeType%2Cparents%2CwebViewLink%2CshortcutDetails%2CexportLinks%29%2CnextPageToken%2CincompleteSearch&includeItemsFromAllDrives=true&pageSize=1000&prettyPrint=false&q=trashed%3Dfalse+and+%28%271md_u4a-XkhWFW0GmRCzErQ5MhZkY6m-8%27+in+parents%29+and+%28name%3D%27crypt%27%29+and+%28mimeType%3D%27application%2Fvnd.google-apps.folder%27+or+mimeType%3D%27application%2Fvnd.google-apps.shortcut%27%29&supportsAllDrives=true": couldn't fetch token - maybe it has expired? - refresh with "rclone config reconnect gdrive{2Hn7T}:": oauth2: cannot fetch token: 400 Bad Request
+Response: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+<7>DEBUG : Encrypted drive 'gcrypt:TVShows': Waiting for checks to finish
+<7>DEBUG : Encrypted drive 'gcrypt:TVShows': Waiting for transfers to finish
+<3>ERROR : Attempt 1/3 failed with 1 errors and: couldn't list directory: Get "https://www.googleapis.com/drive/v3/files?alt=json&fields=files%28id%2Cname%2Csize%2Cmd5Checksum%2Ctrashed%2CexplicitlyTrashed%2CmodifiedTime%2CcreatedTime%2CmimeType%2Cparents%2CwebViewLink%2CshortcutDetails%2CexportLinks%29%2CnextPageToken%2CincompleteSearch&includeItemsFromAllDrives=true&pageSize=1000&prettyPrint=false&q=trashed%3Dfalse+and+%28%271md_u4a-XkhWFW0GmRCzErQ5MhZkY6m-8%27+in+parents%29+and+%28name%3D%27crypt%27%29+and+%28mimeType%3D%27application%2Fvnd.google-apps.folder%27+or+mimeType%3D%27application%2Fvnd.google-apps.shortcut%27%29&supportsAllDrives=true": couldn't fetch token - maybe it has expired? - refresh with "rclone config reconnect gdrive{2Hn7T}:": oauth2: cannot fetch token: 400 Bad Request
+Response: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+<7>DEBUG : gdrive{2Hn7T}: Loaded invalid token from config file - ignoring
+<7>DEBUG : gdrive{2Hn7T}: Token refresh failed try 1/5: oauth2: cannot fetch token: 400 Bad Request
+Response: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+<7>DEBUG : gdrive{2Hn7T}: Loaded invalid token from config file - ignoring
+<7>DEBUG : gdrive{2Hn7T}: Token refresh failed try 2/5: oauth2: cannot fetch token: 400 Bad Request
+Response: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+<7>DEBUG : gdrive{2Hn7T}: Loaded invalid token from config file - ignoring
+<7>DEBUG : gdrive{2Hn7T}: Token refresh failed try 3/5: oauth2: cannot fetch token: 400 Bad Request
+Response: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+<7>DEBUG : gdrive{2Hn7T}: Loaded invalid token from config file - ignoring
+<7>DEBUG : gdrive{2Hn7T}: Token refresh failed try 4/5: oauth2: cannot fetch token: 400 Bad Request
+Response: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+<7>DEBUG : gdrive{2Hn7T}: Loaded invalid token from config file - ignoring
+<7>DEBUG : gdrive{2Hn7T}: Token refresh failed try 5/5: oauth2: cannot fetch token: 400 Bad Request
+Response: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+
+<3>ERROR : Encrypted drive 'gcrypt:TVShows': error reading destination root directory: couldn't list directory: Get "https://www.googleapis.com/drive/v3/files?alt=json&fields=files%28id%2Cname%2Csize%2Cmd5Checksum%2Ctrashed%2CexplicitlyTrashed%2CmodifiedTime%2CcreatedTime%2CmimeType%2Cparents%2CwebViewLink%2CshortcutDetails%2CexportLinks%29%2CnextPageToken%2CincompleteSearch&includeItemsFromAllDrives=true&pageSize=1000&prettyPrint=false&q=trashed%3Dfalse+and+%28%271md_u4a-XkhWFW0GmRCzErQ5MhZkY6m-8%27+in+parents%29+and+%28name%3D%27crypt%27%29+and+%28mimeType%3D%27application%2Fvnd.google-apps.folder%27+or+mimeType%3D%27application%2Fvnd.google-apps.shortcut%27%29&supportsAllDrives=true": couldn't fetch token - maybe it has expired? - refresh with "rclone config reconnect gdrive{2Hn7T}:": oauth2: cannot fetch token: 400 Bad Request
+Response: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+<7>DEBUG : Encrypted drive 'gcrypt:TVShows': Waiting for checks to finish
+<7>DEBUG : Encrypted drive 'gcrypt:TVShows': Waiting for transfers to finish
+<3>ERROR : Attempt 2/3 failed with 1 errors and: couldn't list directory: Get "https://www.googleapis.com/drive/v3/files?alt=json&fields=files%28id%2Cname%2Csize%2Cmd5Checksum%2Ctrashed%2CexplicitlyTrashed%2CmodifiedTime%2CcreatedTime%2CmimeType%2Cparents%2CwebViewLink%2CshortcutDetails%2CexportLinks%29%2CnextPageToken%2CincompleteSearch&includeItemsFromAllDrives=true&pageSize=1000&prettyPrint=false&q=trashed%3Dfalse+and+%28%271md_u4a-XkhWFW0GmRCzErQ5MhZkY6m-8%27+in+parents%29+and+%28name%3D%27crypt%27%29+and+%28mimeType%3D%27application%2Fvnd.google-apps.folder%27+or+mimeType%3D%27application%2Fvnd.google-apps.shortcut%27%29&supportsAllDrives=true": couldn't fetch token - maybe it has expired? - refresh with "rclone config reconnect gdrive{2Hn7T}:": oauth2: cannot fetch token: 400 Bad Request
+Response: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+<7>DEBUG : gdrive{2Hn7T}: Loaded invalid token from config file - ignoring
+<7>DEBUG : gdrive{2Hn7T}: Token refresh failed try 1/5: oauth2: cannot fetch token: 400 Bad Request
+Response: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+<7>DEBUG : gdrive{2Hn7T}: Loaded invalid token from config file - ignoring
+<7>DEBUG : gdrive{2Hn7T}: Token refresh failed try 2/5: oauth2: cannot fetch token: 400 Bad Request
+Response: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+<7>DEBUG : gdrive{2Hn7T}: Loaded invalid token from config file - ignoring
+<7>DEBUG : gdrive{2Hn7T}: Token refresh failed try 3/5: oauth2: cannot fetch token: 400 Bad Request
+Response: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+<7>DEBUG : gdrive{2Hn7T}: Loaded invalid token from config file - ignoring
+<7>DEBUG : gdrive{2Hn7T}: Token refresh failed try 4/5: oauth2: cannot fetch token: 400 Bad Request
+Response: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+<7>DEBUG : gdrive{2Hn7T}: Loaded invalid token from config file - ignoring
+<7>DEBUG : gdrive{2Hn7T}: Token refresh failed try 5/5: oauth2: cannot fetch token: 400 Bad Request
+Response: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+<3>ERROR : Encrypted drive 'gcrypt:TVShows': error reading destination root directory: couldn't list directory: Get "https://www.googleapis.com/drive/v3/files?alt=json&fields=files%28id%2Cname%2Csize%2Cmd5Checksum%2Ctrashed%2CexplicitlyTrashed%2CmodifiedTime%2CcreatedTime%2CmimeType%2Cparents%2CwebViewLink%2CshortcutDetails%2CexportLinks%29%2CnextPageToken%2CincompleteSearch&includeItemsFromAllDrives=true&pageSize=1000&prettyPrint=false&q=trashed%3Dfalse+and+%28%271md_u4a-XkhWFW0GmRCzErQ5MhZkY6m-8%27+in+parents%29+and+%28name%3D%27crypt%27%29+and+%28mimeType%3D%27application%2Fvnd.google-apps.folder%27+or+mimeType%3D%27application%2Fvnd.google-apps.shortcut%27%29&supportsAllDrives=true": couldn't fetch token - maybe it has expired? - refresh with "rclone config reconnect gdrive{2Hn7T}:": oauth2: cannot fetch token: 400 Bad Request
+Response: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+<7>DEBUG : Encrypted drive 'gcrypt:TVShows': Waiting for checks to finish
+<7>DEBUG : Encrypted drive 'gcrypt:TVShows': Waiting for transfers to finish
+<3>ERROR : Attempt 3/3 failed with 1 errors and: couldn't list directory: Get "https://www.googleapis.com/drive/v3/files?alt=json&fields=files%28id%2Cname%2Csize%2Cmd5Checksum%2Ctrashed%2CexplicitlyTrashed%2CmodifiedTime%2CcreatedTime%2CmimeType%2Cparents%2CwebViewLink%2CshortcutDetails%2CexportLinks%29%2CnextPageToken%2CincompleteSearch&includeItemsFromAllDrives=true&pageSize=1000&prettyPrint=false&q=trashed%3Dfalse+and+%28%271md_u4a-XkhWFW0GmRCzErQ5MhZkY6m-8%27+in+parents%29+and+%28name%3D%27crypt%27%29+and+%28mimeType%3D%27application%2Fvnd.google-apps.folder%27+or+mimeType%3D%27application%2Fvnd.google-apps.shortcut%27%29&supportsAllDrives=true": couldn't fetch token - maybe it has expired? - refresh with "rclone config reconnect gdrive{2Hn7T}:": oauth2: cannot fetch token: 400 Bad Request
+Response: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}
+<6>INFO  : 
+Transferred:   	          0 / 0 Byte, -, 0 Byte/s, ETA -
+Errors:                 1 (retrying may help)
+Elapsed time:        25.8s
+
+<7>DEBUG : 6 go routines active
+Failed to move: couldn't list directory: Get "https://www.googleapis.com/drive/v3/files?alt=json&fields=files%28id%2Cname%2Csize%2Cmd5Checksum%2Ctrashed%2CexplicitlyTrashed%2CmodifiedTime%2CcreatedTime%2CmimeType%2Cparents%2CwebViewLink%2CshortcutDetails%2CexportLinks%29%2CnextPageToken%2CincompleteSearch&includeItemsFromAllDrives=true&pageSize=1000&prettyPrint=false&q=trashed%3Dfalse+and+%28%271md_u4a-XkhWFW0GmRCzErQ5MhZkY6m-8%27+in+parents%29+and+%28name%3D%27crypt%27%29+and+%28mimeType%3D%27application%2Fvnd.google-apps.folder%27+or+mimeType%3D%27application%2Fvnd.google-apps.shortcut%27%29&supportsAllDrives=true": couldn't fetch token - maybe it has expired? - refresh with "rclone config reconnect gdrive{2Hn7T}:": oauth2: cannot fetch token: 400 Bad Request
+Response: {
+  "error": "invalid_grant",
+  "error_description": "Token has been expired or revoked."
+}

@@ -1,0 +1,62 @@
+## This file is processed only when shunting build through xcodebuild
+
+.PHONY: macosx.build macosx.sign macosx.notarize macosx.archive macosx.clean macosx.install macosx.install-strip macosx.uninstall
+
+macosx.build:
+	$(call MACOSX.XCODE,HandBrakeCLI HandBrake,build)
+
+macosx.sign:
+	$(call MACOSX.SIGN,HandBrakeCLI HandBrake,sign)
+
+macosx.notarize:
+	$(call MACOSX.NOTARIZE,HandBrakeCLI HandBrake,notarize)
+
+macosx.archive:
+	$(call MACOSX.XCODE_ARCHIVE,HandBrake-Distribution,archive)
+
+macosx.clean:
+	$(call MACOSX.XCODE,HandBrakeCLI HandBrake,clean)
+
+macosx.install:
+	$(RM.exe) -rf $(XCODE.prefix/)HandBrake.app
+	$(CP.exe) -R $(MACOSX.xroot/)HandBrake.app $(XCODE.prefix/)
+	$(CP.exe) $(MACOSX.xroot/)HandBrakeCLI $(PREFIX/)bin/
+
+macosx.install-strip:
+	$(RM.exe) -rf $(XCODE.prefix/)HandBrake.app
+	$(CP.exe) -R $(MACOSX.xroot/)HandBrake.app $(XCODE.prefix/)
+	$(STRIP.exe) $(XCODE.prefix/)HandBrake.app/Contents/MacOS/HandBrake
+	$(CP.exe) $(MACOSX.xroot/)HandBrakeCLI $(PREFIX/)bin/
+	$(STRIP.exe) $(PREFIX/)bin/HandBrakeCLI
+
+macosx.uninstall:
+	$(RM.exe) -rf $(XCODE.prefix/)HandBrake.app
+	$(RM.exe) -f $(PREFIX/)bin/HandBrakeCLI
+
+build: macosx.build
+sign: macosx.sign
+notarize: macosx.notarize
+archive: macosx.archive
+clean: macosx.clean
+install: macosx.install
+install-strip: macosx.install-strip
+uninstall: macosx.uninstall
+xclean: clean
+
+###############################################################################
+
+MACOSX.goals = $(filter-out build sign notarize archive clean install,$(MAKECMDGOALS))
+
+$(MACOSX.goals): __goals__
+	@true
+
+__goals__:
+	$(call MACOSX.XCODE,external,build,$(MACOSX.goals))
+
+###############################################################################
+
+MACOSX.JOBS := $(shell ps T | $(GREP.exe) "^\s*$(shell echo $$PPID).*$(MAKE)" | $(GREP.exe) -o "\(\-j\|\-\-jobs\)[= ]*[^\s]*" | $(GREP.exe) -o "[0-9][0-9]*")
+ifeq "${MACOSX.JOBS}" ""
+	# fall back to number of jobs specified in makefile created by configure
+	MACOSX.JOBS := $(BUILD.jobs)
+endif

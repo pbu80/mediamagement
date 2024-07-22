@@ -1,0 +1,24 @@
+$(eval $(call import.MODULE.defs,LIBBLURAY,libbluray,LIBXML2 FREETYPE))
+$(eval $(call import.CONTRIB.defs,LIBBLURAY))
+
+LIBBLURAY.FETCH.url     = https://download.handbrake.fr/handbrake/contrib/libbluray-1.1.2.tar.bz2
+LIBBLURAY.FETCH.url    += https://download.videolan.org/pub/videolan/libbluray/1.1.2/libbluray-1.1.2.tar.bz2
+LIBBLURAY.FETCH.sha256  = a3dd452239b100dc9da0d01b30e1692693e2a332a7d29917bf84bb10ea7c0b42
+
+ifeq (none,$(LIBBLURAY.GCC.O))
+	LIBBLURAY.CONFIGURE.extra += --disable-optimizations
+endif
+
+LIBBLURAY.CONFIGURE.extra += --disable-doxygen-doc --disable-examples --disable-bdjava-jar --without-freetype --without-fontconfig
+
+ifeq (mingw,$(HOST.system))
+    LIBBLURAY.GCC.D += MINGW_HAS_SECURE_API=1
+endif
+
+ifeq (freebsd,$(HOST.system))
+    LIBBLURAY.GCC.D += _XOPEN_SOURCE=700
+endif
+
+ifneq (none,$(FFMPEG.GCC.g))
+    LIBBLURAY.GCC.args.extra += -g
+endif

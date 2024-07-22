@@ -1,0 +1,1313 @@
+2021/09/17 07:05:35 INFO  : Starting bandwidth limiter at 20Mi Byte/s
+2021/09/17 07:05:35 INFO  : Starting transaction limiter: max 5 transactions/s with burst 1
+2021/09/17 07:05:35 DEBUG : --min-age 2M to 2021-07-19 07:05:35.940131564 +0200 CEST m=-5183999.386879727
+2021/09/17 07:05:35 DEBUG : rclone: Version "v1.56.0" starting with parameters ["rclone" "move" "/home/pbu80/Stuff/local/Indian" "gcrypt:Indian" "--config=/home/pbu80/.config/rclone/rclone.conf" "--drive-chunk-size" "64M" "--tpslimit" "5" "--min-age" "60d" "-vvv" "--drive-stop-on-upload-limit" "--delete-empty-src-dirs" "--fast-list" "--bwlimit=20M" "--use-mmap" "--transfers=2" "--checkers=4" "--log-file" "/home/pbu80/scripts/upload-indian.log"]
+2021/09/17 07:05:35 DEBUG : Creating backend with remote "/home/pbu80/Stuff/local/Indian"
+2021/09/17 07:05:35 DEBUG : Using config file from "/home/pbu80/.config/rclone/rclone.conf"
+2021/09/17 07:05:35 DEBUG : Creating backend with remote "gcrypt:Indian"
+2021/09/17 07:05:36 DEBUG : Creating backend with remote "gdrive:/crypt/qsce0bdj16vif2nq1lcj4vii9g"
+2021/09/17 07:05:36 DEBUG : gdrive: detected overridden config - adding "{2Hn7T}" suffix to name
+2021/09/17 07:05:37 DEBUG : fs cache: renaming cache item "gdrive:/crypt/qsce0bdj16vif2nq1lcj4vii9g" to be canonical "gdrive{2Hn7T}:crypt/qsce0bdj16vif2nq1lcj4vii9g"
+2021/09/17 07:05:37 DEBUG : fs cache: switching user supplied name "gdrive:/crypt/qsce0bdj16vif2nq1lcj4vii9g" for canonical name "gdrive{2Hn7T}:crypt/qsce0bdj16vif2nq1lcj4vii9g"
+2021/09/17 07:05:40 DEBUG : Aadhavan (2009) 720p - Blu-Ray - AC3 - 2GB - Tamil - TamilRockers.cr.en.srt: Excluded from sync (and deletion)
+2021/09/17 07:05:40 DEBUG : Kalathil Sandhippom (2021) Tamil TRUE WEB-DL - 1080p - AVC - UNTOUCHED - (DD5.1 - 512Kbps) - 8.6GB - ESub.mkv: Excluded from sync (and deletion)
+2021/09/17 07:05:40 DEBUG : Kutty.Story.mkv: Excluded from sync (and deletion)
+2021/09/17 07:05:40 DEBUG : Abhiyum Anuvum (2021) Tamil [1080p HD AVC - UNTOUCHED - x264 - AAC - 3.1GB - HC-ESub].mkv: Excluded from sync (and deletion)
+2021/09/17 07:05:40 DEBUG : iSMART SHANKAR (2021) TRUE WEB-DL - 1080p - AVC - [Tamil (Org Aud) + Telugu] - ESub.mkv: Excluded from sync (and deletion)
+2021/09/17 07:05:41 DEBUG : Marakkar - Arabikadalinte Simham (2021)/fanart.jpg: Excluded from sync (and deletion)
+2021/09/17 07:05:41 DEBUG : Marakkar - Arabikadalinte Simham (2021)/poster.jpg: Excluded from sync (and deletion)
+2021/09/17 07:05:42 DEBUG : Sarpatta Parambarai 2021 1080p AMZN WEB-DL DDP5.1 H264-PHDM/Sarpatta Parambarai (2021) [imdb-tt11580854][WEBDL-1080p][8bit][h264][EAC3 5.1]-PHDM.nfo: Excluded from sync (and deletion)
+2021/09/17 07:05:42 DEBUG : Kuruthi (2021)/fanart.jpg: Excluded from sync (and deletion)
+2021/09/17 07:05:42 DEBUG : Kuruthi (2021)/poster.jpg: Excluded from sync (and deletion)
+2021/09/17 07:05:42 DEBUG : Sarpatta Parambarai 2021 1080p AMZN WEB-DL DDP5.1 H264-PHDM/fanart.jpg: Excluded from sync (and deletion)
+2021/09/17 07:05:42 DEBUG : Sarpatta Parambarai 2021 1080p AMZN WEB-DL DDP5.1 H264-PHDM/poster.jpg: Excluded from sync (and deletion)
+2021/09/17 07:05:42 DEBUG : Mimi.(2021).1080p.WEB-DL.AVC.AAC.2.0-DusIcTv/Mimi and Lisa (2016) [imdb-][WEBDL-1080p][8bit][x264][AAC 2.0]-DusIcTv.mkv: Excluded from sync (and deletion)
+2021/09/17 07:05:42 DEBUG : Sarpatta Parambarai 2021 1080p AMZN WEB-DL DDP5.1 H264-PHDM/Sarpatta Parambarai (2021) [imdb-tt11580854][WEBDL-1080p][8bit][h264][EAC3 5.1]-PHDM.mkv: Excluded from sync (and deletion)
+2021/09/17 07:05:42 DEBUG : Aaraattu (2021)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Aaraattu (2021)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Bell Bottom (2021)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Bell Bottom (2021)/Bell Bottom (2021) [imdb-tt11260832][WEBDL-1080p][8bit][h264][EAC3 5.1]-Telly.mkv: Excluded
+2021/09/17 07:05:42 DEBUG : 96 (2018)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : 96 (2018)/96 (2018) [imdb-tt7019842][WEBRip-1080p][10bit][x265][AAC 5.1]-Musafirboy.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : 96 (2018)/96 (2018) [imdb-tt7019842][WEBRip-1080p][10bit][x265][AAC 5.1]-Musafirboy.mkv: Excluded
+2021/09/17 07:05:42 DEBUG : 96 (2018)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Bell Bottom (2021)/Bell Bottom (2021) [imdb-tt11260832][WEBDL-1080p][8bit][h264][EAC3 5.1]-Telly.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Bell Bottom (2021)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : 14 Phere (2021)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : 14 Phere (2021)/14 Phere (2021) [imdb-tt12887178][WEBDL-1080p][8bit][AVC][AAC 2.0]-DusIcTv.mkv: Excluded
+2021/09/17 07:05:42 DEBUG : #Home (2021)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : #Home (2021)/#Home (2021) [imdb-][WEBRip-1080p][10bit][HEVC][EAC3 5.1]-The.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Bhuj The Pride of India (2021)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : 14 Phere (2021)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : 14 Phere (2021)/14 Phere (2021) [imdb-tt12887178][WEBDL-1080p][8bit][AVC][AAC 2.0]-DusIcTv.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : #Home (2021)/#Home (2021) [imdb-][WEBRip-1080p][10bit][HEVC][EAC3 5.1]-The.mkv: Excluded
+2021/09/17 07:05:42 DEBUG : Bhuj The Pride of India (2021)/Bhuj The Pride of India (2021) [imdb-tt10062556][WEBRip-1080p][8bit][x264][EAC3 5.1]-PHDM.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Bhuj The Pride of India (2021)/Bhuj The Pride of India (2021) [imdb-tt10062556][WEBRip-1080p][8bit][x264][EAC3 5.1]-PHDM.mkv: Excluded
+2021/09/17 07:05:42 DEBUG : Bhuj The Pride of India (2021)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Bhoot Police (2021)/Bhoot Police (2021) [imdb-tt10083640][WEBDL-1080p][8bit][x264][EAC3 5.1]-Telly.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Bhoot Police (2021)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Bhoot Police (2021)/Bhoot Police (2021) [imdb-tt10083640][WEBDL-1080p][8bit][x264][EAC3 5.1]-Telly.mkv: Excluded
+2021/09/17 07:05:42 DEBUG : Bhoot Police (2021)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Chak De! India (2007)/Chak De! India (2007) [imdb-tt0871510][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Chak De! India (2007)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Chak De! India (2007)/Chak De! India (2007) [imdb-tt0871510][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.mkv: Excluded
+2021/09/17 07:05:42 DEBUG : Chak De! India (2007)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Charlie Chaplin 2 (2019)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Charlie Chaplin 2 (2019)/Charlie Chaplin 2 (2019) [imdb-tt7616754][WEBDL-1080p][8bit][h264][EAC3 5.1]-WA.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Charlie Chaplin 2 (2019)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Charlie Chaplin 2 (2019)/Charlie Chaplin 2 (2019) [imdb-tt7616754][WEBDL-1080p][8bit][h264][EAC3 5.1]-WA.mkv: Excluded
+2021/09/17 07:05:42 DEBUG : Chandramukhi (2005)/Chandramukhi (2005) [imdb-tt0449869][WEBDL-1080p][8bit][h264][EAC3 5.1].en.srt: Excluded
+2021/09/17 07:05:42 DEBUG : Chandramukhi (2005)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Chandramukhi (2005)/Chandramukhi (2005) [imdb-tt0449869][WEBDL-1080p][8bit][h264][EAC3 5.1].nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Biriyaani (2021)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Biriyaani (2021)/Biriyaani (2021) [imdb-tt11891870][WEBDL-1080p][8bit][x264][AAC 2.0]-DRG.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Biriyaani (2021)/Biriyaani (2021) [imdb-tt11891870][WEBDL-1080p][8bit][x264][AAC 2.0]-DRG.en.srt: Excluded
+2021/09/17 07:05:42 DEBUG : Chennai.20028.II.Second.Innings/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Chandramukhi (2005)/Chandramukhi (2005) [imdb-tt0449869][WEBDL-1080p][8bit][h264][EAC3 5.1].mkv: Excluded
+2021/09/17 07:05:42 DEBUG : Chandramukhi (2005)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Biriyaani (2021)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Biriyaani (2021)/Biriyaani (2021) [imdb-tt11891870][WEBDL-1080p][8bit][x264][AAC 2.0]-DRG.mp4: Excluded
+2021/09/17 07:05:42 DEBUG : Boomika ()/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Boomika ()/Boomika (2021) [imdb-tt11073148][WEBRip-1080p][10bit][h265][AC3 5.1]-Kira.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Boomika ()/Boomika (2021) [imdb-tt11073148][WEBRip-1080p][10bit][h265][AC3 5.1]-Kira.mkv: Excluded
+2021/09/17 07:05:42 DEBUG : Chennai.20028.II.Second.Innings/Chennai 600028 II Second Innings (2016) [imdb-tt6317052][WEBDL-1080p][8bit][h264][EAC3 5.1]-WA.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Chennai.20028.II.Second.Innings/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Chennai.20028.II.Second.Innings/Chennai 600028 II Second Innings (2016) [imdb-tt6317052][WEBDL-1080p][8bit][h264][EAC3 5.1]-WA.mkv: Excluded
+2021/09/17 07:05:42 DEBUG : Boomika ()/Boomika (2021) [imdb-tt11073148][WEBRip-1080p][10bit][h265][AC3 5.1]-Kira.en.srt: Excluded
+2021/09/17 07:05:42 DEBUG : Boomika ()/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : College Kumar (2020)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : College Kumar (2020)/College Kumar (2020) [imdb-tt11859486][WEBDL-1080p][8bit][h264][EAC3 5.1].mkv: Excluded
+2021/09/17 07:05:42 DEBUG : College Kumar (2020)/College Kumar (2020) [imdb-tt11859486][WEBDL-1080p][8bit][h264][EAC3 5.1].nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Dial 100 (2021)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Dial 100 (2021)/Dial 100 (2021) [imdb-tt13562940][WEBDL-1080p][8bit][h264][AAC 2.0]-HDWebMovies.mkv: Excluded
+2021/09/17 07:05:42 DEBUG : Dial 100 (2021)/Dial 100 (2021) [imdb-tt13562940][WEBDL-1080p][8bit][h264][AAC 2.0]-HDWebMovies.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Dial 100 (2021)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Cycle (2018)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Cycle (2018)/Cycle (2018) [imdb-tt6627630][WEBDL-1080p][8bit][h264][AAC 2.0]-TMB.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Cycle (2018)/Cycle (2018) [imdb-tt6627630][WEBDL-1080p][8bit][h264][AAC 2.0]-TMB.mkv: Excluded
+2021/09/17 07:05:42 DEBUG : Bhoot Police (2021)/Plex Versions/Optimized for TV/Bhoot Police (2021).mp4: Excluded
+2021/09/17 07:05:42 DEBUG : Cycle (2018)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Bhoot Police (2021)/Plex Versions/Optimized for TV/Bhoot Police (2021).313548.eng.srt: Excluded
+2021/09/17 07:05:42 DEBUG : Bhoot Police (2021)/Plex Versions/Optimized for TV/Bhoot Police (2021).313551.tam.srt: Excluded
+2021/09/17 07:05:42 DEBUG : Bhoot Police (2021)/Plex Versions/Optimized for TV/Bhoot Police (2021).313550.tel.srt: Excluded
+2021/09/17 07:05:42 DEBUG : Bhoot Police (2021)/Plex Versions/Optimized for TV/Bhoot Police (2021).313549.hin.srt: Excluded
+2021/09/17 07:05:42 DEBUG : #Home (2021)/Plex Versions/Optimized for TV/#Home (2021).313389.eng.srt: Excluded
+2021/09/17 07:05:42 DEBUG : Dhilluku Dhuddu 2 (2019)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Dhilluku Dhuddu 2 (2019)/Dhilluku Dhuddu 2 (2019) [imdb-tt9615016][WEBDL-1080p][8bit][h264][EAC3 5.1]-WA.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Dhilluku Dhuddu 2 (2019)/Dhilluku Dhuddu 2 (2019) [imdb-tt9615016][WEBDL-1080p][8bit][h264][EAC3 5.1]-WA.mkv: Excluded
+2021/09/17 07:05:42 DEBUG : Dhilluku Dhuddu 2 (2019)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Bhuj The Pride of India (2021)/Plex Versions/Optimized for TV/Bhuj_ The Pride of India (2021).313395.eng.srt: Excluded
+2021/09/17 07:05:42 DEBUG : Bhuj The Pride of India (2021)/Plex Versions/Optimized for TV/Bhuj_ The Pride of India (2021).313392.tel.srt: Excluded
+2021/09/17 07:05:42 DEBUG : Bhuj The Pride of India (2021)/Plex Versions/Optimized for TV/Bhuj_ The Pride of India (2021).313394.hin.srt: Excluded
+2021/09/17 07:05:42 DEBUG : Bhuj The Pride of India (2021)/Plex Versions/Optimized for TV/Bhuj_ The Pride of India (2021).313393.tam.srt: Excluded
+2021/09/17 07:05:42 DEBUG : Dikkiloona (2021)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Dikkiloona (2021)/Dikkiloona (2021) [imdb-tt11143400][WEBDL-1080p][8bit][h264][AAC 2.0]-Telly.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Dikkiloona (2021)/Dikkiloona (2021) [imdb-tt11143400][WEBDL-1080p][8bit][h264][AAC 2.0]-Telly.mkv: Excluded
+2021/09/17 07:05:42 DEBUG : Dil To Pagal Hai (1997)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Dikkiloona (2021)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Dil To Pagal Hai (1997)/Dil To Pagal Hai (1997) [imdb-tt0118983][Bluray-1080p][8bit][x264][AAC 5.1].nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Dil To Pagal Hai (1997)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Dil To Pagal Hai (1997)/Dil To Pagal Hai (1997) [imdb-tt0118983][Bluray-1080p][8bit][x264][AAC 5.1].mkv: Excluded
+2021/09/17 07:05:42 DEBUG : Dil Chahta Hai (2001)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Dil Chahta Hai (2001)/Dil Chahta Hai (2001) [imdb-tt0292490][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Dil Chahta Hai (2001)/Dil Chahta Hai (2001) [imdb-tt0292490][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.mkv: Excluded
+2021/09/17 07:05:42 DEBUG : Dil Chahta Hai (2001)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Goliyon Ki Raasleela Ram-Leela (2013)/Goliyon Ki Raasleela Ram-Leela (2013) [imdb-tt2215477][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Goliyon Ki Raasleela Ram-Leela (2013)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Goliyon Ki Raasleela Ram-Leela (2013)/Goliyon Ki Raasleela Ram-Leela (2013) [imdb-tt2215477][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.mkv: Excluded
+2021/09/17 07:05:42 DEBUG : Goliyon Ki Raasleela Ram-Leela (2013)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Heyy Babyy (2007)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Heyy Babyy (2007)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Heyy Babyy (2007)/Heyy Babyy (2007) [imdb-tt0806088][Bluray-1080p][8bit][x264][AC3 5.1]-DusIctv.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Heyy Babyy (2007)/Heyy Babyy (2007) [imdb-tt0806088][Bluray-1080p][8bit][x264][AC3 5.1]-DusIctv.mkv: Excluded
+2021/09/17 07:05:42 DEBUG : Haider (2014)/Haider (2014) [imdb-tt3390572][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.mkv: Excluded
+2021/09/17 07:05:42 DEBUG : Haider (2014)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Haider (2014)/Haider (2014) [imdb-tt3390572][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Haider (2014)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Boomika ()/Plex Versions/Optimized for TV/பூமிகா (2021).313712.eng.srt: Excluded
+2021/09/17 07:05:42 DEBUG : Hum Aapke Hain Koun.! (1994)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Boomika ()/Plex Versions/Optimized for TV/பூமிகா (2021).313385.eng.srt: Excluded
+2021/09/17 07:05:42 DEBUG : Hum Aapke Hain Koun.! (1994)/Hum Aapke Hain Koun.! (1994) [imdb-tt0110076][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.mkv: Excluded
+2021/09/17 07:05:42 DEBUG : Hum Aapke Hain Koun.! (1994)/Hum Aapke Hain Koun.! (1994) [imdb-tt0110076][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Hum Aapke Hain Koun.! (1994)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Housefull 2 (2012)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Housefull 2 (2012)/Housefull 2 (2012) [imdb-tt1980986][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Housefull 2 (2012)/Housefull 2 (2012) [imdb-tt1980986][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.mkv: Excluded
+2021/09/17 07:05:42 DEBUG : Housefull 2 (2012)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Hum Tum (2004)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Hum Tum (2004)/Hum Tum (2004) [imdb-tt0378072][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Hum Tum (2004)/Hum Tum (2004) [imdb-tt0378072][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.mkv: Excluded
+2021/09/17 07:05:42 DEBUG : Hum Tum (2004)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Hungama 2 (2021)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Hungama 2 (2021)/Hungama 2 (2021) [imdb-tt8983220][WEBDL-1080p][8bit][x265][EAC3 5.1]-Telly.mkv: Excluded
+2021/09/17 07:05:42 DEBUG : Hungama 2 (2021)/Hungama 2 (2021) [imdb-tt8983220][WEBDL-1080p][8bit][x265][EAC3 5.1]-Telly.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Hungama 2 (2021)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Ishaqzaade (2012)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Kill Dil (2014)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Ishaqzaade (2012)/Ishaqzaade (2012) [imdb-tt2308773][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Kasada Thapara (2021)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Ishaqzaade (2012)/Ishaqzaade (2012) [imdb-tt2308773][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.mkv: Excluded
+2021/09/17 07:05:42 DEBUG : Kasada Thapara (2021)/Kasada Tabara (2021) [imdb-tt11143480][WEBDL-1080p][8bit][x264][AC3 5.1]-WA.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Kasada Thapara (2021)/Kasada Tabara (2021) [imdb-tt11143480][WEBDL-1080p][8bit][x264][AC3 5.1]-WA.mkv: Excluded
+2021/09/17 07:05:42 DEBUG : Kasada Thapara (2021)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Kill Dil (2014)/Kill Dil (2014) [imdb-tt3380264][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.mkv: Excluded
+2021/09/17 07:05:42 DEBUG : Kill Dil (2014)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Kill Dil (2014)/Kill Dil (2014) [imdb-tt3380264][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Ishaqzaade (2012)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Kombu (2020)/Kombu (2020) [imdb-tt13621256][WEBDL-1080p][8bit][h264][EAC3 5.1].nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Kombu (2020)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Kombu (2020)/Kombu (2020) [imdb-tt13621256][WEBDL-1080p][8bit][h264][EAC3 5.1].mkv: Excluded
+2021/09/17 07:05:42 DEBUG : Kombu (2020)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Lafangey Parindey (2010)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Dikkiloona (2021)/Plex Versions/Optimized for TV/Dikkiloona (2021).313531.eng.srt: Excluded
+2021/09/17 07:05:42 DEBUG : Lafangey Parindey (2010)/Lafangey Parindey (2010) [imdb-tt1606267][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Dikkiloona (2021)/Plex Versions/Optimized for TV/Dikkiloona (2021).mp4: Excluded
+2021/09/17 07:05:42 DEBUG : Lage Raho Munna Bhai (2006)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Lage Raho Munna Bhai (2006)/Lage Raho Munna Bhai (2006) [imdb-tt0456144][Bluray-1080p][10bit][x265][AC3 5.1].nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Lage Raho Munna Bhai (2006)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Lage Raho Munna Bhai (2006)/Lage Raho Munna Bhai (2006) [imdb-tt0456144][Bluray-1080p][10bit][x265][AC3 5.1].mkv: Excluded
+2021/09/17 07:05:42 DEBUG : Lakshmi (2018)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Lafangey Parindey (2010)/Lafangey Parindey (2010) [imdb-tt1606267][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.mkv: Excluded
+2021/09/17 07:05:42 DEBUG : Lakshmi (2018)/Lakshmi (2018) [imdb-tt8042324][WEBDL-1080p][8bit][h264][EAC3 5.1].nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Lafangey Parindey (2010)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Lakshmi (2018)/Lakshmi (2018) [imdb-tt8042324][WEBDL-1080p][8bit][h264][EAC3 5.1].mkv: Excluded
+2021/09/17 07:05:42 DEBUG : Lakshmi (2018)/Lakshmi (2018) [imdb-tt8042324][WEBDL-1080p][8bit][h264][EAC3 5.1].en.srt: Excluded
+2021/09/17 07:05:42 DEBUG : Lakshmi (2018)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Love Aaj Kal (2009)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Love Aaj Kal (2009)/Love Aaj Kal (2009) [imdb-tt1275863][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.mkv: Excluded
+2021/09/17 07:05:42 DEBUG : Love Aaj Kal (2009)/Love Aaj Kal (2009) [imdb-tt1275863][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Love Aaj Kal (2009)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Magalir Mattum (2017)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Nedunalvaadai (2019)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Magalir Mattum (2017)/Magalir Mattum (2017) [imdb-tt6237984][WEBDL-1080p][8bit][h264][EAC3 5.1].nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Nedunalvaadai (2019)/Nedunalvaadai (2019) [imdb-tt10023080][HDTV-1080p][8bit][x264][AAC 2.0].nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Magalir Mattum (2017)/Magalir Mattum (2017) [imdb-tt6237984][WEBDL-1080p][8bit][h264][EAC3 5.1].en.srt: Excluded
+2021/09/17 07:05:42 DEBUG : Magalir Mattum (2017)/Magalir Mattum (2017) [imdb-tt6237984][WEBDL-1080p][8bit][h264][EAC3 5.1].mkv: Excluded
+2021/09/17 07:05:42 DEBUG : Magalir Mattum (2017)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Main Tera Hero (2014)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Main Tera Hero (2014)/Main Tera Hero (2014) [imdb-tt2762334][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Main Tera Hero (2014)/Main Tera Hero (2014) [imdb-tt2762334][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.mkv: Excluded
+2021/09/17 07:05:42 DEBUG : Main Tera Hero (2014)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Nedunalvaadai (2019)/Nedunalvaadai (2019) [imdb-tt10023080][HDTV-1080p][8bit][x264][AAC 2.0].mp4: Excluded
+2021/09/17 07:05:42 DEBUG : Neruppu Da (2017)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Nedunalvaadai (2019)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Neruppu Da (2017)/Neruppu Da (2017) [imdb-tt7221950][WEBDL-1080p][8bit][h264][EAC3 5.1]-WA.mkv: Excluded
+2021/09/17 07:05:42 DEBUG : Neruppu Da (2017)/Neruppu Da (2017) [imdb-tt7221950][WEBDL-1080p][8bit][h264][EAC3 5.1]-WA.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Neruppu Da (2017)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : OK Kanmani (2015)/OK Kanmani (2015) [imdb-tt4271820][WEBDL-1080p][8bit][x264][AAC 2.0]-HD.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Netrikann (2021)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : OK Kanmani (2015)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Netrikann (2021)/Netrikann (2021) [imdb-tt10973118][WEBDL-1080p][8bit][x264][EAC3 5.1]-Telly.mkv: Excluded
+2021/09/17 07:05:42 DEBUG : OK Kanmani (2015)/OK Kanmani (2015) [imdb-tt4271820][WEBDL-1080p][8bit][x264][AAC 2.0]-HD.mkv: Excluded
+2021/09/17 07:05:42 DEBUG : Netrikann (2021)/Netrikann (2021) [imdb-tt10973118][WEBDL-1080p][8bit][x264][EAC3 5.1]-Telly.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : OK Kanmani (2015)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Netrikann (2021)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Oru Adaar Love (2019)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Oru Adaar Love (2019)/Oru Adaar Love (2019) [imdb-tt7387300][WEBDL-1080p][8bit][h264][EAC3 5.1]-WA.mkv: Excluded
+2021/09/17 07:05:42 DEBUG : Oru Adaar Love (2019)/Oru Adaar Love (2019) [imdb-tt7387300][WEBDL-1080p][8bit][h264][EAC3 5.1]-WA.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Oru Adaar Love (2019)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Ok Jaanu (2017)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Ok Jaanu (2017)/Ok Jaanu (2017) [imdb-tt5764024][Bluray-1080p][8bit][x264][AAC 5.1]-MOVCR.mkv: Excluded
+2021/09/17 07:05:42 DEBUG : Ok Jaanu (2017)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Ok Jaanu (2017)/Ok Jaanu (2017) [imdb-tt5764024][Bluray-1080p][8bit][x264][AAC 5.1]-MOVCR.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Kasada Thapara (2021)/Plex Versions/Optimized for TV/கசட தபற (2021).mp4: Excluded
+2021/09/17 07:05:42 DEBUG : Paa (2009)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Kasada Thapara (2021)/Plex Versions/Optimized for TV/கசட தபற (2021).313381.eng.srt: Excluded
+2021/09/17 07:05:42 DEBUG : Paa (2009)/Paa (2009) [imdb-tt1532957][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.mkv: Excluded
+2021/09/17 07:05:42 DEBUG : Paa (2009)/Paa (2009) [imdb-tt1532957][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Pushpa - The Rise (2021)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Pushpa - The Rise (2021)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Quota (2020)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Quota (2020)/Quota (2020) [imdb-tt12077850][WEBDL-1080p][8bit][h264][EAC3 5.1].nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Quota (2020)/Quota (2020) [imdb-tt12077850][WEBDL-1080p][8bit][h264][EAC3 5.1].mkv: Excluded
+2021/09/17 07:05:42 DEBUG : Quota (2020)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Rowdy Rathore (2012)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Rowdy Rathore (2012)/Rowdy Rathore (2012) [imdb-tt2077833][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.mkv: Excluded
+2021/09/17 07:05:42 DEBUG : Rowdy Rathore (2012)/Rowdy Rathore (2012) [imdb-tt2077833][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Rowdy Rathore (2012)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Shershaah (2021)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Shershaah (2021)/Shershaah (2021) [imdb-tt10295212][WEBDL-1080p][8bit][HEVC][EAC3 5.1]-Telly.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Shershaah (2021)/Shershaah (2021) [imdb-tt10295212][WEBDL-1080p][8bit][HEVC][EAC3 5.1]-Telly.mkv: Excluded
+2021/09/17 07:05:42 DEBUG : Rab Ne Bana Di Jodi (2008)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Shershaah (2021)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Rab Ne Bana Di Jodi (2008)/Rab Ne Bana Di Jodi (2008) [imdb-tt1182937][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Rab Ne Bana Di Jodi (2008)/Rab Ne Bana Di Jodi (2008) [imdb-tt1182937][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.mkv: Excluded
+2021/09/17 07:05:42 DEBUG : Rab Ne Bana Di Jodi (2008)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Soodhu Kavvum (2013)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Soodhu Kavvum (2013)/Soodhu Kavvum (2013) [imdb-tt2877108][Bluray-1080p][8bit][x264][DTS-HD MA 5.1].nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Soodhu Kavvum (2013)/Soodhu Kavvum (2013) [imdb-tt2877108][Bluray-1080p][8bit][x264][DTS-HD MA 5.1].mkv: Excluded
+2021/09/17 07:05:42 DEBUG : Soodhu Kavvum (2013)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Taana (2020)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Taana (2020)/Taana (2020) [imdb-tt10415510][WEBDL-1080p][8bit][h264][EAC3 5.1].nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Taana (2020)/Taana (2020) [imdb-tt10415510][WEBDL-1080p][8bit][h264][EAC3 5.1].mkv: Excluded
+2021/09/17 07:05:42 DEBUG : Taana (2020)/Taana (2020) [imdb-tt10415510][WEBDL-1080p][8bit][h264][EAC3 5.1].en.srt: Excluded
+2021/09/17 07:05:42 DEBUG : Street Dancer 3D (2020)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Taana (2020)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Street Dancer 3D (2020)/Street Dancer 3D (2020) [imdb-tt9648672][WEBRip-1080p][8bit][x264][AC3 5.1]-Telly.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Silukkuvarupatti Singam (2018)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Silukkuvarupatti Singam (2018)/Silukkuvarupatti Singam (2018) [imdb-tt7853260][WEBDL-1080p][8bit][h264][EAC3 5.1].mkv: Excluded
+2021/09/17 07:05:42 DEBUG : Street Dancer 3D (2020)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Silukkuvarupatti Singam (2018)/Silukkuvarupatti Singam (2018) [imdb-tt7853260][WEBDL-1080p][8bit][h264][EAC3 5.1].nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Street Dancer 3D (2020)/Street Dancer 3D (2020) [imdb-tt9648672][WEBRip-1080p][8bit][x264][AC3 5.1]-Telly.mkv: Excluded
+2021/09/17 07:05:42 DEBUG : Silukkuvarupatti Singam (2018)/Silukkuvarupatti Singam (2018) [imdb-tt7853260][WEBDL-1080p][8bit][h264][EAC3 5.1].en.srt: Excluded
+2021/09/17 07:05:42 DEBUG : The Big Bull (2021)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Silukkuvarupatti Singam (2018)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : The Big Bull (2021)/The Big Bull (2021) [imdb-tt9614452][WEBDL-1080p][8bit][x264][EAC3 5.1]-DusIcTv.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : The Big Bull (2021)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : The Big Bull (2021)/The Big Bull (2021) [imdb-tt9614452][WEBDL-1080p][8bit][x264][EAC3 5.1]-DusIcTv.mkv: Excluded
+2021/09/17 07:05:42 DEBUG : Thittam Irandu (2021)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Thittam Irandu (2021)/Thittam Irandu (2021) [imdb-tt12299714][WEBDL-1080p][8bit][x264][AC3 5.1]-Hasan.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Thittam Irandu (2021)/Thittam Irandu (2021) [imdb-tt12299714][WEBDL-1080p][8bit][x264][AC3 5.1]-Hasan.mkv: Excluded
+2021/09/17 07:05:42 DEBUG : Thittam Irandu (2021)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Netrikann (2021)/Plex Versions/Optimized for TV/Netrikann (2021).313403.eng.srt: Excluded
+2021/09/17 07:05:42 DEBUG : Tughlaq Durbar ()/Tughlaq Durbar (2021) [imdb-tt9769668][WEBDL-1080p][8bit][x264][EAC3 5.1].mkv: Excluded
+2021/09/17 07:05:42 DEBUG : Netrikann (2021)/Plex Versions/Optimized for TV/Netrikann (2021).313405.tel.srt: Excluded
+2021/09/17 07:05:42 DEBUG : Tughlaq Durbar ()/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Netrikann (2021)/Plex Versions/Optimized for TV/Netrikann (2021).313406.tam.srt: Excluded
+2021/09/17 07:05:42 DEBUG : Tughlaq Durbar ()/Tughlaq Durbar (2021) [imdb-tt9769668][WEBDL-1080p][8bit][x264][EAC3 5.1].nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Tughlaq Durbar ()/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Netrikann (2021)/Plex Versions/Optimized for TV/Netrikann (2021).313404.mal.srt: Excluded
+2021/09/17 07:05:42 DEBUG : Tuck Jagadish (2021)/Tuck Jagadish (2021) [imdb-tt11385078][WEBDL-1080p][8bit][h264][EAC3 5.1].mkv: Excluded
+2021/09/17 07:05:42 DEBUG : Tuck Jagadish (2021)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Tuck Jagadish (2021)/Tuck Jagadish (2021) [imdb-tt11385078][WEBDL-1080p][8bit][h264][EAC3 5.1].nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Tuck Jagadish (2021)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : U Turn (2018)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : U Turn (2018)/U Turn (2018) [imdb-tt8733898][WEBDL-1080p][8bit][h264][EAC3 5.1].mkv: Excluded
+2021/09/17 07:05:42 DEBUG : U Turn (2018)/U Turn (2018) [imdb-tt8733898][WEBDL-1080p][8bit][h264][EAC3 5.1].en.srt: Excluded
+2021/09/17 07:05:42 DEBUG : U Turn (2018)/U Turn (2018) [imdb-tt8733898][WEBDL-1080p][8bit][h264][EAC3 5.1].nfo: Excluded
+2021/09/17 07:05:42 DEBUG : U Turn (2018)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Vaanavarayan Vallavarayan (2014)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Vaanavarayan Vallavarayan (2014)/Vaanavarayan Vallavarayan (2014) [imdb-tt2419640][WEBDL-1080p][8bit][h264][EAC3 5.1]-WA.mkv: Excluded
+2021/09/17 07:05:42 DEBUG : Vaanavarayan Vallavarayan (2014)/Vaanavarayan Vallavarayan (2014) [imdb-tt2419640][WEBDL-1080p][8bit][h264][EAC3 5.1]-WA.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Vivah (2006)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Vivah (2006)/Vivah (2006) [imdb-tt0494290][Bluray-1080p][8bit][x264][DTS 5.1].mkv: Excluded
+2021/09/17 07:05:42 DEBUG : Vivah (2006)/Vivah (2006) [imdb-tt0494290][Bluray-1080p][8bit][x264][DTS 5.1].nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Vivah (2006)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Wild Dog (2021)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Wild Dog (2021)/Wild Dog (2021) [imdb-tt11503178][WEBDL-1080p][8bit][x264][EAC3 5.1]-SPWEB.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Wild Dog (2021)/Wild Dog (2021) [imdb-tt11503178][WEBDL-1080p][8bit][x264][EAC3 5.1]-SPWEB.srt: Excluded
+2021/09/17 07:05:42 DEBUG : Wild Dog (2021)/Wild Dog (2021) [imdb-tt11503178][WEBDL-1080p][8bit][x264][EAC3 5.1]-SPWEB.mkv: Excluded
+2021/09/17 07:05:42 DEBUG : Wild Dog (2021)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Velainu Vandhutta Vellaikaaran (2016)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Velainu Vandhutta Vellaikaaran (2016)/Velainu Vandhutta Vellaikaaran (2016) [imdb-tt5774904][WEBDL-1080p][8bit][h264][EAC3 5.1]-IcTv.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Velainu Vandhutta Vellaikaaran (2016)/Velainu Vandhutta Vellaikaaran (2016) [imdb-tt5774904][WEBDL-1080p][8bit][h264][EAC3 5.1]-IcTv.en.srt: Excluded
+2021/09/17 07:05:42 DEBUG : Velainu Vandhutta Vellaikaaran (2016)/Velainu Vandhutta Vellaikaaran (2016) [imdb-tt5774904][WEBDL-1080p][8bit][h264][EAC3 5.1]-IcTv.mkv: Excluded
+2021/09/17 07:05:42 DEBUG : Velainu Vandhutta Vellaikaaran (2016)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Yemaali (2018)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Yemaali (2018)/Yemaali (2018) [imdb-tt7920010][WEBDL-1080p][8bit][h264][EAC3 5.1]-DRG.mkv: Excluded
+2021/09/17 07:05:42 DEBUG : Yemaali (2018)/Yemaali (2018) [imdb-tt7920010][WEBDL-1080p][8bit][h264][EAC3 5.1]-DRG.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Yemaali (2018)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Atkan Chatkan 2020 1080p WEB-DL H264 ESUB -Ranvijay -DUSIcTv/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Atkan Chatkan 2020 1080p WEB-DL H264 ESUB -Ranvijay -DUSIcTv/Atkan Chatkan (2020) [imdb-tt12969078][WEBDL-1080p][8bit][h264][AAC 2.0]-DUSIcTv.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Atkan Chatkan 2020 1080p WEB-DL H264 ESUB -Ranvijay -DUSIcTv/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Bhoomi.2021.1080p.DSNP.WEB-DL.Tam.Tel.Mal.Multi.Audio.DD+5.1.ESub.x264-Shadow.BonsaiHD/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Thittam Irandu (2021)/Plex Versions/Optimized for TV/Thittam Irandu (2021).mp4: Excluded
+2021/09/17 07:05:42 DEBUG : Thittam Irandu (2021)/Plex Versions/Optimized for TV/Thittam Irandu (2021).313754.eng.srt: Excluded
+2021/09/17 07:05:42 DEBUG : Bhoomi.2021.1080p.DSNP.WEB-DL.Tam.Tel.Mal.Multi.Audio.DD+5.1.ESub.x264-Shadow.BonsaiHD/Bhoomi (2021) [imdb-tt10893170][WEBDL-1080p][8bit][x264][EAC3 5.1]-Shadow.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Bill.and.Ted.Face.the.Music.2020.1080p.WEBRip.DD5.1.x264-CM/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Bhoomi.2021.1080p.DSNP.WEB-DL.Tam.Tel.Mal.Multi.Audio.DD+5.1.ESub.x264-Shadow.BonsaiHD/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Bill.and.Ted.Face.the.Music.2020.1080p.WEBRip.DD5.1.x264-CM/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Tughlaq Durbar ()/Plex Versions/Optimized for TV/Tughlaq Durbar (2021).313739.hin.srt: Excluded
+2021/09/17 07:05:42 DEBUG : Tughlaq Durbar ()/Plex Versions/Optimized for TV/Tughlaq Durbar (2021).313738.eng.srt: Excluded
+2021/09/17 07:05:42 DEBUG : Tughlaq Durbar ()/Plex Versions/Optimized for TV/Tughlaq Durbar (2021).mp4: Excluded
+2021/09/17 07:05:42 DEBUG : Dhira.2020.1080p.AMZN.WEB-DL.HIN-Multi.DDP2.0.H.264-Telly/Dhira (2020) [imdb-tt13449672][WEBDL-1080p][bit][]]-Telly.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Dhira.2020.1080p.AMZN.WEB-DL.HIN-Multi.DDP2.0.H.264-Telly/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Dhira.2020.1080p.AMZN.WEB-DL.HIN-Multi.DDP2.0.H.264-Telly/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : COCKTAIL (2020) Tamil TRUE WEB-DL - 1080p - AVC - UNTOUCHED - AAC - 1.5GB - ESub/Cocktail (2020) [imdb-tt11731926][WEBDL-1080p][8bit][AVC][AAC 2.0].nfo: Excluded
+2021/09/17 07:05:42 DEBUG : COCKTAIL (2020) Tamil TRUE WEB-DL - 1080p - AVC - UNTOUCHED - AAC - 1.5GB - ESub/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : COCKTAIL (2020) Tamil TRUE WEB-DL - 1080p - AVC - UNTOUCHED - AAC - 1.5GB - ESub/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Gunjan.Saxena.The.Kargil.Girl.2020.1080p.NF.WEB-DL.HIN-Multi.DDP5.1.x264-Telly/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Tuck Jagadish (2021)/Plex Versions/Optimized for TV/Tuck Jagadish (2021).313538.eng.srt: Excluded
+2021/09/17 07:05:42 DEBUG : Gunjan.Saxena.The.Kargil.Girl.2020.1080p.NF.WEB-DL.HIN-Multi.DDP5.1.x264-Telly/Gunjan Saxena The Kargil Girl (2020) [imdb-tt10350626][WEBDL-1080p][8bit][x264][EAC3 5.1]-Telly.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Tuck Jagadish (2021)/Plex Versions/Optimized for TV/Tuck Jagadish (2021).mp4: Excluded
+2021/09/17 07:05:42 DEBUG : Gunjan.Saxena.The.Kargil.Girl.2020.1080p.NF.WEB-DL.HIN-Multi.DDP5.1.x264-Telly/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Mimi.(2021).1080p.WEB-DL.AVC.AAC.2.0-DusIcTv/Mimi and Lisa (2016) [imdb-][WEBDL-1080p][8bit][x264][AAC 2.0]-DusIcTv.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Mimi.(2021).1080p.WEB-DL.AVC.AAC.2.0-DusIcTv/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Kuruthi (2021)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Kuruthi (2021)/Kuruthi (2021) [imdb-tt13551614][WEBDL-1080p][8bit][h264][EAC3 5.1]-PHDM.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Kuruthi (2021)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Kuruthi (2021)/Kuruthi (2021) [imdb-tt13551614][WEBDL-1080p][8bit][h264][EAC3 5.1]-PHDM.mkv: Excluded
+2021/09/17 07:05:42 DEBUG : Pitta Kadhalu (2021) TRUE WEB-DL - 1080p - AVC - (Tam + Tel + Hin + Eng) - (DD+5.1 - 640Kbps) - 5.8GB - ESub/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Pitta Kadhalu (2021) TRUE WEB-DL - 1080p - AVC - (Tam + Tel + Hin + Eng) - (DD+5.1 - 640Kbps) - 5.8GB - ESub/EP01 - Ramula.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Pitta Kadhalu (2021) TRUE WEB-DL - 1080p - AVC - (Tam + Tel + Hin + Eng) - (DD+5.1 - 640Kbps) - 5.8GB - ESub/EP02 - Meera.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Mookuthi.Amman.(2020).1080p.Tamil.WEB-DL.DDP.5.1.ESub-DusIcTv/Mookuthi Amman (2020) [imdb-tt11311958][WEBDL-1080p][8bit][x264][EAC3 5.1]-DusIcTv.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Putham Pudhu Kaalai (2020) REPACK Tamil (1080p WEBRip x265 10bit) - [Musafirboy]/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Putham Pudhu Kaalai (2020) REPACK Tamil (1080p WEBRip x265 10bit) - [Musafirboy]/Putham Pudhu Kaalai (2020) [imdb-tt13087958][WEBRip-1080p Proper][10bit][x265][AC3 5.1]-Musafirboy.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Mookuthi.Amman.(2020).1080p.Tamil.WEB-DL.DDP.5.1.ESub-DusIcTv/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Mookuthi.Amman.(2020).1080p.Tamil.WEB-DL.DDP.5.1.ESub-DusIcTv/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Sadak.2.(2020).1080p.HEVC.WEB-DL.DDP.5.1.ESub-DusIcTv/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Sadak.2.(2020).1080p.HEVC.WEB-DL.DDP.5.1.ESub-DusIcTv/Sadak 2 (2020) [imdb-tt7886848][WEBDL-1080p][8bit][x265][EAC3 5.1]-DusIcTv.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Sadak.2.(2020).1080p.HEVC.WEB-DL.DDP.5.1.ESub-DusIcTv/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Sufiyum.Sujatayum.2020.1080p.AMZN.WEB-DL.DD+5.1.H.265-Telly/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Sufiyum.Sujatayum.2020.1080p.AMZN.WEB-DL.DD+5.1.H.265-Telly/Sufiyum Sujatayum (2020) [imdb-tt10976066][WEBDL-1080p][8bit][h265][EAC3 5.1]-Telly.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Sufiyum.Sujatayum.2020.1080p.AMZN.WEB-DL.DD+5.1.H.265-Telly/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : TRANCE (2020) Malayalam TRUE WEB-DL - 1080p - HEVC - UNTOUCHED - (DD+5.1 - 640Kbps) - 2.6GB - ESub/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : TRANCE (2020) Malayalam TRUE WEB-DL - 1080p - HEVC - UNTOUCHED - (DD+5.1 - 640Kbps) - 2.6GB - ESub/Trance (2020) [imdb-tt13738580][WEBDL-1080p][8bit][HEVC][EAC3 5.1].nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Sir (2018) (1080p BluRay x265 HEVC 10bit AAC 5.1 Hindi Bandi)/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Sir (2018) (1080p BluRay x265 HEVC 10bit AAC 5.1 Hindi Bandi)/Sir (2018) [imdb-tt7142506][Bluray-1080p][10bit][x265][AAC 5.1]-Bandi.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Sir (2018) (1080p BluRay x265 HEVC 10bit AAC 5.1 Hindi Bandi)/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Toofaan 2021 1080p AMZN WEB-DL DD+5.1 H264-PHDM/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Toofaan 2021 1080p AMZN WEB-DL DD+5.1 H264-PHDM/Toofaan (2021) [imdb-tt11045422][WEBDL-1080p][8bit][h264][EAC3 5.1]-PHDM.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : Toofaan 2021 1080p AMZN WEB-DL DD+5.1 H264-PHDM/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Tribhanga.Tedhi.Medhi.Crazy.2021.1080p.NF.WEB-DL.DDP5.1.Atmos.H.264-KHN/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Tribhanga.Tedhi.Medhi.Crazy.2021.1080p.NF.WEB-DL.DDP5.1.Atmos.H.264-KHN/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Tribhanga.Tedhi.Medhi.Crazy.2021.1080p.NF.WEB-DL.DDP5.1.Atmos.H.264-KHN/Tribhanga (2021) [imdb-tt11102314][WEBDL-1080p][8bit][x264][EAC3 Atmos 5.1]-KHN.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : War.With.Grandpa.2020.1080p.WEBRip.DD5.1.x264-CM/poster.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : War.With.Grandpa.2020.1080p.WEBRip.DD5.1.x264-CM/The War with Grandpa (2020) [imdb-tt4532038][WEBRip-1080p][8bit][x264][AC3 5.1]-CM.nfo: Excluded
+2021/09/17 07:05:42 DEBUG : War.With.Grandpa.2020.1080p.WEBRip.DD5.1.x264-CM/fanart.jpg: Excluded
+2021/09/17 07:05:42 DEBUG : Sarpatta Parambarai 2021 1080p AMZN WEB-DL DDP5.1 H264-PHDM/Plex Versions/Optimized for Mobile/Sarpatta Parambarai (2021).mp4: Excluded
+2021/09/17 07:05:42 DEBUG : Sarpatta Parambarai 2021 1080p AMZN WEB-DL DDP5.1 H264-PHDM/Plex Versions/Optimized for Mobile/Sarpatta Parambarai (2021).313344.eng.srt: Excluded
+2021/09/17 07:05:42 DEBUG : Encrypted drive 'gcrypt:Indian': Waiting for checks to finish
+2021/09/17 07:05:42 DEBUG : Encrypted drive 'gcrypt:Indian': Waiting for transfers to finish
+2021/09/17 07:05:42 DEBUG : Yemaali (2018): Removing directory
+2021/09/17 07:05:42 DEBUG : Yemaali (2018): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Yemaali (2018): directory not empty
+2021/09/17 07:05:42 DEBUG : Wild Dog (2021): Removing directory
+2021/09/17 07:05:42 DEBUG : Wild Dog (2021): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Wild Dog (2021): directory not empty
+2021/09/17 07:05:42 DEBUG : War.With.Grandpa.2020.1080p.WEBRip.DD5.1.x264-CM: Removing directory
+2021/09/17 07:05:42 DEBUG : War.With.Grandpa.2020.1080p.WEBRip.DD5.1.x264-CM: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/War.With.Grandpa.2020.1080p.WEBRip.DD5.1.x264-CM: directory not empty
+2021/09/17 07:05:42 DEBUG : Vivah (2006): Removing directory
+2021/09/17 07:05:42 DEBUG : Vivah (2006): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Vivah (2006): directory not empty
+2021/09/17 07:05:42 DEBUG : Velainu Vandhutta Vellaikaaran (2016): Removing directory
+2021/09/17 07:05:42 DEBUG : Velainu Vandhutta Vellaikaaran (2016): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Velainu Vandhutta Vellaikaaran (2016): directory not empty
+2021/09/17 07:05:42 DEBUG : Vaanavarayan Vallavarayan (2014): Removing directory
+2021/09/17 07:05:42 DEBUG : Vaanavarayan Vallavarayan (2014): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Vaanavarayan Vallavarayan (2014): directory not empty
+2021/09/17 07:05:42 DEBUG : U Turn (2018): Removing directory
+2021/09/17 07:05:42 DEBUG : U Turn (2018): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/U Turn (2018): directory not empty
+2021/09/17 07:05:42 DEBUG : Tughlaq Durbar ()/Plex Versions/Optimized for TV: Removing directory
+2021/09/17 07:05:42 DEBUG : Tughlaq Durbar ()/Plex Versions/Optimized for TV: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Tughlaq Durbar ()/Plex Versions/Optimized for TV: directory not empty
+2021/09/17 07:05:42 DEBUG : Tughlaq Durbar ()/Plex Versions: Removing directory
+2021/09/17 07:05:42 DEBUG : Tughlaq Durbar ()/Plex Versions: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Tughlaq Durbar ()/Plex Versions: directory not empty
+2021/09/17 07:05:42 DEBUG : Tughlaq Durbar (): Removing directory
+2021/09/17 07:05:42 DEBUG : Tughlaq Durbar (): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Tughlaq Durbar (): directory not empty
+2021/09/17 07:05:42 DEBUG : Tuck Jagadish (2021)/Plex Versions/Optimized for TV: Removing directory
+2021/09/17 07:05:42 DEBUG : Tuck Jagadish (2021)/Plex Versions/Optimized for TV: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Tuck Jagadish (2021)/Plex Versions/Optimized for TV: directory not empty
+2021/09/17 07:05:42 DEBUG : Tuck Jagadish (2021)/Plex Versions: Removing directory
+2021/09/17 07:05:42 DEBUG : Tuck Jagadish (2021)/Plex Versions: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Tuck Jagadish (2021)/Plex Versions: directory not empty
+2021/09/17 07:05:42 DEBUG : Tuck Jagadish (2021): Removing directory
+2021/09/17 07:05:42 DEBUG : Tuck Jagadish (2021): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Tuck Jagadish (2021): directory not empty
+2021/09/17 07:05:42 DEBUG : Tribhanga.Tedhi.Medhi.Crazy.2021.1080p.NF.WEB-DL.DDP5.1.Atmos.H.264-KHN: Removing directory
+2021/09/17 07:05:42 DEBUG : Tribhanga.Tedhi.Medhi.Crazy.2021.1080p.NF.WEB-DL.DDP5.1.Atmos.H.264-KHN: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Tribhanga.Tedhi.Medhi.Crazy.2021.1080p.NF.WEB-DL.DDP5.1.Atmos.H.264-KHN: directory not empty
+2021/09/17 07:05:42 DEBUG : Toofaan 2021 1080p AMZN WEB-DL DD+5.1 H264-PHDM: Removing directory
+2021/09/17 07:05:42 DEBUG : Toofaan 2021 1080p AMZN WEB-DL DD+5.1 H264-PHDM: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Toofaan 2021 1080p AMZN WEB-DL DD+5.1 H264-PHDM: directory not empty
+2021/09/17 07:05:42 DEBUG : Thittam Irandu (2021)/Plex Versions/Optimized for TV: Removing directory
+2021/09/17 07:05:42 DEBUG : Thittam Irandu (2021)/Plex Versions/Optimized for TV: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Thittam Irandu (2021)/Plex Versions/Optimized for TV: directory not empty
+2021/09/17 07:05:42 DEBUG : Thittam Irandu (2021)/Plex Versions: Removing directory
+2021/09/17 07:05:42 DEBUG : Thittam Irandu (2021)/Plex Versions: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Thittam Irandu (2021)/Plex Versions: directory not empty
+2021/09/17 07:05:42 DEBUG : Thittam Irandu (2021): Removing directory
+2021/09/17 07:05:42 DEBUG : Thittam Irandu (2021): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Thittam Irandu (2021): directory not empty
+2021/09/17 07:05:42 DEBUG : The Big Bull (2021): Removing directory
+2021/09/17 07:05:42 DEBUG : The Big Bull (2021): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/The Big Bull (2021): directory not empty
+2021/09/17 07:05:42 DEBUG : Tamil 720p Bluray Mega Collection - Vol 2 - 27 Movies: Removing directory
+2021/09/17 07:05:42 DEBUG : Tamil 720p Bluray Mega Collection - Vol 1 - 29 Movies: Removing directory
+2021/09/17 07:05:42 DEBUG : Taana (2020): Removing directory
+2021/09/17 07:05:42 DEBUG : Taana (2020): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Taana (2020): directory not empty
+2021/09/17 07:05:42 DEBUG : TRANCE (2020) Malayalam TRUE WEB-DL - 1080p - HEVC - UNTOUCHED - (DD+5.1 - 640Kbps) - 2.6GB - ESub: Removing directory
+2021/09/17 07:05:42 DEBUG : TRANCE (2020) Malayalam TRUE WEB-DL - 1080p - HEVC - UNTOUCHED - (DD+5.1 - 640Kbps) - 2.6GB - ESub: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/TRANCE (2020) Malayalam TRUE WEB-DL - 1080p - HEVC - UNTOUCHED - (DD+5.1 - 640Kbps) - 2.6GB - ESub: directory not empty
+2021/09/17 07:05:42 DEBUG : Sufiyum.Sujatayum.2020.1080p.AMZN.WEB-DL.DD+5.1.H.265-Telly: Removing directory
+2021/09/17 07:05:42 DEBUG : Sufiyum.Sujatayum.2020.1080p.AMZN.WEB-DL.DD+5.1.H.265-Telly: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Sufiyum.Sujatayum.2020.1080p.AMZN.WEB-DL.DD+5.1.H.265-Telly: directory not empty
+2021/09/17 07:05:42 DEBUG : Street Dancer 3D (2020): Removing directory
+2021/09/17 07:05:42 DEBUG : Street Dancer 3D (2020): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Street Dancer 3D (2020): directory not empty
+2021/09/17 07:05:42 DEBUG : Soodhu Kavvum (2013): Removing directory
+2021/09/17 07:05:42 DEBUG : Soodhu Kavvum (2013): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Soodhu Kavvum (2013): directory not empty
+2021/09/17 07:05:42 DEBUG : Sir (2018) (1080p BluRay x265 HEVC 10bit AAC 5.1 Hindi Bandi): Removing directory
+2021/09/17 07:05:42 DEBUG : Sir (2018) (1080p BluRay x265 HEVC 10bit AAC 5.1 Hindi Bandi): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Sir (2018) (1080p BluRay x265 HEVC 10bit AAC 5.1 Hindi Bandi): directory not empty
+2021/09/17 07:05:42 DEBUG : Silukkuvarupatti Singam (2018): Removing directory
+2021/09/17 07:05:42 DEBUG : Silukkuvarupatti Singam (2018): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Silukkuvarupatti Singam (2018): directory not empty
+2021/09/17 07:05:42 DEBUG : Shershaah (2021): Removing directory
+2021/09/17 07:05:42 DEBUG : Shershaah (2021): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Shershaah (2021): directory not empty
+2021/09/17 07:05:42 DEBUG : Sarpatta Parambarai 2021 1080p AMZN WEB-DL DDP5.1 H264-PHDM/Plex Versions/Optimized for Mobile: Removing directory
+2021/09/17 07:05:42 DEBUG : Sarpatta Parambarai 2021 1080p AMZN WEB-DL DDP5.1 H264-PHDM/Plex Versions/Optimized for Mobile: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Sarpatta Parambarai 2021 1080p AMZN WEB-DL DDP5.1 H264-PHDM/Plex Versions/Optimized for Mobile: directory not empty
+2021/09/17 07:05:42 DEBUG : Sarpatta Parambarai 2021 1080p AMZN WEB-DL DDP5.1 H264-PHDM/Plex Versions: Removing directory
+2021/09/17 07:05:42 DEBUG : Sarpatta Parambarai 2021 1080p AMZN WEB-DL DDP5.1 H264-PHDM/Plex Versions: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Sarpatta Parambarai 2021 1080p AMZN WEB-DL DDP5.1 H264-PHDM/Plex Versions: directory not empty
+2021/09/17 07:05:42 DEBUG : Sarpatta Parambarai 2021 1080p AMZN WEB-DL DDP5.1 H264-PHDM: Removing directory
+2021/09/17 07:05:42 DEBUG : Sarpatta Parambarai 2021 1080p AMZN WEB-DL DDP5.1 H264-PHDM: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Sarpatta Parambarai 2021 1080p AMZN WEB-DL DDP5.1 H264-PHDM: directory not empty
+2021/09/17 07:05:42 DEBUG : Sadak.2.(2020).1080p.HEVC.WEB-DL.DDP.5.1.ESub-DusIcTv: Removing directory
+2021/09/17 07:05:42 DEBUG : Sadak.2.(2020).1080p.HEVC.WEB-DL.DDP.5.1.ESub-DusIcTv: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Sadak.2.(2020).1080p.HEVC.WEB-DL.DDP.5.1.ESub-DusIcTv: directory not empty
+2021/09/17 07:05:42 DEBUG : Rowdy Rathore (2012): Removing directory
+2021/09/17 07:05:42 DEBUG : Rowdy Rathore (2012): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Rowdy Rathore (2012): directory not empty
+2021/09/17 07:05:42 DEBUG : Rab Ne Bana Di Jodi (2008): Removing directory
+2021/09/17 07:05:42 DEBUG : Rab Ne Bana Di Jodi (2008): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Rab Ne Bana Di Jodi (2008): directory not empty
+2021/09/17 07:05:42 DEBUG : Quota (2020): Removing directory
+2021/09/17 07:05:42 DEBUG : Quota (2020): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Quota (2020): directory not empty
+2021/09/17 07:05:42 DEBUG : Putham Pudhu Kaalai (2020) REPACK Tamil (1080p WEBRip x265 10bit) - [Musafirboy]: Removing directory
+2021/09/17 07:05:42 DEBUG : Putham Pudhu Kaalai (2020) REPACK Tamil (1080p WEBRip x265 10bit) - [Musafirboy]: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Putham Pudhu Kaalai (2020) REPACK Tamil (1080p WEBRip x265 10bit) - [Musafirboy]: directory not empty
+2021/09/17 07:05:42 DEBUG : Pushpa - The Rise (2021): Removing directory
+2021/09/17 07:05:42 DEBUG : Pushpa - The Rise (2021): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Pushpa - The Rise (2021): directory not empty
+2021/09/17 07:05:42 DEBUG : Pitta Kadhalu (2021) TRUE WEB-DL - 1080p - AVC - (Tam + Tel + Hin + Eng) - (DD+5.1 - 640Kbps) - 5.8GB - ESub: Removing directory
+2021/09/17 07:05:42 DEBUG : Pitta Kadhalu (2021) TRUE WEB-DL - 1080p - AVC - (Tam + Tel + Hin + Eng) - (DD+5.1 - 640Kbps) - 5.8GB - ESub: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Pitta Kadhalu (2021) TRUE WEB-DL - 1080p - AVC - (Tam + Tel + Hin + Eng) - (DD+5.1 - 640Kbps) - 5.8GB - ESub: directory not empty
+2021/09/17 07:05:42 DEBUG : Paa (2009): Removing directory
+2021/09/17 07:05:42 DEBUG : Paa (2009): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Paa (2009): directory not empty
+2021/09/17 07:05:42 DEBUG : Oru Adaar Love (2019): Removing directory
+2021/09/17 07:05:42 DEBUG : Oru Adaar Love (2019): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Oru Adaar Love (2019): directory not empty
+2021/09/17 07:05:42 DEBUG : Ok Jaanu (2017): Removing directory
+2021/09/17 07:05:42 DEBUG : Ok Jaanu (2017): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Ok Jaanu (2017): directory not empty
+2021/09/17 07:05:42 DEBUG : OK Kanmani (2015): Removing directory
+2021/09/17 07:05:42 DEBUG : OK Kanmani (2015): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/OK Kanmani (2015): directory not empty
+2021/09/17 07:05:42 DEBUG : Netrikann (2021)/Plex Versions/Optimized for TV: Removing directory
+2021/09/17 07:05:42 DEBUG : Netrikann (2021)/Plex Versions/Optimized for TV: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Netrikann (2021)/Plex Versions/Optimized for TV: directory not empty
+2021/09/17 07:05:42 DEBUG : Netrikann (2021)/Plex Versions: Removing directory
+2021/09/17 07:05:42 DEBUG : Netrikann (2021)/Plex Versions: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Netrikann (2021)/Plex Versions: directory not empty
+2021/09/17 07:05:42 DEBUG : Netrikann (2021): Removing directory
+2021/09/17 07:05:42 DEBUG : Netrikann (2021): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Netrikann (2021): directory not empty
+2021/09/17 07:05:42 DEBUG : Neruppu Da (2017): Removing directory
+2021/09/17 07:05:42 DEBUG : Neruppu Da (2017): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Neruppu Da (2017): directory not empty
+2021/09/17 07:05:42 DEBUG : Nedunalvaadai (2019): Removing directory
+2021/09/17 07:05:42 DEBUG : Nedunalvaadai (2019): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Nedunalvaadai (2019): directory not empty
+2021/09/17 07:05:42 DEBUG : Mookuthi.Amman.(2020).1080p.Tamil.WEB-DL.DDP.5.1.ESub-DusIcTv: Removing directory
+2021/09/17 07:05:42 DEBUG : Mookuthi.Amman.(2020).1080p.Tamil.WEB-DL.DDP.5.1.ESub-DusIcTv: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Mookuthi.Amman.(2020).1080p.Tamil.WEB-DL.DDP.5.1.ESub-DusIcTv: directory not empty
+2021/09/17 07:05:42 DEBUG : Mimi.(2021).1080p.WEB-DL.AVC.AAC.2.0-DusIcTv: Removing directory
+2021/09/17 07:05:42 DEBUG : Mimi.(2021).1080p.WEB-DL.AVC.AAC.2.0-DusIcTv: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Mimi.(2021).1080p.WEB-DL.AVC.AAC.2.0-DusIcTv: directory not empty
+2021/09/17 07:05:42 DEBUG : Main Tera Hero (2014): Removing directory
+2021/09/17 07:05:42 DEBUG : Main Tera Hero (2014): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Main Tera Hero (2014): directory not empty
+2021/09/17 07:05:42 DEBUG : Magalir Mattum (2017): Removing directory
+2021/09/17 07:05:42 DEBUG : Magalir Mattum (2017): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Magalir Mattum (2017): directory not empty
+2021/09/17 07:05:42 DEBUG : Love Aaj Kal (2009): Removing directory
+2021/09/17 07:05:42 DEBUG : Love Aaj Kal (2009): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Love Aaj Kal (2009): directory not empty
+2021/09/17 07:05:42 DEBUG : Lakshmi (2018): Removing directory
+2021/09/17 07:05:42 DEBUG : Lakshmi (2018): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Lakshmi (2018): directory not empty
+2021/09/17 07:05:42 DEBUG : Lage Raho Munna Bhai (2006): Removing directory
+2021/09/17 07:05:42 DEBUG : Lage Raho Munna Bhai (2006): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Lage Raho Munna Bhai (2006): directory not empty
+2021/09/17 07:05:42 DEBUG : Lafangey Parindey (2010): Removing directory
+2021/09/17 07:05:42 DEBUG : Lafangey Parindey (2010): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Lafangey Parindey (2010): directory not empty
+2021/09/17 07:05:42 DEBUG : Kuruthi (2021): Removing directory
+2021/09/17 07:05:42 DEBUG : Kuruthi (2021): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Kuruthi (2021): directory not empty
+2021/09/17 07:05:42 DEBUG : Kombu (2020): Removing directory
+2021/09/17 07:05:42 DEBUG : Kombu (2020): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Kombu (2020): directory not empty
+2021/09/17 07:05:42 DEBUG : Kill Dil (2014): Removing directory
+2021/09/17 07:05:42 DEBUG : Kill Dil (2014): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Kill Dil (2014): directory not empty
+2021/09/17 07:05:42 DEBUG : Kasada Thapara (2021)/Plex Versions/Optimized for TV: Removing directory
+2021/09/17 07:05:42 DEBUG : Kasada Thapara (2021)/Plex Versions/Optimized for TV: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Kasada Thapara (2021)/Plex Versions/Optimized for TV: directory not empty
+2021/09/17 07:05:42 DEBUG : Kasada Thapara (2021)/Plex Versions: Removing directory
+2021/09/17 07:05:42 DEBUG : Kasada Thapara (2021)/Plex Versions: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Kasada Thapara (2021)/Plex Versions: directory not empty
+2021/09/17 07:05:42 DEBUG : Kasada Thapara (2021): Removing directory
+2021/09/17 07:05:42 DEBUG : Kasada Thapara (2021): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Kasada Thapara (2021): directory not empty
+2021/09/17 07:05:42 DEBUG : Ishaqzaade (2012): Removing directory
+2021/09/17 07:05:42 DEBUG : Ishaqzaade (2012): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Ishaqzaade (2012): directory not empty
+2021/09/17 07:05:42 DEBUG : Hungama 2 (2021): Removing directory
+2021/09/17 07:05:42 DEBUG : Hungama 2 (2021): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Hungama 2 (2021): directory not empty
+2021/09/17 07:05:42 DEBUG : Hum Tum (2004): Removing directory
+2021/09/17 07:05:42 DEBUG : Hum Tum (2004): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Hum Tum (2004): directory not empty
+2021/09/17 07:05:42 DEBUG : Hum Aapke Hain Koun.! (1994): Removing directory
+2021/09/17 07:05:42 DEBUG : Hum Aapke Hain Koun.! (1994): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Hum Aapke Hain Koun.! (1994): directory not empty
+2021/09/17 07:05:42 DEBUG : Housefull 2 (2012): Removing directory
+2021/09/17 07:05:42 DEBUG : Housefull 2 (2012): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Housefull 2 (2012): directory not empty
+2021/09/17 07:05:42 DEBUG : Heyy Babyy (2007): Removing directory
+2021/09/17 07:05:42 DEBUG : Heyy Babyy (2007): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Heyy Babyy (2007): directory not empty
+2021/09/17 07:05:42 DEBUG : Haider (2014): Removing directory
+2021/09/17 07:05:42 DEBUG : Haider (2014): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Haider (2014): directory not empty
+2021/09/17 07:05:42 DEBUG : Gunjan.Saxena.The.Kargil.Girl.2020.1080p.NF.WEB-DL.HIN-Multi.DDP5.1.x264-Telly: Removing directory
+2021/09/17 07:05:42 DEBUG : Gunjan.Saxena.The.Kargil.Girl.2020.1080p.NF.WEB-DL.HIN-Multi.DDP5.1.x264-Telly: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Gunjan.Saxena.The.Kargil.Girl.2020.1080p.NF.WEB-DL.HIN-Multi.DDP5.1.x264-Telly: directory not empty
+2021/09/17 07:05:42 DEBUG : Goliyon Ki Raasleela Ram-Leela (2013): Removing directory
+2021/09/17 07:05:42 DEBUG : Goliyon Ki Raasleela Ram-Leela (2013): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Goliyon Ki Raasleela Ram-Leela (2013): directory not empty
+2021/09/17 07:05:42 DEBUG : Dil To Pagal Hai (1997): Removing directory
+2021/09/17 07:05:42 DEBUG : Dil To Pagal Hai (1997): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Dil To Pagal Hai (1997): directory not empty
+2021/09/17 07:05:42 DEBUG : Dil Chahta Hai (2001): Removing directory
+2021/09/17 07:05:42 DEBUG : Dil Chahta Hai (2001): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Dil Chahta Hai (2001): directory not empty
+2021/09/17 07:05:42 DEBUG : Dikkiloona (2021)/Plex Versions/Optimized for TV: Removing directory
+2021/09/17 07:05:42 DEBUG : Dikkiloona (2021)/Plex Versions/Optimized for TV: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Dikkiloona (2021)/Plex Versions/Optimized for TV: directory not empty
+2021/09/17 07:05:42 DEBUG : Dikkiloona (2021)/Plex Versions: Removing directory
+2021/09/17 07:05:42 DEBUG : Dikkiloona (2021)/Plex Versions: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Dikkiloona (2021)/Plex Versions: directory not empty
+2021/09/17 07:05:42 DEBUG : Dikkiloona (2021): Removing directory
+2021/09/17 07:05:42 DEBUG : Dikkiloona (2021): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Dikkiloona (2021): directory not empty
+2021/09/17 07:05:42 DEBUG : Dial 100 (2021): Removing directory
+2021/09/17 07:05:42 DEBUG : Dial 100 (2021): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Dial 100 (2021): directory not empty
+2021/09/17 07:05:42 DEBUG : Dhira.2020.1080p.AMZN.WEB-DL.HIN-Multi.DDP2.0.H.264-Telly: Removing directory
+2021/09/17 07:05:42 DEBUG : Dhira.2020.1080p.AMZN.WEB-DL.HIN-Multi.DDP2.0.H.264-Telly: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Dhira.2020.1080p.AMZN.WEB-DL.HIN-Multi.DDP2.0.H.264-Telly: directory not empty
+2021/09/17 07:05:42 DEBUG : Dhilluku Dhuddu 2 (2019): Removing directory
+2021/09/17 07:05:42 DEBUG : Dhilluku Dhuddu 2 (2019): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Dhilluku Dhuddu 2 (2019): directory not empty
+2021/09/17 07:05:42 DEBUG : Cycle (2018): Removing directory
+2021/09/17 07:05:42 DEBUG : Cycle (2018): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Cycle (2018): directory not empty
+2021/09/17 07:05:42 DEBUG : College Kumar (2020): Removing directory
+2021/09/17 07:05:42 DEBUG : College Kumar (2020): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/College Kumar (2020): directory not empty
+2021/09/17 07:05:42 DEBUG : Chennai.20028.II.Second.Innings: Removing directory
+2021/09/17 07:05:42 DEBUG : Chennai.20028.II.Second.Innings: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Chennai.20028.II.Second.Innings: directory not empty
+2021/09/17 07:05:42 DEBUG : Charlie Chaplin 2 (2019): Removing directory
+2021/09/17 07:05:42 DEBUG : Charlie Chaplin 2 (2019): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Charlie Chaplin 2 (2019): directory not empty
+2021/09/17 07:05:42 DEBUG : Chandramukhi (2005): Removing directory
+2021/09/17 07:05:42 DEBUG : Chandramukhi (2005): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Chandramukhi (2005): directory not empty
+2021/09/17 07:05:42 DEBUG : Chak De! India (2007): Removing directory
+2021/09/17 07:05:42 DEBUG : Chak De! India (2007): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Chak De! India (2007): directory not empty
+2021/09/17 07:05:42 DEBUG : COCKTAIL (2020) Tamil TRUE WEB-DL - 1080p - AVC - UNTOUCHED - AAC - 1.5GB - ESub: Removing directory
+2021/09/17 07:05:42 DEBUG : COCKTAIL (2020) Tamil TRUE WEB-DL - 1080p - AVC - UNTOUCHED - AAC - 1.5GB - ESub: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/COCKTAIL (2020) Tamil TRUE WEB-DL - 1080p - AVC - UNTOUCHED - AAC - 1.5GB - ESub: directory not empty
+2021/09/17 07:05:42 DEBUG : Boomika ()/Plex Versions/Optimized for TV: Removing directory
+2021/09/17 07:05:42 DEBUG : Boomika ()/Plex Versions/Optimized for TV: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Boomika ()/Plex Versions/Optimized for TV: directory not empty
+2021/09/17 07:05:42 DEBUG : Boomika ()/Plex Versions: Removing directory
+2021/09/17 07:05:42 DEBUG : Boomika ()/Plex Versions: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Boomika ()/Plex Versions: directory not empty
+2021/09/17 07:05:42 DEBUG : Boomika (): Removing directory
+2021/09/17 07:05:42 DEBUG : Boomika (): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Boomika (): directory not empty
+2021/09/17 07:05:42 DEBUG : Biriyaani (2021): Removing directory
+2021/09/17 07:05:42 DEBUG : Biriyaani (2021): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Biriyaani (2021): directory not empty
+2021/09/17 07:05:42 DEBUG : Bill.and.Ted.Face.the.Music.2020.1080p.WEBRip.DD5.1.x264-CM: Removing directory
+2021/09/17 07:05:42 DEBUG : Bill.and.Ted.Face.the.Music.2020.1080p.WEBRip.DD5.1.x264-CM: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Bill.and.Ted.Face.the.Music.2020.1080p.WEBRip.DD5.1.x264-CM: directory not empty
+2021/09/17 07:05:42 DEBUG : Bhuj The Pride of India (2021)/Plex Versions/Optimized for TV: Removing directory
+2021/09/17 07:05:42 DEBUG : Bhuj The Pride of India (2021)/Plex Versions/Optimized for TV: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Bhuj The Pride of India (2021)/Plex Versions/Optimized for TV: directory not empty
+2021/09/17 07:05:42 DEBUG : Bhuj The Pride of India (2021)/Plex Versions: Removing directory
+2021/09/17 07:05:42 DEBUG : Bhuj The Pride of India (2021)/Plex Versions: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Bhuj The Pride of India (2021)/Plex Versions: directory not empty
+2021/09/17 07:05:42 DEBUG : Bhuj The Pride of India (2021): Removing directory
+2021/09/17 07:05:42 DEBUG : Bhuj The Pride of India (2021): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Bhuj The Pride of India (2021): directory not empty
+2021/09/17 07:05:42 DEBUG : Bhoot Police (2021)/Plex Versions/Optimized for TV: Removing directory
+2021/09/17 07:05:42 DEBUG : Bhoot Police (2021)/Plex Versions/Optimized for TV: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Bhoot Police (2021)/Plex Versions/Optimized for TV: directory not empty
+2021/09/17 07:05:42 DEBUG : Bhoot Police (2021)/Plex Versions: Removing directory
+2021/09/17 07:05:42 DEBUG : Bhoot Police (2021)/Plex Versions: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Bhoot Police (2021)/Plex Versions: directory not empty
+2021/09/17 07:05:42 DEBUG : Bhoot Police (2021): Removing directory
+2021/09/17 07:05:42 DEBUG : Bhoot Police (2021): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Bhoot Police (2021): directory not empty
+2021/09/17 07:05:42 DEBUG : Bhoomi.2021.1080p.DSNP.WEB-DL.Tam.Tel.Mal.Multi.Audio.DD+5.1.ESub.x264-Shadow.BonsaiHD: Removing directory
+2021/09/17 07:05:42 DEBUG : Bhoomi.2021.1080p.DSNP.WEB-DL.Tam.Tel.Mal.Multi.Audio.DD+5.1.ESub.x264-Shadow.BonsaiHD: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Bhoomi.2021.1080p.DSNP.WEB-DL.Tam.Tel.Mal.Multi.Audio.DD+5.1.ESub.x264-Shadow.BonsaiHD: directory not empty
+2021/09/17 07:05:42 DEBUG : Bell Bottom (2021): Removing directory
+2021/09/17 07:05:42 DEBUG : Bell Bottom (2021): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Bell Bottom (2021): directory not empty
+2021/09/17 07:05:42 DEBUG : Atkan Chatkan 2020 1080p WEB-DL H264 ESUB -Ranvijay -DUSIcTv: Removing directory
+2021/09/17 07:05:42 DEBUG : Atkan Chatkan 2020 1080p WEB-DL H264 ESUB -Ranvijay -DUSIcTv: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Atkan Chatkan 2020 1080p WEB-DL H264 ESUB -Ranvijay -DUSIcTv: directory not empty
+2021/09/17 07:05:42 DEBUG : Aaraattu (2021): Removing directory
+2021/09/17 07:05:42 DEBUG : Aaraattu (2021): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Aaraattu (2021): directory not empty
+2021/09/17 07:05:42 DEBUG : 96 (2018): Removing directory
+2021/09/17 07:05:42 DEBUG : 96 (2018): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/96 (2018): directory not empty
+2021/09/17 07:05:42 DEBUG : 14 Phere (2021): Removing directory
+2021/09/17 07:05:42 DEBUG : 14 Phere (2021): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/14 Phere (2021): directory not empty
+2021/09/17 07:05:42 DEBUG : #Home (2021)/Plex Versions/Optimized for TV: Removing directory
+2021/09/17 07:05:42 DEBUG : #Home (2021)/Plex Versions/Optimized for TV: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/#Home (2021)/Plex Versions/Optimized for TV: directory not empty
+2021/09/17 07:05:42 DEBUG : #Home (2021)/Plex Versions: Removing directory
+2021/09/17 07:05:42 DEBUG : #Home (2021)/Plex Versions: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/#Home (2021)/Plex Versions: directory not empty
+2021/09/17 07:05:42 DEBUG : #Home (2021): Removing directory
+2021/09/17 07:05:42 DEBUG : #Home (2021): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/#Home (2021): directory not empty
+2021/09/17 07:05:42 DEBUG : Local file system at /home/pbu80/Stuff/local/Indian: failed to delete 104 directories
+2021/09/17 07:05:42 DEBUG : Local file system at /home/pbu80/Stuff/local/Indian: deleted 2 directories
+2021/09/17 07:05:42 INFO  : There was nothing to transfer
+2021/09/17 07:05:42 INFO  : 
+Transferred:   	          0 / 0 Byte, -, 0 Byte/s, ETA -
+Deleted:                0 (files), 106 (dirs)
+Elapsed time:         6.9s
+
+2021/09/17 07:05:42 DEBUG : 8 go routines active
+2021/09/20 04:41:15 INFO  : Starting bandwidth limiter at 20Mi Byte/s
+2021/09/20 04:41:15 INFO  : Starting transaction limiter: max 5 transactions/s with burst 1
+2021/09/20 04:41:15 DEBUG : --min-age 2M to 2021-07-22 04:41:15.213157802 +0200 CEST m=-5183999.708897610
+2021/09/20 04:41:15 DEBUG : rclone: Version "v1.56.0" starting with parameters ["rclone" "move" "/home/pbu80/Stuff/local/Indian" "gcrypt:Indian" "--config=/home/pbu80/.config/rclone/rclone.conf" "--drive-chunk-size" "64M" "--tpslimit" "5" "--min-age" "60d" "-vvv" "--drive-stop-on-upload-limit" "--delete-empty-src-dirs" "--fast-list" "--bwlimit=20M" "--use-mmap" "--transfers=2" "--checkers=4" "--log-file" "/home/pbu80/scripts/upload-indian.log"]
+2021/09/20 04:41:15 DEBUG : Creating backend with remote "/home/pbu80/Stuff/local/Indian"
+2021/09/20 04:41:15 DEBUG : Using config file from "/home/pbu80/.config/rclone/rclone.conf"
+2021/09/20 04:41:15 DEBUG : Creating backend with remote "gcrypt:Indian"
+2021/09/20 04:41:15 DEBUG : Creating backend with remote "gdrive:/crypt/qsce0bdj16vif2nq1lcj4vii9g"
+2021/09/20 04:41:15 DEBUG : gdrive: detected overridden config - adding "{2Hn7T}" suffix to name
+2021/09/20 04:41:16 DEBUG : fs cache: renaming cache item "gdrive:/crypt/qsce0bdj16vif2nq1lcj4vii9g" to be canonical "gdrive{2Hn7T}:crypt/qsce0bdj16vif2nq1lcj4vii9g"
+2021/09/20 04:41:16 DEBUG : fs cache: switching user supplied name "gdrive:/crypt/qsce0bdj16vif2nq1lcj4vii9g" for canonical name "gdrive{2Hn7T}:crypt/qsce0bdj16vif2nq1lcj4vii9g"
+2021/09/20 04:41:21 DEBUG : Aadhavan (2009) 720p - Blu-Ray - AC3 - 2GB - Tamil - TamilRockers.cr.en.srt: Excluded from sync (and deletion)
+2021/09/20 04:41:21 DEBUG : Kalathil Sandhippom (2021) Tamil TRUE WEB-DL - 1080p - AVC - UNTOUCHED - (DD5.1 - 512Kbps) - 8.6GB - ESub.mkv: Excluded from sync (and deletion)
+2021/09/20 04:41:21 DEBUG : Kutty.Story.mkv: Excluded from sync (and deletion)
+2021/09/20 04:41:21 DEBUG : Abhiyum Anuvum (2021) Tamil [1080p HD AVC - UNTOUCHED - x264 - AAC - 3.1GB - HC-ESub].mkv: Excluded from sync (and deletion)
+2021/09/20 04:41:22 DEBUG : Sarpatta Parambarai 2021 1080p AMZN WEB-DL DDP5.1 H264-PHDM/Sarpatta Parambarai (2021) [imdb-tt11580854][WEBDL-1080p][8bit][h264][EAC3 5.1]-PHDM.nfo: Excluded from sync (and deletion)
+2021/09/20 04:41:22 DEBUG : Sarpatta Parambarai 2021 1080p AMZN WEB-DL DDP5.1 H264-PHDM/fanart.jpg: Excluded from sync (and deletion)
+2021/09/20 04:41:22 DEBUG : Sarpatta Parambarai 2021 1080p AMZN WEB-DL DDP5.1 H264-PHDM/poster.jpg: Excluded from sync (and deletion)
+2021/09/20 04:41:22 DEBUG : Sarpatta Parambarai 2021 1080p AMZN WEB-DL DDP5.1 H264-PHDM/Sarpatta Parambarai (2021) [imdb-tt11580854][WEBDL-1080p][8bit][h264][EAC3 5.1]-PHDM.mkv: Excluded from sync (and deletion)
+2021/09/20 04:41:22 DEBUG : Marakkar - Arabikadalinte Simham (2021)/fanart.jpg: Excluded from sync (and deletion)
+2021/09/20 04:41:22 DEBUG : Marakkar - Arabikadalinte Simham (2021)/poster.jpg: Excluded from sync (and deletion)
+2021/09/20 04:41:23 DEBUG : Kuruthi (2021)/fanart.jpg: Excluded from sync (and deletion)
+2021/09/20 04:41:23 DEBUG : Kuruthi (2021)/poster.jpg: Excluded from sync (and deletion)
+2021/09/20 04:41:23 DEBUG : Mimi.(2021).1080p.WEB-DL.AVC.AAC.2.0-DusIcTv/Mimi and Lisa (2016) [imdb-][WEBDL-1080p][8bit][x264][AAC 2.0]-DusIcTv.mkv: Excluded from sync (and deletion)
+2021/09/20 04:41:23 DEBUG : Aaraattu (2021)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Aaraattu (2021)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : 96 (2018)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : #Home (2021)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : 14 Phere (2021)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : #Home (2021)/#Home (2021) [imdb-][WEBRip-1080p][10bit][HEVC][EAC3 5.1]-The.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : #Home (2021)/#Home (2021) [imdb-][WEBRip-1080p][10bit][HEVC][EAC3 5.1]-The.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Ambuli (2012)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Ambuli (2012)/Ambuli (2012) [imdb-tt1841504][WEBDL-1080p][8bit][x264][AAC 2.0]-WA.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Ambuli (2012)/Ambuli (2012) [imdb-tt1841504][WEBDL-1080p][8bit][x264][AAC 2.0]-WA.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : 14 Phere (2021)/14 Phere (2021) [imdb-tt12887178][WEBDL-1080p][8bit][AVC][AAC 2.0]-DusIcTv.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : 14 Phere (2021)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : 14 Phere (2021)/14 Phere (2021) [imdb-tt12887178][WEBDL-1080p][8bit][AVC][AAC 2.0]-DusIcTv.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : 96 (2018)/96 (2018) [imdb-tt7019842][WEBRip-1080p][10bit][x265][AAC 5.1]-Musafirboy.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : 96 (2018)/96 (2018) [imdb-tt7019842][WEBRip-1080p][10bit][x265][AAC 5.1]-Musafirboy.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : 96 (2018)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Ankahi Kahaniya (2021)/Ankahi Kahaniya (2021) [imdb-tt15250998][WEBDL-1080p][8bit][x264][EAC3 Atmos 5.1]-PHDM.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Ankahi Kahaniya (2021)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Ankahi Kahaniya (2021)/Ankahi Kahaniya (2021) [imdb-tt15250998][WEBDL-1080p][8bit][x264][EAC3 Atmos 5.1]-PHDM.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Ankahi Kahaniya (2021)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Anbirkiniyal (2021)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Anbirkiniyal (2021)/Anbirkiniyal (2021) [imdb-tt14092076][WEBDL-720p][8bit][x264][AAC 2.0].srt: Excluded
+2021/09/20 04:41:23 DEBUG : Annabelle Sethupathi (2021)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Bell Bottom (2021)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Annabelle Sethupathi (2021)/Annabelle Sethupathi (2021) [imdb-tt15302290][WEBDL-1080p][8bit][x264][EAC3 5.1]-PHDM.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Bell Bottom (2021)/Bell Bottom (2021) [imdb-tt11260832][WEBDL-1080p][8bit][h264][EAC3 5.1]-Telly.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Ayan (2009)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Ayan (2009)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Ayan (2009)/Ayan (2009) [imdb-tt1355546][Bluray-1080p][10bit][x265][EAC3 5.1]-Bandi.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Ayan (2009)/Ayan (2009) [imdb-tt1355546][Bluray-1080p][10bit][x265][EAC3 5.1]-Bandi.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Annabelle Sethupathi (2021)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Annabelle Sethupathi (2021)/Annabelle Sethupathi (2021) [imdb-tt15302290][WEBDL-1080p][8bit][x264][EAC3 5.1]-PHDM.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Anbirkiniyal (2021)/Anbirkiniyal (2021) [imdb-tt14092076][WEBDL-720p][8bit][x264][AAC 2.0].nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Anbirkiniyal (2021)/Anbirkiniyal (2021) [imdb-tt14092076][WEBDL-720p][8bit][x264][AAC 2.0].mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Anbirkiniyal (2021)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Bell Bottom (2021)/Bell Bottom (2021) [imdb-tt11260832][WEBDL-1080p][8bit][h264][EAC3 5.1]-Telly.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Bell Bottom (2021)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Bhuj The Pride of India (2021)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Bhaskar Oru Rascal (2018)/Bhaskar Oru Rascal (2018) [imdb-tt7088032][WEBDL-1080p][8bit][h264][EAC3 5.1]-WA.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Bhuj The Pride of India (2021)/Bhuj The Pride of India (2021) [imdb-tt10062556][WEBRip-1080p][8bit][x264][EAC3 5.1]-PHDM.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Bhaskar Oru Rascal (2018)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Bhuj The Pride of India (2021)/Bhuj The Pride of India (2021) [imdb-tt10062556][WEBRip-1080p][8bit][x264][EAC3 5.1]-PHDM.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Bhaskar Oru Rascal (2018)/Bhaskar Oru Rascal (2018) [imdb-tt7088032][WEBDL-1080p][8bit][h264][EAC3 5.1]-WA.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Bhuj The Pride of India (2021)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Bhaskar Oru Rascal (2018)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Bhoot Police (2021)/Bhoot Police (2021) [imdb-tt10083640][WEBDL-1080p][8bit][x264][EAC3 5.1]-Telly.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Bhoot Police (2021)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Bhoot Police (2021)/Bhoot Police (2021) [imdb-tt10083640][WEBDL-1080p][8bit][x264][EAC3 5.1]-Telly.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Bhoot Police (2021)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : #Home (2021)/Plex Versions/Optimized for TV/#Home (2021).313389.eng.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Boomika ()/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Boomika ()/Boomika (2021) [imdb-tt11073148][WEBRip-1080p][10bit][h265][AC3 5.1]-Kira.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Biriyaani (2021)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Biriyaani (2021)/Biriyaani (2021) [imdb-tt11891870][WEBDL-1080p][8bit][x264][AAC 2.0]-DRG.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Biriyaani (2021)/Biriyaani (2021) [imdb-tt11891870][WEBDL-1080p][8bit][x264][AAC 2.0]-DRG.en.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Biriyaani (2021)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Biriyaani (2021)/Biriyaani (2021) [imdb-tt11891870][WEBDL-1080p][8bit][x264][AAC 2.0]-DRG.mp4: Excluded
+2021/09/20 04:41:23 DEBUG : Chak De! India (2007)/Chak De! India (2007) [imdb-tt0871510][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Chak De! India (2007)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Chak De! India (2007)/Chak De! India (2007) [imdb-tt0871510][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Chak De! India (2007)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Boomika ()/Boomika (2021) [imdb-tt11073148][WEBRip-1080p][10bit][h265][AC3 5.1]-Kira.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Chandramukhi (2005)/Chandramukhi (2005) [imdb-tt0449869][WEBDL-1080p][8bit][h264][EAC3 5.1].en.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Boomika ()/Boomika (2021) [imdb-tt11073148][WEBRip-1080p][10bit][h265][AC3 5.1]-Kira.en.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Chandramukhi (2005)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Boomika ()/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Chandramukhi (2005)/Chandramukhi (2005) [imdb-tt0449869][WEBDL-1080p][8bit][h264][EAC3 5.1].nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Chandramukhi (2005)/Chandramukhi (2005) [imdb-tt0449869][WEBDL-1080p][8bit][h264][EAC3 5.1].mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Chandramukhi (2005)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Charlie Chaplin 2 (2019)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Charlie Chaplin 2 (2019)/Charlie Chaplin 2 (2019) [imdb-tt7616754][WEBDL-1080p][8bit][h264][EAC3 5.1]-WA.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Charlie Chaplin 2 (2019)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Charlie Chaplin 2 (2019)/Charlie Chaplin 2 (2019) [imdb-tt7616754][WEBDL-1080p][8bit][h264][EAC3 5.1]-WA.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Annabelle Sethupathi (2021)/Plex Versions/Optimized for TV/Annabelle Sethupathi (2021).315442.tam.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Annabelle Sethupathi (2021)/Plex Versions/Optimized for TV/Annabelle Sethupathi (2021).315441.eng.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Annabelle Sethupathi (2021)/Plex Versions/Optimized for TV/Annabelle Sethupathi (2021).mp4: Excluded
+2021/09/20 04:41:23 DEBUG : Chennai.20028.II.Second.Innings/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : College Kumar (2020)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : College Kumar (2020)/College Kumar (2020) [imdb-tt11859486][WEBDL-1080p][8bit][h264][EAC3 5.1].mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Chennai.20028.II.Second.Innings/Chennai 600028 II Second Innings (2016) [imdb-tt6317052][WEBDL-1080p][8bit][h264][EAC3 5.1]-WA.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : College Kumar (2020)/College Kumar (2020) [imdb-tt11859486][WEBDL-1080p][8bit][h264][EAC3 5.1].nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Chennai.20028.II.Second.Innings/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Chennai.20028.II.Second.Innings/Chennai 600028 II Second Innings (2016) [imdb-tt6317052][WEBDL-1080p][8bit][h264][EAC3 5.1]-WA.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Cycle (2018)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Cycle (2018)/Cycle (2018) [imdb-tt6627630][WEBDL-1080p][8bit][h264][AAC 2.0]-TMB.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Cycle (2018)/Cycle (2018) [imdb-tt6627630][WEBDL-1080p][8bit][h264][AAC 2.0]-TMB.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Cycle (2018)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Dhilluku Dhuddu 2 (2019)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Dhilluku Dhuddu 2 (2019)/Dhilluku Dhuddu 2 (2019) [imdb-tt9615016][WEBDL-1080p][8bit][h264][EAC3 5.1]-WA.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Dhilluku Dhuddu 2 (2019)/Dhilluku Dhuddu 2 (2019) [imdb-tt9615016][WEBDL-1080p][8bit][h264][EAC3 5.1]-WA.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Dhilluku Dhuddu 2 (2019)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Bhuj The Pride of India (2021)/Plex Versions/Optimized for TV/Bhuj_ The Pride of India (2021).313395.eng.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Bhuj The Pride of India (2021)/Plex Versions/Optimized for TV/Bhuj_ The Pride of India (2021).313392.tel.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Bhuj The Pride of India (2021)/Plex Versions/Optimized for TV/Bhuj_ The Pride of India (2021).313394.hin.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Bhuj The Pride of India (2021)/Plex Versions/Optimized for TV/Bhuj_ The Pride of India (2021).313393.tam.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Ankahi Kahaniya (2021)/Plex Versions/Optimized for TV/Ankahi Kahaniya (2021).315955.chi.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Ankahi Kahaniya (2021)/Plex Versions/Optimized for TV/Ankahi Kahaniya (2021).315961.fin.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Ankahi Kahaniya (2021)/Plex Versions/Optimized for TV/Ankahi Kahaniya (2021).315981.tha.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Ankahi Kahaniya (2021)/Plex Versions/Optimized for TV/Ankahi Kahaniya (2021).315983.ukr.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Ankahi Kahaniya (2021)/Plex Versions/Optimized for TV/Ankahi Kahaniya (2021).315975.por.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Ankahi Kahaniya (2021)/Plex Versions/Optimized for TV/Ankahi Kahaniya (2021).315965.heb.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Ankahi Kahaniya (2021)/Plex Versions/Optimized for TV/Ankahi Kahaniya (2021).315971.may.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Ankahi Kahaniya (2021)/Plex Versions/Optimized for TV/Ankahi Kahaniya (2021).315970.kor.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Ankahi Kahaniya (2021)/Plex Versions/Optimized for TV/Ankahi Kahaniya (2021).315966.hun.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Ankahi Kahaniya (2021)/Plex Versions/Optimized for TV/Ankahi Kahaniya (2021).315952.eng.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Ankahi Kahaniya (2021)/Plex Versions/Optimized for TV/Ankahi Kahaniya (2021).315954.ara.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Bhoot Police (2021)/Plex Versions/Optimized for TV/Bhoot Police (2021).mp4: Excluded
+2021/09/20 04:41:23 DEBUG : Bhoot Police (2021)/Plex Versions/Optimized for TV/Bhoot Police (2021).313548.eng.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Bhoot Police (2021)/Plex Versions/Optimized for TV/Bhoot Police (2021).313551.tam.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Bhoot Police (2021)/Plex Versions/Optimized for TV/Bhoot Police (2021).313550.tel.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Bhoot Police (2021)/Plex Versions/Optimized for TV/Bhoot Police (2021).313549.hin.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Ankahi Kahaniya (2021)/Plex Versions/Optimized for TV/Ankahi Kahaniya (2021).315973.pol.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Ankahi Kahaniya (2021)/Plex Versions/Optimized for TV/Ankahi Kahaniya (2021).315969.jpn.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Ankahi Kahaniya (2021)/Plex Versions/Optimized for TV/Ankahi Kahaniya (2021).315984.vie.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Ankahi Kahaniya (2021)/Plex Versions/Optimized for TV/Ankahi Kahaniya (2021).315963.ger.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Ankahi Kahaniya (2021)/Plex Versions/Optimized for TV/Ankahi Kahaniya (2021).315982.tur.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Dikkiloona (2021)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Dikkiloona (2021)/Dikkiloona (2021) [imdb-tt11143400][WEBDL-1080p][8bit][h264][AAC 2.0]-Telly.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Dikkiloona (2021)/Dikkiloona (2021) [imdb-tt11143400][WEBDL-1080p][8bit][h264][AAC 2.0]-Telly.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Dikkiloona (2021)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Boomika ()/Plex Versions/Optimized for TV/பூமிகா (2021).313712.eng.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Boomika ()/Plex Versions/Optimized for TV/பூமிகா (2021).313385.eng.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Ankahi Kahaniya (2021)/Plex Versions/Optimized for TV/Ankahi Kahaniya (2021).315951.hin.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Ankahi Kahaniya (2021)/Plex Versions/Optimized for TV/Ankahi Kahaniya (2021).315960.dut.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Ankahi Kahaniya (2021)/Plex Versions/Optimized for TV/Ankahi Kahaniya (2021).315957.hrv.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Ankahi Kahaniya (2021)/Plex Versions/Optimized for TV/Ankahi Kahaniya (2021).315979.spa.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Dial 100 (2021)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Dil To Pagal Hai (1997)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Dial 100 (2021)/Dial 100 (2021) [imdb-tt13562940][WEBDL-1080p][8bit][h264][AAC 2.0]-HDWebMovies.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Dial 100 (2021)/Dial 100 (2021) [imdb-tt13562940][WEBDL-1080p][8bit][h264][AAC 2.0]-HDWebMovies.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Dil To Pagal Hai (1997)/Dil To Pagal Hai (1997) [imdb-tt0118983][Bluray-1080p][8bit][x264][AAC 5.1].nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Dil To Pagal Hai (1997)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Ankahi Kahaniya (2021)/Plex Versions/Optimized for TV/Ankahi Kahaniya (2021).315959.dan.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Dil To Pagal Hai (1997)/Dil To Pagal Hai (1997) [imdb-tt0118983][Bluray-1080p][8bit][x264][AAC 5.1].mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Ankahi Kahaniya (2021)/Plex Versions/Optimized for TV/Ankahi Kahaniya (2021).315968.ita.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Ankahi Kahaniya (2021)/Plex Versions/Optimized for TV/Ankahi Kahaniya (2021).315972.nob.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Dial 100 (2021)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Ankahi Kahaniya (2021)/Plex Versions/Optimized for TV/Ankahi Kahaniya (2021).315978.spa.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Ankahi Kahaniya (2021)/Plex Versions/Optimized for TV/Ankahi Kahaniya (2021).315964.gre.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Ankahi Kahaniya (2021)/Plex Versions/Optimized for TV/Ankahi Kahaniya (2021).315977.rus.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Ankahi Kahaniya (2021)/Plex Versions/Optimized for TV/Ankahi Kahaniya (2021).315953.eng.forced.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Ankahi Kahaniya (2021)/Plex Versions/Optimized for TV/Ankahi Kahaniya (2021).mp4: Excluded
+2021/09/20 04:41:23 DEBUG : Ankahi Kahaniya (2021)/Plex Versions/Optimized for TV/Ankahi Kahaniya (2021).315958.cze.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Ankahi Kahaniya (2021)/Plex Versions/Optimized for TV/Ankahi Kahaniya (2021).315976.rum.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Ankahi Kahaniya (2021)/Plex Versions/Optimized for TV/Ankahi Kahaniya (2021).315967.ind.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Ankahi Kahaniya (2021)/Plex Versions/Optimized for TV/Ankahi Kahaniya (2021).315980.swe.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Ankahi Kahaniya (2021)/Plex Versions/Optimized for TV/Ankahi Kahaniya (2021).315956.chi.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Ankahi Kahaniya (2021)/Plex Versions/Optimized for TV/Ankahi Kahaniya (2021).315962.fre.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Ankahi Kahaniya (2021)/Plex Versions/Optimized for TV/Ankahi Kahaniya (2021).315974.por.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Dil Chahta Hai (2001)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Dil Chahta Hai (2001)/Dil Chahta Hai (2001) [imdb-tt0292490][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Dil Chahta Hai (2001)/Dil Chahta Hai (2001) [imdb-tt0292490][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Dil Chahta Hai (2001)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Goliyon Ki Raasleela Ram-Leela (2013)/Goliyon Ki Raasleela Ram-Leela (2013) [imdb-tt2215477][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Goliyon Ki Raasleela Ram-Leela (2013)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Goliyon Ki Raasleela Ram-Leela (2013)/Goliyon Ki Raasleela Ram-Leela (2013) [imdb-tt2215477][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Goliyon Ki Raasleela Ram-Leela (2013)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Haider (2014)/Haider (2014) [imdb-tt3390572][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Guru (2007)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Guru (2007)/Guru (2007) [imdb-tt0499375][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Haider (2014)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Guru (2007)/Guru (2007) [imdb-tt0499375][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Haider (2014)/Haider (2014) [imdb-tt3390572][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Haider (2014)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Guru (2007)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Heyy Babyy (2007)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Heyy Babyy (2007)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Heyy Babyy (2007)/Heyy Babyy (2007) [imdb-tt0806088][Bluray-1080p][8bit][x264][AC3 5.1]-DusIctv.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Heyy Babyy (2007)/Heyy Babyy (2007) [imdb-tt0806088][Bluray-1080p][8bit][x264][AC3 5.1]-DusIctv.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Housefull 2 (2012)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Housefull 2 (2012)/Housefull 2 (2012) [imdb-tt1980986][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Housefull 2 (2012)/Housefull 2 (2012) [imdb-tt1980986][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Housefull 2 (2012)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Hum Aapke Hain Koun.! (1994)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Hungama 2 (2021)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Hum Aapke Hain Koun.! (1994)/Hum Aapke Hain Koun.! (1994) [imdb-tt0110076][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Hungama 2 (2021)/Hungama 2 (2021) [imdb-tt8983220][WEBDL-1080p][8bit][x265][EAC3 5.1]-Telly.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Hum Tum (2004)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Hungama 2 (2021)/Hungama 2 (2021) [imdb-tt8983220][WEBDL-1080p][8bit][x265][EAC3 5.1]-Telly.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Hum Tum (2004)/Hum Tum (2004) [imdb-tt0378072][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Hungama 2 (2021)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Hum Tum (2004)/Hum Tum (2004) [imdb-tt0378072][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Hum Tum (2004)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Hum Aapke Hain Koun.! (1994)/Hum Aapke Hain Koun.! (1994) [imdb-tt0110076][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Hum Aapke Hain Koun.! (1994)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Iruvar Ullam (2021)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Iruvar Ullam (2021)/Iruvar Ullam (2021) [imdb-][WEBDL-1080p][8bit][h264][EAC3 2.0].mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Iruvar Ullam (2021)/Iruvar Ullam (2021) [imdb-][WEBDL-1080p][8bit][h264][EAC3 2.0].nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Iruvar Ullam (2021)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Ishaqzaade (2012)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Ishaqzaade (2012)/Ishaqzaade (2012) [imdb-tt2308773][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Ishaqzaade (2012)/Ishaqzaade (2012) [imdb-tt2308773][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Ishaqzaade (2012)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Kaadan (2021)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Dikkiloona (2021)/Plex Versions/Optimized for TV/Dikkiloona (2021).313531.eng.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Kaadan (2021)/Kaadan (2021) [imdb-tt7822758][WEBRip-1080p][8bit][h265][AAC 2.0]-shadow.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Dikkiloona (2021)/Plex Versions/Optimized for TV/Dikkiloona (2021).mp4: Excluded
+2021/09/20 04:41:23 DEBUG : Kaadan (2021)/Kaadan (2021) [imdb-tt7822758][WEBRip-1080p][8bit][h265][AAC 2.0]-shadow.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Kaadan (2021)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Kadampari (2021)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Kadampari (2021)/Kadampari (2021) [imdb-tt14303128][WEBDL-1080p][8bit][x264][DTS LBR 5.1]-PHDM.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Kadampari (2021)/Kadampari (2021) [imdb-tt14303128][WEBDL-1080p][8bit][x264][DTS LBR 5.1]-PHDM.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Kadampari (2021)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Kick (2014)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Kick (2014)/Kick (2014) [imdb-tt2372222][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Kasada Thapara (2021)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Kill Dil (2014)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Kasada Thapara (2021)/Kasada Tabara (2021) [imdb-tt11143480][WEBDL-1080p][8bit][x264][AC3 5.1]-WA.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Kill Dil (2014)/Kill Dil (2014) [imdb-tt3380264][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Kombu (2020)/Kombu (2020) [imdb-tt13621256][WEBDL-1080p][8bit][h264][EAC3 5.1].nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Kill Dil (2014)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Kombu (2020)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Kill Dil (2014)/Kill Dil (2014) [imdb-tt3380264][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Kombu (2020)/Kombu (2020) [imdb-tt13621256][WEBDL-1080p][8bit][h264][EAC3 5.1].mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Kombu (2020)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Kick (2014)/Kick (2014) [imdb-tt2372222][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Kick (2014)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Kasada Thapara (2021)/Kasada Tabara (2021) [imdb-tt11143480][WEBDL-1080p][8bit][x264][AC3 5.1]-WA.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Kasada Thapara (2021)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Lage Raho Munna Bhai (2006)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Lage Raho Munna Bhai (2006)/Lage Raho Munna Bhai (2006) [imdb-tt0456144][Bluray-1080p][10bit][x265][AC3 5.1].nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Lafangey Parindey (2010)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Lage Raho Munna Bhai (2006)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Lafangey Parindey (2010)/Lafangey Parindey (2010) [imdb-tt1606267][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Lage Raho Munna Bhai (2006)/Lage Raho Munna Bhai (2006) [imdb-tt0456144][Bluray-1080p][10bit][x265][AC3 5.1].mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Lafangey Parindey (2010)/Lafangey Parindey (2010) [imdb-tt1606267][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Lafangey Parindey (2010)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Love Aaj Kal (2009)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Love Aaj Kal (2009)/Love Aaj Kal (2009) [imdb-tt1275863][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Lakshmi (2018)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Love Aaj Kal (2009)/Love Aaj Kal (2009) [imdb-tt1275863][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Lakshmi (2018)/Lakshmi (2018) [imdb-tt8042324][WEBDL-1080p][8bit][h264][EAC3 5.1].nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Love Aaj Kal (2009)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Lakshmi (2018)/Lakshmi (2018) [imdb-tt8042324][WEBDL-1080p][8bit][h264][EAC3 5.1].mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Lakshmi (2018)/Lakshmi (2018) [imdb-tt8042324][WEBDL-1080p][8bit][h264][EAC3 5.1].en.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Lakshmi (2018)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Nedunalvaadai (2019)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Nedunalvaadai (2019)/Nedunalvaadai (2019) [imdb-tt10023080][HDTV-1080p][8bit][x264][AAC 2.0].nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Nedunalvaadai (2019)/Nedunalvaadai (2019) [imdb-tt10023080][HDTV-1080p][8bit][x264][AAC 2.0].mp4: Excluded
+2021/09/20 04:41:23 DEBUG : Nedunalvaadai (2019)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Main Tera Hero (2014)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Main Tera Hero (2014)/Main Tera Hero (2014) [imdb-tt2762334][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Neruppu Da (2017)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Magalir Mattum (2017)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Magalir Mattum (2017)/Magalir Mattum (2017) [imdb-tt6237984][WEBDL-1080p][8bit][h264][EAC3 5.1].nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Magalir Mattum (2017)/Magalir Mattum (2017) [imdb-tt6237984][WEBDL-1080p][8bit][h264][EAC3 5.1].en.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Neruppu Da (2017)/Neruppu Da (2017) [imdb-tt7221950][WEBDL-1080p][8bit][h264][EAC3 5.1]-WA.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Magalir Mattum (2017)/Magalir Mattum (2017) [imdb-tt6237984][WEBDL-1080p][8bit][h264][EAC3 5.1].mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Magalir Mattum (2017)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Neruppu Da (2017)/Neruppu Da (2017) [imdb-tt7221950][WEBDL-1080p][8bit][h264][EAC3 5.1]-WA.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Neruppu Da (2017)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Netrikann (2021)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Main Tera Hero (2014)/Main Tera Hero (2014) [imdb-tt2762334][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Netrikann (2021)/Netrikann (2021) [imdb-tt10973118][WEBDL-1080p][8bit][x264][EAC3 5.1]-Telly.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Main Tera Hero (2014)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Netrikann (2021)/Netrikann (2021) [imdb-tt10973118][WEBDL-1080p][8bit][x264][EAC3 5.1]-Telly.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Netrikann (2021)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : OK Kanmani (2015)/OK Kanmani (2015) [imdb-tt4271820][WEBDL-1080p][8bit][x264][AAC 2.0]-HD.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : OK Kanmani (2015)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : OK Kanmani (2015)/OK Kanmani (2015) [imdb-tt4271820][WEBDL-1080p][8bit][x264][AAC 2.0]-HD.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : OK Kanmani (2015)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Oh My Kadavule (2020)/Oh My Kadavule (2020) [imdb-tt11143108][WEBDL-1080p][8bit][h264][EAC3 5.1]-IcTv.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Oh My Kadavule (2020)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Oh My Kadavule (2020)/Oh My Kadavule (2020) [imdb-tt11143108][WEBDL-1080p][8bit][h264][EAC3 5.1]-IcTv.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Oh My Kadavule (2020)/Oh My Kadavule (2020) [imdb-tt11143108][WEBDL-1080p][8bit][h264][EAC3 5.1]-IcTv.en.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Oh My Kadavule (2020)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Ok Jaanu (2017)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Ok Jaanu (2017)/Ok Jaanu (2017) [imdb-tt5764024][Bluray-1080p][8bit][x264][AAC 5.1]-MOVCR.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Ok Jaanu (2017)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Ok Jaanu (2017)/Ok Jaanu (2017) [imdb-tt5764024][Bluray-1080p][8bit][x264][AAC 5.1]-MOVCR.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Kasada Thapara (2021)/Plex Versions/Optimized for TV/கசட தபற (2021).313381.eng.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Omkara (2006)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Omkara (2006)/Omkara (2006) [imdb-tt0488414][WEBDL-1080p][8bit][h264][DTS LBR 5.1]-PHDM.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Omkara (2006)/Omkara (2006) [imdb-tt0488414][WEBDL-1080p][8bit][h264][DTS LBR 5.1]-PHDM.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Omkara (2006)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Paa (2009)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Paa (2009)/Paa (2009) [imdb-tt1532957][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Paa (2009)/Paa (2009) [imdb-tt1532957][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Paramapadham Vilayattu (2021)/Paramapadham Vilayattu (2021) [imdb-tt10295430][WEBDL-1080p][8bit][x264][EAC3 5.1]-Ranvijay.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Paramapadham Vilayattu (2021)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Paramapadham Vilayattu (2021)/Paramapadham Vilayattu (2021) [imdb-tt10295430][WEBDL-1080p][8bit][x264][EAC3 5.1]-Ranvijay.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Oru Adaar Love (2019)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Oru Adaar Love (2019)/Oru Adaar Love (2019) [imdb-tt7387300][WEBDL-1080p][8bit][h264][EAC3 5.1]-WA.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Pushpa - The Rise (2021)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Pushpa - The Rise (2021)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Oru Adaar Love (2019)/Oru Adaar Love (2019) [imdb-tt7387300][WEBDL-1080p][8bit][h264][EAC3 5.1]-WA.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Oru Adaar Love (2019)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Paramapadham Vilayattu (2021)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Quota (2020)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Quota (2020)/Quota (2020) [imdb-tt12077850][WEBDL-1080p][8bit][h264][EAC3 5.1].nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Quota (2020)/Quota (2020) [imdb-tt12077850][WEBDL-1080p][8bit][h264][EAC3 5.1].mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Quota (2020)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Rab Ne Bana Di Jodi (2008)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Rab Ne Bana Di Jodi (2008)/Rab Ne Bana Di Jodi (2008) [imdb-tt1182937][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Shershaah (2021)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Rab Ne Bana Di Jodi (2008)/Rab Ne Bana Di Jodi (2008) [imdb-tt1182937][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Shershaah (2021)/Shershaah (2021) [imdb-tt10295212][WEBDL-1080p][8bit][HEVC][EAC3 5.1]-Telly.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Rab Ne Bana Di Jodi (2008)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Rowdy Rathore (2012)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Rowdy Rathore (2012)/Rowdy Rathore (2012) [imdb-tt2077833][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Sangili Bungili Kadhava Thorae (2017)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Shershaah (2021)/Shershaah (2021) [imdb-tt10295212][WEBDL-1080p][8bit][HEVC][EAC3 5.1]-Telly.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Sangili Bungili Kadhava Thorae (2017)/Sangili Bungili Kadhava Thorae (2017) [imdb-tt6904340][WEBDL-1080p][8bit][h264][EAC3 5.1]-IcTv.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Shershaah (2021)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Sangili Bungili Kadhava Thorae (2017)/Sangili Bungili Kadhava Thorae (2017) [imdb-tt6904340][WEBDL-1080p][8bit][h264][EAC3 5.1]-IcTv.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Sangili Bungili Kadhava Thorae (2017)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Rowdy Rathore (2012)/Rowdy Rathore (2012) [imdb-tt2077833][Bluray-1080p][8bit][x264][DTS 5.1]-DusIctv.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Rowdy Rathore (2012)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Silukkuvarupatti Singam (2018)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Silukkuvarupatti Singam (2018)/Silukkuvarupatti Singam (2018) [imdb-tt7853260][WEBDL-1080p][8bit][h264][EAC3 5.1].mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Silukkuvarupatti Singam (2018)/Silukkuvarupatti Singam (2018) [imdb-tt7853260][WEBDL-1080p][8bit][h264][EAC3 5.1].nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Silukkuvarupatti Singam (2018)/Silukkuvarupatti Singam (2018) [imdb-tt7853260][WEBDL-1080p][8bit][h264][EAC3 5.1].en.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Silukkuvarupatti Singam (2018)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Soodhu Kavvum (2013)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Soodhu Kavvum (2013)/Soodhu Kavvum (2013) [imdb-tt2877108][Bluray-1080p][8bit][x264][DTS-HD MA 5.1].nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Soodhu Kavvum (2013)/Soodhu Kavvum (2013) [imdb-tt2877108][Bluray-1080p][8bit][x264][DTS-HD MA 5.1].mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Soodhu Kavvum (2013)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Netrikann (2021)/Plex Versions/Optimized for TV/Netrikann (2021).313403.eng.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Netrikann (2021)/Plex Versions/Optimized for TV/Netrikann (2021).313405.tel.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Street Dancer 3D (2020)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Street Dancer 3D (2020)/Street Dancer 3D (2020) [imdb-tt9648672][WEBRip-1080p][8bit][x264][AC3 5.1]-Telly.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Netrikann (2021)/Plex Versions/Optimized for TV/Netrikann (2021).313406.tam.srt: Excluded
+2021/09/20 04:41:23 DEBUG : The Big Bull (2021)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Netrikann (2021)/Plex Versions/Optimized for TV/Netrikann (2021).313404.mal.srt: Excluded
+2021/09/20 04:41:23 DEBUG : The Big Bull (2021)/The Big Bull (2021) [imdb-tt9614452][WEBDL-1080p][8bit][x264][EAC3 5.1]-DusIcTv.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Taana (2020)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Taana (2020)/Taana (2020) [imdb-tt10415510][WEBDL-1080p][8bit][h264][EAC3 5.1].nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Taana (2020)/Taana (2020) [imdb-tt10415510][WEBDL-1080p][8bit][h264][EAC3 5.1].mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Taana (2020)/Taana (2020) [imdb-tt10415510][WEBDL-1080p][8bit][h264][EAC3 5.1].en.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Taana (2020)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : The Big Bull (2021)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : The Big Bull (2021)/The Big Bull (2021) [imdb-tt9614452][WEBDL-1080p][8bit][x264][EAC3 5.1]-DusIcTv.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Street Dancer 3D (2020)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Street Dancer 3D (2020)/Street Dancer 3D (2020) [imdb-tt9648672][WEBRip-1080p][8bit][x264][AC3 5.1]-Telly.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Tuck Jagadish (2021)/Tuck Jagadish (2021) [imdb-tt11385078][WEBDL-1080p][8bit][h264][EAC3 5.1].mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Tuck Jagadish (2021)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Tuck Jagadish (2021)/Tuck Jagadish (2021) [imdb-tt11385078][WEBDL-1080p][8bit][h264][EAC3 5.1].nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Tuck Jagadish (2021)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Thittam Irandu (2021)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Thittam Irandu (2021)/Thittam Irandu (2021) [imdb-tt12299714][WEBDL-1080p][8bit][x264][AC3 5.1]-Hasan.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Thittam Irandu (2021)/Thittam Irandu (2021) [imdb-tt12299714][WEBDL-1080p][8bit][x264][AC3 5.1]-Hasan.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Thittam Irandu (2021)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : U Turn (2018)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : U Turn (2018)/U Turn (2018) [imdb-tt8733898][WEBDL-1080p][8bit][h264][EAC3 5.1].mkv: Excluded
+2021/09/20 04:41:23 DEBUG : U Turn (2018)/U Turn (2018) [imdb-tt8733898][WEBDL-1080p][8bit][h264][EAC3 5.1].en.srt: Excluded
+2021/09/20 04:41:23 DEBUG : U Turn (2018)/U Turn (2018) [imdb-tt8733898][WEBDL-1080p][8bit][h264][EAC3 5.1].nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Vaanavarayan Vallavarayan (2014)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Vaanavarayan Vallavarayan (2014)/Vaanavarayan Vallavarayan (2014) [imdb-tt2419640][WEBDL-1080p][8bit][h264][EAC3 5.1]-WA.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Vaanavarayan Vallavarayan (2014)/Vaanavarayan Vallavarayan (2014) [imdb-tt2419640][WEBDL-1080p][8bit][h264][EAC3 5.1]-WA.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Tughlaq Durbar ()/Tughlaq Durbar (2021) [imdb-tt9769668][WEBDL-1080p][8bit][x264][EAC3 5.1].mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Tughlaq Durbar ()/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Velainu Vandhutta Vellaikaaran (2016)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Tughlaq Durbar ()/Tughlaq Durbar (2021) [imdb-tt9769668][WEBDL-1080p][8bit][x264][EAC3 5.1].nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Velainu Vandhutta Vellaikaaran (2016)/Velainu Vandhutta Vellaikaaran (2016) [imdb-tt5774904][WEBDL-1080p][8bit][h264][EAC3 5.1]-IcTv.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Tughlaq Durbar ()/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Velainu Vandhutta Vellaikaaran (2016)/Velainu Vandhutta Vellaikaaran (2016) [imdb-tt5774904][WEBDL-1080p][8bit][h264][EAC3 5.1]-IcTv.en.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Velainu Vandhutta Vellaikaaran (2016)/Velainu Vandhutta Vellaikaaran (2016) [imdb-tt5774904][WEBDL-1080p][8bit][h264][EAC3 5.1]-IcTv.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Velainu Vandhutta Vellaikaaran (2016)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Vivah (2006)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Vivah (2006)/Vivah (2006) [imdb-tt0494290][Bluray-1080p][8bit][x264][DTS 5.1].mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Vivah (2006)/Vivah (2006) [imdb-tt0494290][Bluray-1080p][8bit][x264][DTS 5.1].nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Vivah (2006)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : U Turn (2018)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Yemaali (2018)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Yemaali (2018)/Yemaali (2018) [imdb-tt7920010][WEBDL-1080p][8bit][h264][EAC3 5.1]-DRG.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Yemaali (2018)/Yemaali (2018) [imdb-tt7920010][WEBDL-1080p][8bit][h264][EAC3 5.1]-DRG.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Yemaali (2018)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Wild Dog (2021)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Wild Dog (2021)/Wild Dog (2021) [imdb-tt11503178][WEBDL-1080p][8bit][x264][EAC3 5.1]-SPWEB.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Wild Dog (2021)/Wild Dog (2021) [imdb-tt11503178][WEBDL-1080p][8bit][x264][EAC3 5.1]-SPWEB.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Wild Dog (2021)/Wild Dog (2021) [imdb-tt11503178][WEBDL-1080p][8bit][x264][EAC3 5.1]-SPWEB.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Wild Dog (2021)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Bhoomi.2021.1080p.DSNP.WEB-DL.Tam.Tel.Mal.Multi.Audio.DD+5.1.ESub.x264-Shadow.BonsaiHD/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Bhoomi.2021.1080p.DSNP.WEB-DL.Tam.Tel.Mal.Multi.Audio.DD+5.1.ESub.x264-Shadow.BonsaiHD/Bhoomi (2021) [imdb-tt10893170][WEBDL-1080p][8bit][x264][EAC3 5.1]-Shadow.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Bhoomi.2021.1080p.DSNP.WEB-DL.Tam.Tel.Mal.Multi.Audio.DD+5.1.ESub.x264-Shadow.BonsaiHD/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Yen Peyar Anandhan (2020)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Yen Peyar Anandhan (2020)/Yen Peyar Anandhan (2020) [imdb-tt13434010][WEBDL-1080p][8bit][x264][DTS LBR 5.1]-PHDM.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Yen Peyar Anandhan (2020)/Yen Peyar Anandhan (2020) [imdb-tt13434010][WEBDL-1080p][8bit][x264][DTS LBR 5.1]-PHDM.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Yen Peyar Anandhan (2020)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Thittam Irandu (2021)/Plex Versions/Optimized for TV/Thittam Irandu (2021).mp4: Excluded
+2021/09/20 04:41:23 DEBUG : Thittam Irandu (2021)/Plex Versions/Optimized for TV/Thittam Irandu (2021).313754.eng.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Bill.and.Ted.Face.the.Music.2020.1080p.WEBRip.DD5.1.x264-CM/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Bill.and.Ted.Face.the.Music.2020.1080p.WEBRip.DD5.1.x264-CM/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Dhira.2020.1080p.AMZN.WEB-DL.HIN-Multi.DDP2.0.H.264-Telly/Dhira (2020) [imdb-tt13449672][WEBDL-1080p][bit][]]-Telly.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Dhira.2020.1080p.AMZN.WEB-DL.HIN-Multi.DDP2.0.H.264-Telly/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Dhira.2020.1080p.AMZN.WEB-DL.HIN-Multi.DDP2.0.H.264-Telly/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Tuck Jagadish (2021)/Plex Versions/Optimized for TV/Tuck Jagadish (2021).313538.eng.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Tuck Jagadish (2021)/Plex Versions/Optimized for TV/Tuck Jagadish (2021).mp4: Excluded
+2021/09/20 04:41:23 DEBUG : COCKTAIL (2020) Tamil TRUE WEB-DL - 1080p - AVC - UNTOUCHED - AAC - 1.5GB - ESub/Cocktail (2020) [imdb-tt11731926][WEBDL-1080p][8bit][AVC][AAC 2.0].nfo: Excluded
+2021/09/20 04:41:23 DEBUG : COCKTAIL (2020) Tamil TRUE WEB-DL - 1080p - AVC - UNTOUCHED - AAC - 1.5GB - ESub/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Tughlaq Durbar ()/Plex Versions/Optimized for TV/Tughlaq Durbar (2021).313739.hin.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Tughlaq Durbar ()/Plex Versions/Optimized for TV/Tughlaq Durbar (2021).313738.eng.srt: Excluded
+2021/09/20 04:41:23 DEBUG : COCKTAIL (2020) Tamil TRUE WEB-DL - 1080p - AVC - UNTOUCHED - AAC - 1.5GB - ESub/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Gunjan.Saxena.The.Kargil.Girl.2020.1080p.NF.WEB-DL.HIN-Multi.DDP5.1.x264-Telly/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Gunjan.Saxena.The.Kargil.Girl.2020.1080p.NF.WEB-DL.HIN-Multi.DDP5.1.x264-Telly/Gunjan Saxena The Kargil Girl (2020) [imdb-tt10350626][WEBDL-1080p][8bit][x264][EAC3 5.1]-Telly.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Gunjan.Saxena.The.Kargil.Girl.2020.1080p.NF.WEB-DL.HIN-Multi.DDP5.1.x264-Telly/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Kuruthi (2021)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Kuruthi (2021)/Kuruthi (2021) [imdb-tt13551614][WEBDL-1080p][8bit][h264][EAC3 5.1]-PHDM.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Kuruthi (2021)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Kuruthi (2021)/Kuruthi (2021) [imdb-tt13551614][WEBDL-1080p][8bit][h264][EAC3 5.1]-PHDM.mkv: Excluded
+2021/09/20 04:41:23 DEBUG : Atkan Chatkan 2020 1080p WEB-DL H264 ESUB -Ranvijay -DUSIcTv/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Atkan Chatkan 2020 1080p WEB-DL H264 ESUB -Ranvijay -DUSIcTv/Atkan Chatkan (2020) [imdb-tt12969078][WEBDL-1080p][8bit][h264][AAC 2.0]-DUSIcTv.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Atkan Chatkan 2020 1080p WEB-DL H264 ESUB -Ranvijay -DUSIcTv/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Mimi.(2021).1080p.WEB-DL.AVC.AAC.2.0-DusIcTv/Mimi and Lisa (2016) [imdb-][WEBDL-1080p][8bit][x264][AAC 2.0]-DusIcTv.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Mimi.(2021).1080p.WEB-DL.AVC.AAC.2.0-DusIcTv/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Mookuthi.Amman.(2020).1080p.Tamil.WEB-DL.DDP.5.1.ESub-DusIcTv/Mookuthi Amman (2020) [imdb-tt11311958][WEBDL-1080p][8bit][x264][EAC3 5.1]-DusIcTv.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Mookuthi.Amman.(2020).1080p.Tamil.WEB-DL.DDP.5.1.ESub-DusIcTv/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Mookuthi.Amman.(2020).1080p.Tamil.WEB-DL.DDP.5.1.ESub-DusIcTv/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Pitta Kadhalu (2021) TRUE WEB-DL - 1080p - AVC - (Tam + Tel + Hin + Eng) - (DD+5.1 - 640Kbps) - 5.8GB - ESub/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Pitta Kadhalu (2021) TRUE WEB-DL - 1080p - AVC - (Tam + Tel + Hin + Eng) - (DD+5.1 - 640Kbps) - 5.8GB - ESub/EP01 - Ramula.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Pitta Kadhalu (2021) TRUE WEB-DL - 1080p - AVC - (Tam + Tel + Hin + Eng) - (DD+5.1 - 640Kbps) - 5.8GB - ESub/EP02 - Meera.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Putham Pudhu Kaalai (2020) REPACK Tamil (1080p WEBRip x265 10bit) - [Musafirboy]/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Putham Pudhu Kaalai (2020) REPACK Tamil (1080p WEBRip x265 10bit) - [Musafirboy]/Putham Pudhu Kaalai (2020) [imdb-tt13087958][WEBRip-1080p Proper][10bit][x265][AC3 5.1]-Musafirboy.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Sir (2018) (1080p BluRay x265 HEVC 10bit AAC 5.1 Hindi Bandi)/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Sir (2018) (1080p BluRay x265 HEVC 10bit AAC 5.1 Hindi Bandi)/Sir (2018) [imdb-tt7142506][Bluray-1080p][10bit][x265][AAC 5.1]-Bandi.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Sadak.2.(2020).1080p.HEVC.WEB-DL.DDP.5.1.ESub-DusIcTv/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Sir (2018) (1080p BluRay x265 HEVC 10bit AAC 5.1 Hindi Bandi)/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Sadak.2.(2020).1080p.HEVC.WEB-DL.DDP.5.1.ESub-DusIcTv/Sadak 2 (2020) [imdb-tt7886848][WEBDL-1080p][8bit][x265][EAC3 5.1]-DusIcTv.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Sadak.2.(2020).1080p.HEVC.WEB-DL.DDP.5.1.ESub-DusIcTv/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Toofaan 2021 1080p AMZN WEB-DL DD+5.1 H264-PHDM/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Toofaan 2021 1080p AMZN WEB-DL DD+5.1 H264-PHDM/Toofaan (2021) [imdb-tt11045422][WEBDL-1080p][8bit][h264][EAC3 5.1]-PHDM.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Toofaan 2021 1080p AMZN WEB-DL DD+5.1 H264-PHDM/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Tribhanga.Tedhi.Medhi.Crazy.2021.1080p.NF.WEB-DL.DDP5.1.Atmos.H.264-KHN/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Tribhanga.Tedhi.Medhi.Crazy.2021.1080p.NF.WEB-DL.DDP5.1.Atmos.H.264-KHN/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Tribhanga.Tedhi.Medhi.Crazy.2021.1080p.NF.WEB-DL.DDP5.1.Atmos.H.264-KHN/Tribhanga (2021) [imdb-tt11102314][WEBDL-1080p][8bit][x264][EAC3 Atmos 5.1]-KHN.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : TRANCE (2020) Malayalam TRUE WEB-DL - 1080p - HEVC - UNTOUCHED - (DD+5.1 - 640Kbps) - 2.6GB - ESub/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : TRANCE (2020) Malayalam TRUE WEB-DL - 1080p - HEVC - UNTOUCHED - (DD+5.1 - 640Kbps) - 2.6GB - ESub/Trance (2020) [imdb-tt13738580][WEBDL-1080p][8bit][HEVC][EAC3 5.1].nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Sufiyum.Sujatayum.2020.1080p.AMZN.WEB-DL.DD+5.1.H.265-Telly/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Sufiyum.Sujatayum.2020.1080p.AMZN.WEB-DL.DD+5.1.H.265-Telly/Sufiyum Sujatayum (2020) [imdb-tt10976066][WEBDL-1080p][8bit][h265][EAC3 5.1]-Telly.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : Sufiyum.Sujatayum.2020.1080p.AMZN.WEB-DL.DD+5.1.H.265-Telly/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : War.With.Grandpa.2020.1080p.WEBRip.DD5.1.x264-CM/poster.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : War.With.Grandpa.2020.1080p.WEBRip.DD5.1.x264-CM/The War with Grandpa (2020) [imdb-tt4532038][WEBRip-1080p][8bit][x264][AC3 5.1]-CM.nfo: Excluded
+2021/09/20 04:41:23 DEBUG : War.With.Grandpa.2020.1080p.WEBRip.DD5.1.x264-CM/fanart.jpg: Excluded
+2021/09/20 04:41:23 DEBUG : Sarpatta Parambarai 2021 1080p AMZN WEB-DL DDP5.1 H264-PHDM/Plex Versions/Optimized for Mobile/Sarpatta Parambarai (2021).mp4: Excluded
+2021/09/20 04:41:23 DEBUG : Sarpatta Parambarai 2021 1080p AMZN WEB-DL DDP5.1 H264-PHDM/Plex Versions/Optimized for Mobile/Sarpatta Parambarai (2021).313344.eng.srt: Excluded
+2021/09/20 04:41:23 DEBUG : Encrypted drive 'gcrypt:Indian': Waiting for checks to finish
+2021/09/20 04:41:23 DEBUG : Encrypted drive 'gcrypt:Indian': Waiting for transfers to finish
+2021/09/20 04:41:23 DEBUG : Yen Peyar Anandhan (2020): Removing directory
+2021/09/20 04:41:23 DEBUG : Yen Peyar Anandhan (2020): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Yen Peyar Anandhan (2020): directory not empty
+2021/09/20 04:41:23 DEBUG : Yemaali (2018): Removing directory
+2021/09/20 04:41:23 DEBUG : Yemaali (2018): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Yemaali (2018): directory not empty
+2021/09/20 04:41:23 DEBUG : Wild Dog (2021): Removing directory
+2021/09/20 04:41:23 DEBUG : Wild Dog (2021): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Wild Dog (2021): directory not empty
+2021/09/20 04:41:23 DEBUG : War.With.Grandpa.2020.1080p.WEBRip.DD5.1.x264-CM: Removing directory
+2021/09/20 04:41:23 DEBUG : War.With.Grandpa.2020.1080p.WEBRip.DD5.1.x264-CM: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/War.With.Grandpa.2020.1080p.WEBRip.DD5.1.x264-CM: directory not empty
+2021/09/20 04:41:23 DEBUG : Vivah (2006): Removing directory
+2021/09/20 04:41:23 DEBUG : Vivah (2006): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Vivah (2006): directory not empty
+2021/09/20 04:41:23 DEBUG : Velainu Vandhutta Vellaikaaran (2016): Removing directory
+2021/09/20 04:41:23 DEBUG : Velainu Vandhutta Vellaikaaran (2016): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Velainu Vandhutta Vellaikaaran (2016): directory not empty
+2021/09/20 04:41:23 DEBUG : Vaanavarayan Vallavarayan (2014): Removing directory
+2021/09/20 04:41:23 DEBUG : Vaanavarayan Vallavarayan (2014): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Vaanavarayan Vallavarayan (2014): directory not empty
+2021/09/20 04:41:23 DEBUG : U Turn (2018): Removing directory
+2021/09/20 04:41:23 DEBUG : U Turn (2018): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/U Turn (2018): directory not empty
+2021/09/20 04:41:23 DEBUG : Tughlaq Durbar ()/Plex Versions/Optimized for TV: Removing directory
+2021/09/20 04:41:23 DEBUG : Tughlaq Durbar ()/Plex Versions/Optimized for TV: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Tughlaq Durbar ()/Plex Versions/Optimized for TV: directory not empty
+2021/09/20 04:41:23 DEBUG : Tughlaq Durbar ()/Plex Versions: Removing directory
+2021/09/20 04:41:23 DEBUG : Tughlaq Durbar ()/Plex Versions: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Tughlaq Durbar ()/Plex Versions: directory not empty
+2021/09/20 04:41:23 DEBUG : Tughlaq Durbar (): Removing directory
+2021/09/20 04:41:23 DEBUG : Tughlaq Durbar (): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Tughlaq Durbar (): directory not empty
+2021/09/20 04:41:23 DEBUG : Tuck Jagadish (2021)/Plex Versions/Optimized for TV: Removing directory
+2021/09/20 04:41:23 DEBUG : Tuck Jagadish (2021)/Plex Versions/Optimized for TV: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Tuck Jagadish (2021)/Plex Versions/Optimized for TV: directory not empty
+2021/09/20 04:41:23 DEBUG : Tuck Jagadish (2021)/Plex Versions: Removing directory
+2021/09/20 04:41:23 DEBUG : Tuck Jagadish (2021)/Plex Versions: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Tuck Jagadish (2021)/Plex Versions: directory not empty
+2021/09/20 04:41:23 DEBUG : Tuck Jagadish (2021): Removing directory
+2021/09/20 04:41:23 DEBUG : Tuck Jagadish (2021): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Tuck Jagadish (2021): directory not empty
+2021/09/20 04:41:23 DEBUG : Tribhanga.Tedhi.Medhi.Crazy.2021.1080p.NF.WEB-DL.DDP5.1.Atmos.H.264-KHN: Removing directory
+2021/09/20 04:41:23 DEBUG : Tribhanga.Tedhi.Medhi.Crazy.2021.1080p.NF.WEB-DL.DDP5.1.Atmos.H.264-KHN: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Tribhanga.Tedhi.Medhi.Crazy.2021.1080p.NF.WEB-DL.DDP5.1.Atmos.H.264-KHN: directory not empty
+2021/09/20 04:41:23 DEBUG : Toofaan 2021 1080p AMZN WEB-DL DD+5.1 H264-PHDM: Removing directory
+2021/09/20 04:41:23 DEBUG : Toofaan 2021 1080p AMZN WEB-DL DD+5.1 H264-PHDM: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Toofaan 2021 1080p AMZN WEB-DL DD+5.1 H264-PHDM: directory not empty
+2021/09/20 04:41:23 DEBUG : Thittam Irandu (2021)/Plex Versions/Optimized for TV: Removing directory
+2021/09/20 04:41:23 DEBUG : Thittam Irandu (2021)/Plex Versions/Optimized for TV: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Thittam Irandu (2021)/Plex Versions/Optimized for TV: directory not empty
+2021/09/20 04:41:23 DEBUG : Thittam Irandu (2021)/Plex Versions: Removing directory
+2021/09/20 04:41:23 DEBUG : Thittam Irandu (2021)/Plex Versions: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Thittam Irandu (2021)/Plex Versions: directory not empty
+2021/09/20 04:41:23 DEBUG : Thittam Irandu (2021): Removing directory
+2021/09/20 04:41:23 DEBUG : Thittam Irandu (2021): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Thittam Irandu (2021): directory not empty
+2021/09/20 04:41:23 DEBUG : The Big Bull (2021): Removing directory
+2021/09/20 04:41:23 DEBUG : The Big Bull (2021): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/The Big Bull (2021): directory not empty
+2021/09/20 04:41:23 DEBUG : Taana (2020): Removing directory
+2021/09/20 04:41:23 DEBUG : Taana (2020): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Taana (2020): directory not empty
+2021/09/20 04:41:23 DEBUG : TRANCE (2020) Malayalam TRUE WEB-DL - 1080p - HEVC - UNTOUCHED - (DD+5.1 - 640Kbps) - 2.6GB - ESub: Removing directory
+2021/09/20 04:41:23 DEBUG : TRANCE (2020) Malayalam TRUE WEB-DL - 1080p - HEVC - UNTOUCHED - (DD+5.1 - 640Kbps) - 2.6GB - ESub: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/TRANCE (2020) Malayalam TRUE WEB-DL - 1080p - HEVC - UNTOUCHED - (DD+5.1 - 640Kbps) - 2.6GB - ESub: directory not empty
+2021/09/20 04:41:23 DEBUG : Sufiyum.Sujatayum.2020.1080p.AMZN.WEB-DL.DD+5.1.H.265-Telly: Removing directory
+2021/09/20 04:41:23 DEBUG : Sufiyum.Sujatayum.2020.1080p.AMZN.WEB-DL.DD+5.1.H.265-Telly: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Sufiyum.Sujatayum.2020.1080p.AMZN.WEB-DL.DD+5.1.H.265-Telly: directory not empty
+2021/09/20 04:41:23 DEBUG : Street Dancer 3D (2020): Removing directory
+2021/09/20 04:41:23 DEBUG : Street Dancer 3D (2020): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Street Dancer 3D (2020): directory not empty
+2021/09/20 04:41:23 DEBUG : Soodhu Kavvum (2013): Removing directory
+2021/09/20 04:41:23 DEBUG : Soodhu Kavvum (2013): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Soodhu Kavvum (2013): directory not empty
+2021/09/20 04:41:23 DEBUG : Sir (2018) (1080p BluRay x265 HEVC 10bit AAC 5.1 Hindi Bandi): Removing directory
+2021/09/20 04:41:23 DEBUG : Sir (2018) (1080p BluRay x265 HEVC 10bit AAC 5.1 Hindi Bandi): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Sir (2018) (1080p BluRay x265 HEVC 10bit AAC 5.1 Hindi Bandi): directory not empty
+2021/09/20 04:41:23 DEBUG : Silukkuvarupatti Singam (2018): Removing directory
+2021/09/20 04:41:23 DEBUG : Silukkuvarupatti Singam (2018): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Silukkuvarupatti Singam (2018): directory not empty
+2021/09/20 04:41:23 DEBUG : Shershaah (2021): Removing directory
+2021/09/20 04:41:23 DEBUG : Shershaah (2021): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Shershaah (2021): directory not empty
+2021/09/20 04:41:23 DEBUG : Sarpatta Parambarai 2021 1080p AMZN WEB-DL DDP5.1 H264-PHDM/Plex Versions/Optimized for Mobile: Removing directory
+2021/09/20 04:41:23 DEBUG : Sarpatta Parambarai 2021 1080p AMZN WEB-DL DDP5.1 H264-PHDM/Plex Versions/Optimized for Mobile: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Sarpatta Parambarai 2021 1080p AMZN WEB-DL DDP5.1 H264-PHDM/Plex Versions/Optimized for Mobile: directory not empty
+2021/09/20 04:41:23 DEBUG : Sarpatta Parambarai 2021 1080p AMZN WEB-DL DDP5.1 H264-PHDM/Plex Versions: Removing directory
+2021/09/20 04:41:23 DEBUG : Sarpatta Parambarai 2021 1080p AMZN WEB-DL DDP5.1 H264-PHDM/Plex Versions: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Sarpatta Parambarai 2021 1080p AMZN WEB-DL DDP5.1 H264-PHDM/Plex Versions: directory not empty
+2021/09/20 04:41:23 DEBUG : Sarpatta Parambarai 2021 1080p AMZN WEB-DL DDP5.1 H264-PHDM: Removing directory
+2021/09/20 04:41:23 DEBUG : Sarpatta Parambarai 2021 1080p AMZN WEB-DL DDP5.1 H264-PHDM: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Sarpatta Parambarai 2021 1080p AMZN WEB-DL DDP5.1 H264-PHDM: directory not empty
+2021/09/20 04:41:23 DEBUG : Sangili Bungili Kadhava Thorae (2017): Removing directory
+2021/09/20 04:41:23 DEBUG : Sangili Bungili Kadhava Thorae (2017): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Sangili Bungili Kadhava Thorae (2017): directory not empty
+2021/09/20 04:41:23 DEBUG : Sadak.2.(2020).1080p.HEVC.WEB-DL.DDP.5.1.ESub-DusIcTv: Removing directory
+2021/09/20 04:41:23 DEBUG : Sadak.2.(2020).1080p.HEVC.WEB-DL.DDP.5.1.ESub-DusIcTv: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Sadak.2.(2020).1080p.HEVC.WEB-DL.DDP.5.1.ESub-DusIcTv: directory not empty
+2021/09/20 04:41:23 DEBUG : Rowdy Rathore (2012): Removing directory
+2021/09/20 04:41:23 DEBUG : Rowdy Rathore (2012): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Rowdy Rathore (2012): directory not empty
+2021/09/20 04:41:23 DEBUG : Rab Ne Bana Di Jodi (2008): Removing directory
+2021/09/20 04:41:23 DEBUG : Rab Ne Bana Di Jodi (2008): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Rab Ne Bana Di Jodi (2008): directory not empty
+2021/09/20 04:41:23 DEBUG : Quota (2020): Removing directory
+2021/09/20 04:41:23 DEBUG : Quota (2020): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Quota (2020): directory not empty
+2021/09/20 04:41:23 DEBUG : Putham Pudhu Kaalai (2020) REPACK Tamil (1080p WEBRip x265 10bit) - [Musafirboy]: Removing directory
+2021/09/20 04:41:23 DEBUG : Putham Pudhu Kaalai (2020) REPACK Tamil (1080p WEBRip x265 10bit) - [Musafirboy]: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Putham Pudhu Kaalai (2020) REPACK Tamil (1080p WEBRip x265 10bit) - [Musafirboy]: directory not empty
+2021/09/20 04:41:23 DEBUG : Pushpa - The Rise (2021): Removing directory
+2021/09/20 04:41:23 DEBUG : Pushpa - The Rise (2021): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Pushpa - The Rise (2021): directory not empty
+2021/09/20 04:41:23 DEBUG : Pitta Kadhalu (2021) TRUE WEB-DL - 1080p - AVC - (Tam + Tel + Hin + Eng) - (DD+5.1 - 640Kbps) - 5.8GB - ESub: Removing directory
+2021/09/20 04:41:23 DEBUG : Pitta Kadhalu (2021) TRUE WEB-DL - 1080p - AVC - (Tam + Tel + Hin + Eng) - (DD+5.1 - 640Kbps) - 5.8GB - ESub: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Pitta Kadhalu (2021) TRUE WEB-DL - 1080p - AVC - (Tam + Tel + Hin + Eng) - (DD+5.1 - 640Kbps) - 5.8GB - ESub: directory not empty
+2021/09/20 04:41:23 DEBUG : Paramapadham Vilayattu (2021): Removing directory
+2021/09/20 04:41:23 DEBUG : Paramapadham Vilayattu (2021): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Paramapadham Vilayattu (2021): directory not empty
+2021/09/20 04:41:23 DEBUG : Paa (2009): Removing directory
+2021/09/20 04:41:23 DEBUG : Paa (2009): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Paa (2009): directory not empty
+2021/09/20 04:41:23 DEBUG : Oru Adaar Love (2019): Removing directory
+2021/09/20 04:41:23 DEBUG : Oru Adaar Love (2019): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Oru Adaar Love (2019): directory not empty
+2021/09/20 04:41:23 DEBUG : Omkara (2006): Removing directory
+2021/09/20 04:41:23 DEBUG : Omkara (2006): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Omkara (2006): directory not empty
+2021/09/20 04:41:23 DEBUG : Ok Jaanu (2017): Removing directory
+2021/09/20 04:41:23 DEBUG : Ok Jaanu (2017): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Ok Jaanu (2017): directory not empty
+2021/09/20 04:41:23 DEBUG : Oh My Kadavule (2020): Removing directory
+2021/09/20 04:41:23 DEBUG : Oh My Kadavule (2020): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Oh My Kadavule (2020): directory not empty
+2021/09/20 04:41:23 DEBUG : OK Kanmani (2015): Removing directory
+2021/09/20 04:41:23 DEBUG : OK Kanmani (2015): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/OK Kanmani (2015): directory not empty
+2021/09/20 04:41:23 DEBUG : Netrikann (2021)/Plex Versions/Optimized for TV: Removing directory
+2021/09/20 04:41:23 DEBUG : Netrikann (2021)/Plex Versions/Optimized for TV: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Netrikann (2021)/Plex Versions/Optimized for TV: directory not empty
+2021/09/20 04:41:23 DEBUG : Netrikann (2021)/Plex Versions: Removing directory
+2021/09/20 04:41:23 DEBUG : Netrikann (2021)/Plex Versions: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Netrikann (2021)/Plex Versions: directory not empty
+2021/09/20 04:41:23 DEBUG : Netrikann (2021): Removing directory
+2021/09/20 04:41:23 DEBUG : Netrikann (2021): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Netrikann (2021): directory not empty
+2021/09/20 04:41:23 DEBUG : Neruppu Da (2017): Removing directory
+2021/09/20 04:41:23 DEBUG : Neruppu Da (2017): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Neruppu Da (2017): directory not empty
+2021/09/20 04:41:23 DEBUG : Nedunalvaadai (2019): Removing directory
+2021/09/20 04:41:23 DEBUG : Nedunalvaadai (2019): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Nedunalvaadai (2019): directory not empty
+2021/09/20 04:41:23 DEBUG : Mookuthi.Amman.(2020).1080p.Tamil.WEB-DL.DDP.5.1.ESub-DusIcTv: Removing directory
+2021/09/20 04:41:23 DEBUG : Mookuthi.Amman.(2020).1080p.Tamil.WEB-DL.DDP.5.1.ESub-DusIcTv: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Mookuthi.Amman.(2020).1080p.Tamil.WEB-DL.DDP.5.1.ESub-DusIcTv: directory not empty
+2021/09/20 04:41:23 DEBUG : Mimi.(2021).1080p.WEB-DL.AVC.AAC.2.0-DusIcTv: Removing directory
+2021/09/20 04:41:23 DEBUG : Mimi.(2021).1080p.WEB-DL.AVC.AAC.2.0-DusIcTv: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Mimi.(2021).1080p.WEB-DL.AVC.AAC.2.0-DusIcTv: directory not empty
+2021/09/20 04:41:23 DEBUG : Main Tera Hero (2014): Removing directory
+2021/09/20 04:41:23 DEBUG : Main Tera Hero (2014): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Main Tera Hero (2014): directory not empty
+2021/09/20 04:41:23 DEBUG : Magalir Mattum (2017): Removing directory
+2021/09/20 04:41:23 DEBUG : Magalir Mattum (2017): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Magalir Mattum (2017): directory not empty
+2021/09/20 04:41:23 DEBUG : Love Aaj Kal (2009): Removing directory
+2021/09/20 04:41:23 DEBUG : Love Aaj Kal (2009): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Love Aaj Kal (2009): directory not empty
+2021/09/20 04:41:23 DEBUG : Lakshmi (2018): Removing directory
+2021/09/20 04:41:23 DEBUG : Lakshmi (2018): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Lakshmi (2018): directory not empty
+2021/09/20 04:41:23 DEBUG : Lage Raho Munna Bhai (2006): Removing directory
+2021/09/20 04:41:23 DEBUG : Lage Raho Munna Bhai (2006): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Lage Raho Munna Bhai (2006): directory not empty
+2021/09/20 04:41:23 DEBUG : Lafangey Parindey (2010): Removing directory
+2021/09/20 04:41:23 DEBUG : Lafangey Parindey (2010): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Lafangey Parindey (2010): directory not empty
+2021/09/20 04:41:23 DEBUG : Kuruthi (2021): Removing directory
+2021/09/20 04:41:23 DEBUG : Kuruthi (2021): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Kuruthi (2021): directory not empty
+2021/09/20 04:41:23 DEBUG : Kombu (2020): Removing directory
+2021/09/20 04:41:23 DEBUG : Kombu (2020): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Kombu (2020): directory not empty
+2021/09/20 04:41:23 DEBUG : Kill Dil (2014): Removing directory
+2021/09/20 04:41:23 DEBUG : Kill Dil (2014): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Kill Dil (2014): directory not empty
+2021/09/20 04:41:23 DEBUG : Kick (2014): Removing directory
+2021/09/20 04:41:23 DEBUG : Kick (2014): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Kick (2014): directory not empty
+2021/09/20 04:41:23 DEBUG : Kasada Thapara (2021)/Plex Versions/Optimized for TV: Removing directory
+2021/09/20 04:41:23 DEBUG : Kasada Thapara (2021)/Plex Versions/Optimized for TV: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Kasada Thapara (2021)/Plex Versions/Optimized for TV: directory not empty
+2021/09/20 04:41:23 DEBUG : Kasada Thapara (2021)/Plex Versions: Removing directory
+2021/09/20 04:41:23 DEBUG : Kasada Thapara (2021)/Plex Versions: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Kasada Thapara (2021)/Plex Versions: directory not empty
+2021/09/20 04:41:23 DEBUG : Kasada Thapara (2021): Removing directory
+2021/09/20 04:41:23 DEBUG : Kasada Thapara (2021): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Kasada Thapara (2021): directory not empty
+2021/09/20 04:41:23 DEBUG : Kadampari (2021): Removing directory
+2021/09/20 04:41:23 DEBUG : Kadampari (2021): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Kadampari (2021): directory not empty
+2021/09/20 04:41:23 DEBUG : Kaadan (2021): Removing directory
+2021/09/20 04:41:23 DEBUG : Kaadan (2021): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Kaadan (2021): directory not empty
+2021/09/20 04:41:23 DEBUG : Ishaqzaade (2012): Removing directory
+2021/09/20 04:41:23 DEBUG : Ishaqzaade (2012): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Ishaqzaade (2012): directory not empty
+2021/09/20 04:41:23 DEBUG : Iruvar Ullam (2021): Removing directory
+2021/09/20 04:41:23 DEBUG : Iruvar Ullam (2021): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Iruvar Ullam (2021): directory not empty
+2021/09/20 04:41:23 DEBUG : Hungama 2 (2021): Removing directory
+2021/09/20 04:41:23 DEBUG : Hungama 2 (2021): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Hungama 2 (2021): directory not empty
+2021/09/20 04:41:23 DEBUG : Hum Tum (2004): Removing directory
+2021/09/20 04:41:23 DEBUG : Hum Tum (2004): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Hum Tum (2004): directory not empty
+2021/09/20 04:41:23 DEBUG : Hum Aapke Hain Koun.! (1994): Removing directory
+2021/09/20 04:41:23 DEBUG : Hum Aapke Hain Koun.! (1994): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Hum Aapke Hain Koun.! (1994): directory not empty
+2021/09/20 04:41:23 DEBUG : Housefull 2 (2012): Removing directory
+2021/09/20 04:41:23 DEBUG : Housefull 2 (2012): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Housefull 2 (2012): directory not empty
+2021/09/20 04:41:23 DEBUG : Heyy Babyy (2007): Removing directory
+2021/09/20 04:41:23 DEBUG : Heyy Babyy (2007): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Heyy Babyy (2007): directory not empty
+2021/09/20 04:41:23 DEBUG : Haider (2014): Removing directory
+2021/09/20 04:41:23 DEBUG : Haider (2014): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Haider (2014): directory not empty
+2021/09/20 04:41:23 DEBUG : Guru (2007): Removing directory
+2021/09/20 04:41:23 DEBUG : Guru (2007): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Guru (2007): directory not empty
+2021/09/20 04:41:23 DEBUG : Gunjan.Saxena.The.Kargil.Girl.2020.1080p.NF.WEB-DL.HIN-Multi.DDP5.1.x264-Telly: Removing directory
+2021/09/20 04:41:23 DEBUG : Gunjan.Saxena.The.Kargil.Girl.2020.1080p.NF.WEB-DL.HIN-Multi.DDP5.1.x264-Telly: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Gunjan.Saxena.The.Kargil.Girl.2020.1080p.NF.WEB-DL.HIN-Multi.DDP5.1.x264-Telly: directory not empty
+2021/09/20 04:41:23 DEBUG : Goliyon Ki Raasleela Ram-Leela (2013): Removing directory
+2021/09/20 04:41:23 DEBUG : Goliyon Ki Raasleela Ram-Leela (2013): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Goliyon Ki Raasleela Ram-Leela (2013): directory not empty
+2021/09/20 04:41:23 DEBUG : Dil To Pagal Hai (1997): Removing directory
+2021/09/20 04:41:23 DEBUG : Dil To Pagal Hai (1997): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Dil To Pagal Hai (1997): directory not empty
+2021/09/20 04:41:23 DEBUG : Dil Chahta Hai (2001): Removing directory
+2021/09/20 04:41:23 DEBUG : Dil Chahta Hai (2001): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Dil Chahta Hai (2001): directory not empty
+2021/09/20 04:41:23 DEBUG : Dikkiloona (2021)/Plex Versions/Optimized for TV: Removing directory
+2021/09/20 04:41:23 DEBUG : Dikkiloona (2021)/Plex Versions/Optimized for TV: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Dikkiloona (2021)/Plex Versions/Optimized for TV: directory not empty
+2021/09/20 04:41:23 DEBUG : Dikkiloona (2021)/Plex Versions: Removing directory
+2021/09/20 04:41:23 DEBUG : Dikkiloona (2021)/Plex Versions: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Dikkiloona (2021)/Plex Versions: directory not empty
+2021/09/20 04:41:23 DEBUG : Dikkiloona (2021): Removing directory
+2021/09/20 04:41:23 DEBUG : Dikkiloona (2021): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Dikkiloona (2021): directory not empty
+2021/09/20 04:41:23 DEBUG : Dial 100 (2021): Removing directory
+2021/09/20 04:41:23 DEBUG : Dial 100 (2021): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Dial 100 (2021): directory not empty
+2021/09/20 04:41:23 DEBUG : Dhira.2020.1080p.AMZN.WEB-DL.HIN-Multi.DDP2.0.H.264-Telly: Removing directory
+2021/09/20 04:41:23 DEBUG : Dhira.2020.1080p.AMZN.WEB-DL.HIN-Multi.DDP2.0.H.264-Telly: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Dhira.2020.1080p.AMZN.WEB-DL.HIN-Multi.DDP2.0.H.264-Telly: directory not empty
+2021/09/20 04:41:23 DEBUG : Dhilluku Dhuddu 2 (2019): Removing directory
+2021/09/20 04:41:23 DEBUG : Dhilluku Dhuddu 2 (2019): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Dhilluku Dhuddu 2 (2019): directory not empty
+2021/09/20 04:41:23 DEBUG : Cycle (2018): Removing directory
+2021/09/20 04:41:23 DEBUG : Cycle (2018): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Cycle (2018): directory not empty
+2021/09/20 04:41:23 DEBUG : College Kumar (2020): Removing directory
+2021/09/20 04:41:23 DEBUG : College Kumar (2020): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/College Kumar (2020): directory not empty
+2021/09/20 04:41:23 DEBUG : Chennai.20028.II.Second.Innings: Removing directory
+2021/09/20 04:41:23 DEBUG : Chennai.20028.II.Second.Innings: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Chennai.20028.II.Second.Innings: directory not empty
+2021/09/20 04:41:23 DEBUG : Charlie Chaplin 2 (2019): Removing directory
+2021/09/20 04:41:23 DEBUG : Charlie Chaplin 2 (2019): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Charlie Chaplin 2 (2019): directory not empty
+2021/09/20 04:41:23 DEBUG : Chandramukhi (2005): Removing directory
+2021/09/20 04:41:23 DEBUG : Chandramukhi (2005): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Chandramukhi (2005): directory not empty
+2021/09/20 04:41:23 DEBUG : Chak De! India (2007): Removing directory
+2021/09/20 04:41:23 DEBUG : Chak De! India (2007): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Chak De! India (2007): directory not empty
+2021/09/20 04:41:23 DEBUG : COCKTAIL (2020) Tamil TRUE WEB-DL - 1080p - AVC - UNTOUCHED - AAC - 1.5GB - ESub: Removing directory
+2021/09/20 04:41:23 DEBUG : COCKTAIL (2020) Tamil TRUE WEB-DL - 1080p - AVC - UNTOUCHED - AAC - 1.5GB - ESub: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/COCKTAIL (2020) Tamil TRUE WEB-DL - 1080p - AVC - UNTOUCHED - AAC - 1.5GB - ESub: directory not empty
+2021/09/20 04:41:23 DEBUG : Boomika ()/Plex Versions/Optimized for TV: Removing directory
+2021/09/20 04:41:23 DEBUG : Boomika ()/Plex Versions/Optimized for TV: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Boomika ()/Plex Versions/Optimized for TV: directory not empty
+2021/09/20 04:41:23 DEBUG : Boomika ()/Plex Versions: Removing directory
+2021/09/20 04:41:23 DEBUG : Boomika ()/Plex Versions: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Boomika ()/Plex Versions: directory not empty
+2021/09/20 04:41:23 DEBUG : Boomika (): Removing directory
+2021/09/20 04:41:23 DEBUG : Boomika (): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Boomika (): directory not empty
+2021/09/20 04:41:23 DEBUG : Biriyaani (2021): Removing directory
+2021/09/20 04:41:23 DEBUG : Biriyaani (2021): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Biriyaani (2021): directory not empty
+2021/09/20 04:41:23 DEBUG : Bill.and.Ted.Face.the.Music.2020.1080p.WEBRip.DD5.1.x264-CM: Removing directory
+2021/09/20 04:41:23 DEBUG : Bill.and.Ted.Face.the.Music.2020.1080p.WEBRip.DD5.1.x264-CM: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Bill.and.Ted.Face.the.Music.2020.1080p.WEBRip.DD5.1.x264-CM: directory not empty
+2021/09/20 04:41:23 DEBUG : Bhuj The Pride of India (2021)/Plex Versions/Optimized for TV: Removing directory
+2021/09/20 04:41:23 DEBUG : Bhuj The Pride of India (2021)/Plex Versions/Optimized for TV: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Bhuj The Pride of India (2021)/Plex Versions/Optimized for TV: directory not empty
+2021/09/20 04:41:23 DEBUG : Bhuj The Pride of India (2021)/Plex Versions: Removing directory
+2021/09/20 04:41:23 DEBUG : Bhuj The Pride of India (2021)/Plex Versions: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Bhuj The Pride of India (2021)/Plex Versions: directory not empty
+2021/09/20 04:41:23 DEBUG : Bhuj The Pride of India (2021): Removing directory
+2021/09/20 04:41:23 DEBUG : Bhuj The Pride of India (2021): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Bhuj The Pride of India (2021): directory not empty
+2021/09/20 04:41:23 DEBUG : Bhoot Police (2021)/Plex Versions/Optimized for TV: Removing directory
+2021/09/20 04:41:23 DEBUG : Bhoot Police (2021)/Plex Versions/Optimized for TV: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Bhoot Police (2021)/Plex Versions/Optimized for TV: directory not empty
+2021/09/20 04:41:23 DEBUG : Bhoot Police (2021)/Plex Versions: Removing directory
+2021/09/20 04:41:23 DEBUG : Bhoot Police (2021)/Plex Versions: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Bhoot Police (2021)/Plex Versions: directory not empty
+2021/09/20 04:41:23 DEBUG : Bhoot Police (2021): Removing directory
+2021/09/20 04:41:23 DEBUG : Bhoot Police (2021): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Bhoot Police (2021): directory not empty
+2021/09/20 04:41:23 DEBUG : Bhoomi.2021.1080p.DSNP.WEB-DL.Tam.Tel.Mal.Multi.Audio.DD+5.1.ESub.x264-Shadow.BonsaiHD: Removing directory
+2021/09/20 04:41:23 DEBUG : Bhoomi.2021.1080p.DSNP.WEB-DL.Tam.Tel.Mal.Multi.Audio.DD+5.1.ESub.x264-Shadow.BonsaiHD: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Bhoomi.2021.1080p.DSNP.WEB-DL.Tam.Tel.Mal.Multi.Audio.DD+5.1.ESub.x264-Shadow.BonsaiHD: directory not empty
+2021/09/20 04:41:23 DEBUG : Bhaskar Oru Rascal (2018): Removing directory
+2021/09/20 04:41:23 DEBUG : Bhaskar Oru Rascal (2018): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Bhaskar Oru Rascal (2018): directory not empty
+2021/09/20 04:41:23 DEBUG : Bell Bottom (2021): Removing directory
+2021/09/20 04:41:23 DEBUG : Bell Bottom (2021): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Bell Bottom (2021): directory not empty
+2021/09/20 04:41:23 DEBUG : Ayan (2009): Removing directory
+2021/09/20 04:41:23 DEBUG : Ayan (2009): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Ayan (2009): directory not empty
+2021/09/20 04:41:23 DEBUG : Atkan Chatkan 2020 1080p WEB-DL H264 ESUB -Ranvijay -DUSIcTv: Removing directory
+2021/09/20 04:41:23 DEBUG : Atkan Chatkan 2020 1080p WEB-DL H264 ESUB -Ranvijay -DUSIcTv: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Atkan Chatkan 2020 1080p WEB-DL H264 ESUB -Ranvijay -DUSIcTv: directory not empty
+2021/09/20 04:41:23 DEBUG : Annabelle Sethupathi (2021)/Plex Versions/Optimized for TV: Removing directory
+2021/09/20 04:41:23 DEBUG : Annabelle Sethupathi (2021)/Plex Versions/Optimized for TV: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Annabelle Sethupathi (2021)/Plex Versions/Optimized for TV: directory not empty
+2021/09/20 04:41:23 DEBUG : Annabelle Sethupathi (2021)/Plex Versions: Removing directory
+2021/09/20 04:41:23 DEBUG : Annabelle Sethupathi (2021)/Plex Versions: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Annabelle Sethupathi (2021)/Plex Versions: directory not empty
+2021/09/20 04:41:23 DEBUG : Annabelle Sethupathi (2021): Removing directory
+2021/09/20 04:41:23 DEBUG : Annabelle Sethupathi (2021): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Annabelle Sethupathi (2021): directory not empty
+2021/09/20 04:41:23 DEBUG : Ankahi Kahaniya (2021)/Plex Versions/Optimized for TV: Removing directory
+2021/09/20 04:41:23 DEBUG : Ankahi Kahaniya (2021)/Plex Versions/Optimized for TV: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Ankahi Kahaniya (2021)/Plex Versions/Optimized for TV: directory not empty
+2021/09/20 04:41:23 DEBUG : Ankahi Kahaniya (2021)/Plex Versions: Removing directory
+2021/09/20 04:41:23 DEBUG : Ankahi Kahaniya (2021)/Plex Versions: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Ankahi Kahaniya (2021)/Plex Versions: directory not empty
+2021/09/20 04:41:23 DEBUG : Ankahi Kahaniya (2021): Removing directory
+2021/09/20 04:41:23 DEBUG : Ankahi Kahaniya (2021): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Ankahi Kahaniya (2021): directory not empty
+2021/09/20 04:41:23 DEBUG : Anbirkiniyal (2021): Removing directory
+2021/09/20 04:41:23 DEBUG : Anbirkiniyal (2021): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Anbirkiniyal (2021): directory not empty
+2021/09/20 04:41:23 DEBUG : Ambuli (2012): Removing directory
+2021/09/20 04:41:23 DEBUG : Ambuli (2012): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Ambuli (2012): directory not empty
+2021/09/20 04:41:23 DEBUG : Aaraattu (2021): Removing directory
+2021/09/20 04:41:23 DEBUG : Aaraattu (2021): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/Aaraattu (2021): directory not empty
+2021/09/20 04:41:23 DEBUG : 96 (2018): Removing directory
+2021/09/20 04:41:23 DEBUG : 96 (2018): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/96 (2018): directory not empty
+2021/09/20 04:41:23 DEBUG : 14 Phere (2021): Removing directory
+2021/09/20 04:41:23 DEBUG : 14 Phere (2021): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/14 Phere (2021): directory not empty
+2021/09/20 04:41:23 DEBUG : #Home (2021)/Plex Versions/Optimized for TV: Removing directory
+2021/09/20 04:41:23 DEBUG : #Home (2021)/Plex Versions/Optimized for TV: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/#Home (2021)/Plex Versions/Optimized for TV: directory not empty
+2021/09/20 04:41:23 DEBUG : #Home (2021)/Plex Versions: Removing directory
+2021/09/20 04:41:23 DEBUG : #Home (2021)/Plex Versions: Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/#Home (2021)/Plex Versions: directory not empty
+2021/09/20 04:41:23 DEBUG : #Home (2021): Removing directory
+2021/09/20 04:41:23 DEBUG : #Home (2021): Failed to Rmdir: remove /home/pbu80/Stuff/local/Indian/#Home (2021): directory not empty
+2021/09/20 04:41:23 DEBUG : Local file system at /home/pbu80/Stuff/local/Indian: failed to delete 124 directories
+2021/09/20 04:41:23 INFO  : There was nothing to transfer
+2021/09/20 04:41:23 INFO  : 
+Transferred:   	          0 / 0 Byte, -, 0 Byte/s, ETA -
+Deleted:                0 (files), 124 (dirs)
+Elapsed time:         8.2s
+
+2021/09/20 04:41:23 DEBUG : 10 go routines active
+2021/10/02 06:53:26 INFO  : Starting bandwidth limiter at 20Mi Byte/s
+2021/10/02 06:53:26 INFO  : Starting transaction limiter: max 5 transactions/s with burst 1
+2021/10/02 06:53:26 DEBUG : --min-age 2M to 2021-08-03 06:53:26.603699652 +0200 CEST m=-5183999.489769116
+2021/10/02 06:53:26 DEBUG : rclone: Version "v1.56.0" starting with parameters ["rclone" "move" "/home/pbu80/Stuff/local/Indian" "gcrypt:Indian" "--config=/home/pbu80/.config/rclone/rclone.conf" "--drive-chunk-size" "64M" "--tpslimit" "5" "--min-age" "60d" "-vvv" "--drive-stop-on-upload-limit" "--delete-empty-src-dirs" "--fast-list" "--bwlimit=20M" "--use-mmap" "--transfers=2" "--checkers=4" "--log-file" "/home/pbu80/scripts/upload-indian.log"]
+2021/10/02 06:53:26 DEBUG : Creating backend with remote "/home/pbu80/Stuff/local/Indian"
+2021/10/02 06:53:26 DEBUG : Using config file from "/home/pbu80/.config/rclone/rclone.conf"
+2021/10/02 06:53:26 DEBUG : Creating backend with remote "gcrypt:Indian"
+2021/10/02 06:53:26 Failed to create file system for "gcrypt:Indian": can't point crypt remote at itself - check the value of the remote setting
+2021/10/02 06:54:12 INFO  : Starting bandwidth limiter at 20Mi Byte/s
+2021/10/02 06:54:12 INFO  : Starting transaction limiter: max 5 transactions/s with burst 1
+2021/10/02 06:54:12 DEBUG : --min-age 2M to 2021-08-03 06:54:12.031608854 +0200 CEST m=-5183999.843595384
+2021/10/02 06:54:12 DEBUG : rclone: Version "v1.56.0" starting with parameters ["rclone" "move" "/home/pbu80/Stuff/local/Indian" "gcrypt:Indian" "--config=/home/pbu80/.config/rclone/rclone.conf" "--drive-chunk-size" "64M" "--tpslimit" "5" "--min-age" "60d" "-vvv" "--drive-stop-on-upload-limit" "--delete-empty-src-dirs" "--fast-list" "--bwlimit=20M" "--use-mmap" "--transfers=2" "--checkers=4" "--log-file" "/home/pbu80/scripts/upload-indian.log"]
+2021/10/02 06:54:12 DEBUG : Creating backend with remote "/home/pbu80/Stuff/local/Indian"
+2021/10/02 06:54:12 DEBUG : Using config file from "/home/pbu80/.config/rclone/rclone.conf"
+2021/10/02 06:54:12 DEBUG : Creating backend with remote "gcrypt:Indian"
+2021/10/02 06:54:12 Failed to create file system for "gcrypt:Indian": can't point crypt remote at itself - check the value of the remote setting

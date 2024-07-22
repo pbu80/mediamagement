@@ -1,0 +1,7 @@
+File does not have read access
+File does not have write permission
+File does not have execute permission
+This is sepcial file
+This is not a directory
+File size is zero
+File does not exist

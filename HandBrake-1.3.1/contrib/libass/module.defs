@@ -1,0 +1,34 @@
+__deps__ := FREETYPE FRIBIDI HARFBUZZ
+
+ifeq (,$(filter $(HOST.system),darwin cygwin mingw))
+    __deps__ += FONTCONFIG
+endif
+
+$(eval $(call import.MODULE.defs,LIBASS,libass,$(__deps__)))
+$(eval $(call import.CONTRIB.defs,LIBASS))
+
+LIBASS.FETCH.url     = https://download.handbrake.fr/handbrake/contrib/libass-0.14.0.tar.gz
+LIBASS.FETCH.url    += https://github.com/libass/libass/releases/download/0.14.0/libass-0.14.0.tar.gz
+LIBASS.FETCH.sha256  = 8d5a5c920b90b70a108007ffcd2289ac652c0e03fc88e6eecefa37df0f2e7fdf
+
+# Tell configure where to find our version of freetype
+LIBASS.CONFIGURE.extra = \
+    --enable-asm --enable-harfbuzz \
+    FREETYPE_LIBS="-L$(call fn.ABSOLUTE,$(CONTRIB.build/))lib -lfreetype" \
+    FREETYPE_CFLAGS="-I$(call fn.ABSOLUTE,$(CONTRIB.build/))include/freetype2" \
+
+ifeq (,$(filter $(HOST.system),darwin cygwin mingw))
+    # Tell configure where to find our version of fontconfig
+    LIBASS.CONFIGURE.extra += \
+        --enable-fontconfig \
+        FONTCONFIG_LIBS="-L$(call fn.ABSOLUTE,$(CONTRIB.build/))lib -lfontconfig" \
+        FONTCONFIG_CFLAGS="-I$(call fn.ABSOLUTE,$(CONTRIB.build/))include"
+else
+    LIBASS.CONFIGURE.extra += --disable-fontconfig
+endif
+
+ifneq ($(HOST.system),linux)
+    LIBASS.CONFIGURE.extra += \
+        FRIBIDI_LIBS="-L$(call fn.ABSOLUTE,$(CONTRIB.build/))lib -lfribidi" \
+        FRIBIDI_CFLAGS="-I$(call fn.ABSOLUTE,$(CONTRIB.build/))include"
+endif

@@ -3,6 +3,9 @@
 #example: /home/pbu80/scripts/clean_and_move.sh /home/pbu80/MergerFS/downloads/torrents/manual/tamil /home/pbu80/MergerFS/Tamil/ /home/pbu80/logs/tamil.log
 
 # Check if a path was provided as input
+
+#set -x
+
 if [ -z "$1" ]; then
   echo "Please provide a path as input."
   exit 1

@@ -1,0 +1,20 @@
+$(eval $(call import.MODULE.defs,LIBTHEORA,libtheora,LIBOGG LIBVORBIS))
+$(eval $(call import.CONTRIB.defs,LIBTHEORA))
+
+LIBTHEORA.FETCH.url     = https://download.handbrake.fr/handbrake/contrib/libtheora-1.1.1.tar.bz2
+LIBTHEORA.FETCH.url    += https://downloads.xiph.org/releases/theora/libtheora-1.1.1.tar.bz2
+LIBTHEORA.FETCH.sha256  = b6ae1ee2fa3d42ac489287d3ec34c5885730b1296f0801ae577a35193d3affbc
+
+LIBTHEORA.CONFIGURE.extra = \
+    --disable-examples \
+    --disable-oggtest \
+    --disable-sdltest \
+    --disable-vorbistest \
+    --disable-spec \
+    --with-ogg=$(call fn.ABSOLUTE,$(CONTRIB.build/)) \
+    --with-vorbis=$(call fn.ABSOLUTE,$(CONTRIB.build/)) \
+    HAVE_PKG_CONFIG=no
+
+ifeq (1-msys,$(HOST.cross)-$(BUILD.system))
+    LIBTHEORA.CONFIGURE.args.build = --build=$(BUILD.machine)-unknown-linux-gnu
+endif
