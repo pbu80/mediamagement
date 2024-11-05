@@ -12,39 +12,33 @@ touch "$processed_file"
 # Find all .mkv files in the specified directory and its subdirectories
 counter=0
 while IFS= read -r -d $'\0' file; do
-  if grep -Fxq "$(basename "$file")" "$processed_file"; then
-    echo "Skipping $file (already processed)."
-  else  
-    
-    # Print the name of the file
-    echo "Processing $file..."
+  # Print the name of the file
+  echo "Processing $file..."
 
-    # Use mkvmerge to determine the number of tracks in the file
-    tracks=$(mkvmerge -i "$file" | grep -c "Track ID")
+  # Use mkvmerge to determine the number of tracks in the file
+  tracks=$(mkvmerge -i "$file" | grep -c "Track ID")
   
-    # Use mkvpropedit to remove the name property of each track
-    for i in $(seq 1 $tracks); do
-      mkvpropedit "$file" --edit track:$i --delete name 
-      mkvpropedit "$file" -d title
+  # Use mkvpropedit to remove the name property of each track
+  for i in $(seq 1 $tracks); do
+    mkvpropedit "$file" --edit track:$i --delete name 
+    mkvpropedit "$file" -d title
+  done
+  
+  num_attachments=$(mkvmerge -i "$file" | grep -c "Attachment ID")
+  
+  if [ "$num_attachments" -gt 0 ]; then
+    # Use mkvpropedit to remove each attachment from the file
+    for j in $(seq 1 $num_attachments); do
+      mkvpropedit "$file" --delete-attachment $j
     done
-  
-    num_attachments=$(mkvmerge -i "$file" | grep -c "Attachment ID")
-    
-    if [ "$num_attachments" -gt 0 ]; then
-      # Use mkvpropedit to remove each attachment from the file, starting from index 1
-      for j in $(seq 1 $num_attachments); do
-        mkvpropedit "$file" --delete-attachment $j
-      done
-    fi
-    echo "$(basename "$file")" >> "$processed_file" 
-    # Increment the counter
-    ((counter++))
+  fi
+  echo "$(basename "$file")" >> "$processed_file"
+  # Increment the counter
+  ((counter++))
 
-    # Exit the loop if the counter reaches 100
-    if [ "$counter" -eq 50 ]; then
-      echo "Processed 50 files. Exiting."
-      exit 0
-    fi
-  fi  
+  # Exit the loop if the counter reaches 50
+  if [ "$counter" -eq 50 ]; then
+    echo "Processed 50 files. Exiting."
+    exit 0
+  fi
 done < <(find "$1" -name "*.mkv" -print0)
-

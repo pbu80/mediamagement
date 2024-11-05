@@ -27,6 +27,9 @@ bash "/home/pbu80/scripts/movie2folder.sh" "$1/processed/" >> "$log_file" 2>&1
 # clean mkv file
 bash "/home/pbu80/scripts/mkvclean.v3.sh" "$1/processed/" >> "$log_file" 2>&1
 
-#move the 
-mv "$1"/processed/* "$dst_folder"
+#move the delete empty folders
+#mv "$1"/processed/* "$dst_folder"
+
+rsync -av --remove-source-files "$1"/processed/ "$dst_folder"
+find "$1"/processed -type d -empty -delete
 

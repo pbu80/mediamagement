@@ -28,10 +28,10 @@ for track in $(mkvmerge -i "$input_file" | grep 'subtitles' | awk -F: '{print $1
   mkvextract tracks "$input_file" "$track:$subtitle_file"
   mkvmerge -o "$output_file" --no-subtitles "$input_file"
   python3 /home/pbu80/scripts/subcleaner/subcleaner.py "$output_dir/$filenamesrt" 
- rm "$input_file"
+ 
 done
 mkvmerge -o "$output_file" --no-subtitles "$input_file"
-
+rm "$input_file"
 echo "Subtitles extracted to $output_dir."
 
 

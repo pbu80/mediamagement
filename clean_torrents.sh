@@ -31,6 +31,8 @@ replace_language_codes() {
   input=$(echo "$input" | sed -E 's/\bEng\b/English/g')
   input=$(echo "$input" | sed -E 's/\bRus\b/Russian/g')
   input=$(echo "$input" | sed -E 's/\bChi\b/Chinese/g')
+  input=$(echo "$input" | sed -E 's/\bCzech\b/Czech/g')
+  input=$(echo "$input" | sed -E 's/\bSpa\b/Spanish/g')
   echo "$input"
 }
 

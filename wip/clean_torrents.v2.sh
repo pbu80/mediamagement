@@ -14,12 +14,6 @@ fi
 # Define the directory where media files are located
 MEDIA_DIR="$1"
 
-# Check if there are any files in MEDIA_DIR that contain "www"
-if ! ls "${MEDIA_DIR}"/*www* > /dev/null 2>&1; then
-  echo "No media files found in ${MEDIA_DIR} containing 'www'"
-  exit 1
-fi
-
 # Create the target directory if it doesn't exist
 if [[ ! -d "${MEDIA_DIR}/${PREFIXFOLDER}" ]]; then
   mkdir "${MEDIA_DIR}/${PREFIXFOLDER}"
@@ -40,31 +34,53 @@ replace_language_codes() {
   echo "$input"
 }
 
-# Look for media files containing "www" in their name
-for FILE in "${MEDIA_DIR}"/*www*; do
-
-  # Get the portion of the file name after the first "-"
-  NEW_NAME=$(basename "$FILE" | sed 's/^[^-]*- //')
-
-  echo "Original file name: $FILE"
-  echo "New name after removing prefix: $NEW_NAME"
-
-  # Detect and replace the pattern
-  if [[ "$NEW_NAME" =~ $PATTERN ]]; then
-    echo "Pattern detected in: $NEW_NAME"
-    LANGUAGES=$(echo "$NEW_NAME" | grep -o -E "$PATTERN" | sed 's/^\[//;s/\]$//')
+# Function to process name (for both files and folders)
+process_name() {
+  local name="$1"
+  # Remove prefix if it starts with "www"
+  name=$(echo "$name" | sed 's/^www[^-]*- //')
+  if [[ "$name" =~ $PATTERN ]]; then
+    LANGUAGES=$(echo "$name" | grep -o -E "$PATTERN" | sed 's/^\[//;s/\]$//')
     REPLACED_LANGUAGES=$(replace_language_codes "$LANGUAGES")
-    NEW_NAME=$(echo "$NEW_NAME" | sed "s/\[$LANGUAGES\]/${REPLACEMENT_PREFIX}${REPLACED_LANGUAGES}${REPLACEMENT_SUFFIX}/")
-    echo "New name after pattern replacement: $NEW_NAME"
-  else
-    echo "No pattern detected in: $NEW_NAME"
+    name=$(echo "$name" | sed "s/\[$LANGUAGES\]/${REPLACEMENT_PREFIX}${REPLACED_LANGUAGES}${REPLACEMENT_SUFFIX}/")
   fi
+  echo "$name"
+}
 
-  # Rename the file
-  if mv "$FILE" "${MEDIA_DIR}/${PREFIXFOLDER}/${NEW_NAME}"; then
-    echo "Moved $FILE to ${MEDIA_DIR}/${PREFIXFOLDER}/${NEW_NAME}"
-  else
-    echo "Failed to move $FILE"
-  fi
+# Process folders and files
+process_dir() {
+  local dir="$1"
+  local target_dir="$2"
+  
+  for item in "$dir"/*; do
+    if [[ -d "$item" ]]; then
+      # Process folder
+      folder_name=$(basename "$item")
+      if [[ "$folder_name" == www* ]]; then
+        new_folder_name=$(process_name "$folder_name")
+        mkdir -p "${target_dir}/${new_folder_name}"
+        process_dir "$item" "${target_dir}/${new_folder_name}"
+      else
+        mkdir -p "${target_dir}/${folder_name}"
+        process_dir "$item" "${target_dir}/${folder_name}"
+      fi
+    elif [[ -f "$item" ]]; then
+      # Process file
+      file_name=$(basename "$item")
+      if [[ "$file_name" == www* ]]; then
+        new_file_name=$(process_name "$file_name")
+        mv "$item" "${target_dir}/${new_file_name}"
+        echo "Moved and renamed: $item -> ${target_dir}/${new_file_name}"
+      else
+        mv "$item" "${target_dir}/${file_name}"
+        echo "Moved: $item -> ${target_dir}/${file_name}"
+      fi
+    fi
+  done
+}
 
-done
+# Start processing from MEDIA_DIR
+process_dir "$MEDIA_DIR" "${MEDIA_DIR}/${PREFIXFOLDER}"
+
+# Remove empty directories in the source folder
+find "${MEDIA_DIR}" -type d -empty -delete
